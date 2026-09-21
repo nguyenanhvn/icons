@@ -1,0 +1,1287 @@
+{
+  "name": "AK Icons",
+  "family": "ak-icons",
+  "version": "0.1.0",
+  "format": "woff2",
+  "count": 159,
+  "groups": {
+    "money": [
+      "money-archive",
+      "money-card-add",
+      "money-card-edit",
+      "money-card-pos",
+      "money-card-receive",
+      "money-card-remove-1",
+      "money-card-remove",
+      "money-card-send",
+      "money-card-slash",
+      "money-card-tick-1",
+      "money-card-tick",
+      "money-card",
+      "money-cards",
+      "money-chart-square",
+      "money-coin-1",
+      "money-coin",
+      "money-convert-card",
+      "money-discount-circle",
+      "money-discount-shape",
+      "money-document",
+      "money-dollar-circle",
+      "money-dollar-square",
+      "money-empty-wallet-add",
+      "money-empty-wallet-change",
+      "money-empty-wallet-remove",
+      "money-empty-wallet-tick",
+      "money-empty-wallet-time",
+      "money-empty-wallet",
+      "money-math",
+      "money-money-2",
+      "money-money-3",
+      "money-money-4",
+      "money-money-add",
+      "money-money-change",
+      "money-money-forbidden",
+      "money-money-recive",
+      "money-money-remove",
+      "money-money-send",
+      "money-money-tick",
+      "money-money-time",
+      "money-money",
+      "money-moneys",
+      "money-percentage-circle",
+      "money-percentage-square",
+      "money-receipt-1",
+      "money-receipt-2-1",
+      "money-receipt-2",
+      "money-receipt-add",
+      "money-receipt-discount",
+      "money-receipt-disscount",
+      "money-receipt-edit",
+      "money-receipt-item",
+      "money-receipt-minus",
+      "money-receipt-search",
+      "money-receipt-text",
+      "money-receipt",
+      "money-security-card",
+      "money-strongbox-2",
+      "money-strongbox",
+      "money-tag-2",
+      "money-tag",
+      "money-ticket-2",
+      "money-ticket-discount",
+      "money-ticket-expired",
+      "money-ticket-star",
+      "money-ticket",
+      "money-transaction-minus",
+      "money-wallet-1",
+      "money-wallet-2",
+      "money-wallet-3",
+      "money-wallet-add-1",
+      "money-wallet-add",
+      "money-wallet-check",
+      "money-wallet-minus",
+      "money-wallet-money",
+      "money-wallet-remove",
+      "money-wallet-search",
+      "money-wallet"
+    ],
+    "video": [
+      "video-audio-square",
+      "video-backward-10-seconds",
+      "video-backward-15-seconds",
+      "video-backward-5-seconds",
+      "video-backward",
+      "video-camera-slash",
+      "video-camera",
+      "video-devices",
+      "video-forward-10-seconds",
+      "video-forward-15-seconds",
+      "video-forward-5-seconds",
+      "video-forward",
+      "video-gallery-add",
+      "video-gallery-edit",
+      "video-gallery-export",
+      "video-gallery-favorite",
+      "video-gallery-import",
+      "video-gallery-remove",
+      "video-gallery-slash",
+      "video-gallery-tick",
+      "video-gallery",
+      "video-image",
+      "video-maximize-circle",
+      "video-microphone-2",
+      "video-microphone-slash-1",
+      "video-microphone-slash",
+      "video-microphone",
+      "video-mini-music-sqaure",
+      "video-music-circle",
+      "video-music-dashboard",
+      "video-music-filter",
+      "video-music-library-2",
+      "video-music-playlist",
+      "video-music-square-add",
+      "video-music-square-remove",
+      "video-music-square-search",
+      "video-music-square",
+      "video-music",
+      "video-musicnote",
+      "video-next",
+      "video-note-square",
+      "video-pause-circle",
+      "video-pause",
+      "video-play-add",
+      "video-play-circle",
+      "video-play-cricle",
+      "video-play-remove",
+      "video-play",
+      "video-previous",
+      "video-radio",
+      "video-record-circle",
+      "video-record",
+      "video-repeate-music",
+      "video-repeate-one",
+      "video-scissor",
+      "video-screenmirroring",
+      "video-shuffle",
+      "video-stop-circle",
+      "video-stop",
+      "video-subtitle",
+      "video-video-add",
+      "video-video-circle",
+      "video-video-horizontal",
+      "video-video-octagon",
+      "video-video-play",
+      "video-video-remove",
+      "video-video-slash",
+      "video-video-square",
+      "video-video-tick",
+      "video-video-time",
+      "video-video-vertical",
+      "video-video",
+      "video-voice-cricle",
+      "video-voice-square",
+      "video-volume-cross",
+      "video-volume-high",
+      "video-volume-low-1",
+      "video-volume-low",
+      "video-volume-mute",
+      "video-volume-slash",
+      "video-volume-up"
+    ]
+  },
+  "icons": [
+    {
+      "name": "money-archive",
+      "group": "money",
+      "className": "ak-icon-money-archive",
+      "unicode": "E000",
+      "file": "money/archive.svg"
+    },
+    {
+      "name": "money-card-add",
+      "group": "money",
+      "className": "ak-icon-money-card-add",
+      "unicode": "E002",
+      "file": "money/card-add.svg"
+    },
+    {
+      "name": "money-card-edit",
+      "group": "money",
+      "className": "ak-icon-money-card-edit",
+      "unicode": "E003",
+      "file": "money/card-edit.svg"
+    },
+    {
+      "name": "money-card-pos",
+      "group": "money",
+      "className": "ak-icon-money-card-pos",
+      "unicode": "E004",
+      "file": "money/card-pos.svg"
+    },
+    {
+      "name": "money-card-receive",
+      "group": "money",
+      "className": "ak-icon-money-card-receive",
+      "unicode": "E005",
+      "file": "money/card-receive.svg"
+    },
+    {
+      "name": "money-card-remove-1",
+      "group": "money",
+      "className": "ak-icon-money-card-remove-1",
+      "unicode": "E007",
+      "file": "money/card-remove-1.svg"
+    },
+    {
+      "name": "money-card-remove",
+      "group": "money",
+      "className": "ak-icon-money-card-remove",
+      "unicode": "E006",
+      "file": "money/card-remove.svg"
+    },
+    {
+      "name": "money-card-send",
+      "group": "money",
+      "className": "ak-icon-money-card-send",
+      "unicode": "E008",
+      "file": "money/card-send.svg"
+    },
+    {
+      "name": "money-card-slash",
+      "group": "money",
+      "className": "ak-icon-money-card-slash",
+      "unicode": "E009",
+      "file": "money/card-slash.svg"
+    },
+    {
+      "name": "money-card-tick-1",
+      "group": "money",
+      "className": "ak-icon-money-card-tick-1",
+      "unicode": "E00B",
+      "file": "money/card-tick-1.svg"
+    },
+    {
+      "name": "money-card-tick",
+      "group": "money",
+      "className": "ak-icon-money-card-tick",
+      "unicode": "E00A",
+      "file": "money/card-tick.svg"
+    },
+    {
+      "name": "money-card",
+      "group": "money",
+      "className": "ak-icon-money-card",
+      "unicode": "E001",
+      "file": "money/card.svg"
+    },
+    {
+      "name": "money-cards",
+      "group": "money",
+      "className": "ak-icon-money-cards",
+      "unicode": "E00C",
+      "file": "money/cards.svg"
+    },
+    {
+      "name": "money-chart-square",
+      "group": "money",
+      "className": "ak-icon-money-chart-square",
+      "unicode": "E00D",
+      "file": "money/chart-square.svg"
+    },
+    {
+      "name": "money-coin-1",
+      "group": "money",
+      "className": "ak-icon-money-coin-1",
+      "unicode": "E00F",
+      "file": "money/coin-1.svg"
+    },
+    {
+      "name": "money-coin",
+      "group": "money",
+      "className": "ak-icon-money-coin",
+      "unicode": "E00E",
+      "file": "money/coin.svg"
+    },
+    {
+      "name": "money-convert-card",
+      "group": "money",
+      "className": "ak-icon-money-convert-card",
+      "unicode": "E010",
+      "file": "money/convert-card.svg"
+    },
+    {
+      "name": "money-discount-circle",
+      "group": "money",
+      "className": "ak-icon-money-discount-circle",
+      "unicode": "E011",
+      "file": "money/discount-circle.svg"
+    },
+    {
+      "name": "money-discount-shape",
+      "group": "money",
+      "className": "ak-icon-money-discount-shape",
+      "unicode": "E012",
+      "file": "money/discount-shape.svg"
+    },
+    {
+      "name": "money-document",
+      "group": "money",
+      "className": "ak-icon-money-document",
+      "unicode": "E013",
+      "file": "money/document.svg"
+    },
+    {
+      "name": "money-dollar-circle",
+      "group": "money",
+      "className": "ak-icon-money-dollar-circle",
+      "unicode": "E014",
+      "file": "money/dollar-circle.svg"
+    },
+    {
+      "name": "money-dollar-square",
+      "group": "money",
+      "className": "ak-icon-money-dollar-square",
+      "unicode": "E015",
+      "file": "money/dollar-square.svg"
+    },
+    {
+      "name": "money-empty-wallet-add",
+      "group": "money",
+      "className": "ak-icon-money-empty-wallet-add",
+      "unicode": "E017",
+      "file": "money/empty-wallet-add.svg"
+    },
+    {
+      "name": "money-empty-wallet-change",
+      "group": "money",
+      "className": "ak-icon-money-empty-wallet-change",
+      "unicode": "E018",
+      "file": "money/empty-wallet-change.svg"
+    },
+    {
+      "name": "money-empty-wallet-remove",
+      "group": "money",
+      "className": "ak-icon-money-empty-wallet-remove",
+      "unicode": "E019",
+      "file": "money/empty-wallet-remove.svg"
+    },
+    {
+      "name": "money-empty-wallet-tick",
+      "group": "money",
+      "className": "ak-icon-money-empty-wallet-tick",
+      "unicode": "E01A",
+      "file": "money/empty-wallet-tick.svg"
+    },
+    {
+      "name": "money-empty-wallet-time",
+      "group": "money",
+      "className": "ak-icon-money-empty-wallet-time",
+      "unicode": "E01B",
+      "file": "money/empty-wallet-time.svg"
+    },
+    {
+      "name": "money-empty-wallet",
+      "group": "money",
+      "className": "ak-icon-money-empty-wallet",
+      "unicode": "E016",
+      "file": "money/empty-wallet.svg"
+    },
+    {
+      "name": "money-math",
+      "group": "money",
+      "className": "ak-icon-money-math",
+      "unicode": "E01C",
+      "file": "money/math.svg"
+    },
+    {
+      "name": "money-money-2",
+      "group": "money",
+      "className": "ak-icon-money-money-2",
+      "unicode": "E01E",
+      "file": "money/money-2.svg"
+    },
+    {
+      "name": "money-money-3",
+      "group": "money",
+      "className": "ak-icon-money-money-3",
+      "unicode": "E01F",
+      "file": "money/money-3.svg"
+    },
+    {
+      "name": "money-money-4",
+      "group": "money",
+      "className": "ak-icon-money-money-4",
+      "unicode": "E020",
+      "file": "money/money-4.svg"
+    },
+    {
+      "name": "money-money-add",
+      "group": "money",
+      "className": "ak-icon-money-money-add",
+      "unicode": "E021",
+      "file": "money/money-add.svg"
+    },
+    {
+      "name": "money-money-change",
+      "group": "money",
+      "className": "ak-icon-money-money-change",
+      "unicode": "E022",
+      "file": "money/money-change.svg"
+    },
+    {
+      "name": "money-money-forbidden",
+      "group": "money",
+      "className": "ak-icon-money-money-forbidden",
+      "unicode": "E023",
+      "file": "money/money-forbidden.svg"
+    },
+    {
+      "name": "money-money-recive",
+      "group": "money",
+      "className": "ak-icon-money-money-recive",
+      "unicode": "E024",
+      "file": "money/money-recive.svg"
+    },
+    {
+      "name": "money-money-remove",
+      "group": "money",
+      "className": "ak-icon-money-money-remove",
+      "unicode": "E025",
+      "file": "money/money-remove.svg"
+    },
+    {
+      "name": "money-money-send",
+      "group": "money",
+      "className": "ak-icon-money-money-send",
+      "unicode": "E026",
+      "file": "money/money-send.svg"
+    },
+    {
+      "name": "money-money-tick",
+      "group": "money",
+      "className": "ak-icon-money-money-tick",
+      "unicode": "E027",
+      "file": "money/money-tick.svg"
+    },
+    {
+      "name": "money-money-time",
+      "group": "money",
+      "className": "ak-icon-money-money-time",
+      "unicode": "E028",
+      "file": "money/money-time.svg"
+    },
+    {
+      "name": "money-money",
+      "group": "money",
+      "className": "ak-icon-money-money",
+      "unicode": "E01D",
+      "file": "money/money.svg"
+    },
+    {
+      "name": "money-moneys",
+      "group": "money",
+      "className": "ak-icon-money-moneys",
+      "unicode": "E029",
+      "file": "money/moneys.svg"
+    },
+    {
+      "name": "money-percentage-circle",
+      "group": "money",
+      "className": "ak-icon-money-percentage-circle",
+      "unicode": "E02A",
+      "file": "money/percentage-circle.svg"
+    },
+    {
+      "name": "money-percentage-square",
+      "group": "money",
+      "className": "ak-icon-money-percentage-square",
+      "unicode": "E02B",
+      "file": "money/percentage-square.svg"
+    },
+    {
+      "name": "money-receipt-1",
+      "group": "money",
+      "className": "ak-icon-money-receipt-1",
+      "unicode": "E02D",
+      "file": "money/receipt-1.svg"
+    },
+    {
+      "name": "money-receipt-2-1",
+      "group": "money",
+      "className": "ak-icon-money-receipt-2-1",
+      "unicode": "E02F",
+      "file": "money/receipt-2-1.svg"
+    },
+    {
+      "name": "money-receipt-2",
+      "group": "money",
+      "className": "ak-icon-money-receipt-2",
+      "unicode": "E02E",
+      "file": "money/receipt-2.svg"
+    },
+    {
+      "name": "money-receipt-add",
+      "group": "money",
+      "className": "ak-icon-money-receipt-add",
+      "unicode": "E030",
+      "file": "money/receipt-add.svg"
+    },
+    {
+      "name": "money-receipt-discount",
+      "group": "money",
+      "className": "ak-icon-money-receipt-discount",
+      "unicode": "E031",
+      "file": "money/receipt-discount.svg"
+    },
+    {
+      "name": "money-receipt-disscount",
+      "group": "money",
+      "className": "ak-icon-money-receipt-disscount",
+      "unicode": "E032",
+      "file": "money/receipt-disscount.svg"
+    },
+    {
+      "name": "money-receipt-edit",
+      "group": "money",
+      "className": "ak-icon-money-receipt-edit",
+      "unicode": "E033",
+      "file": "money/receipt-edit.svg"
+    },
+    {
+      "name": "money-receipt-item",
+      "group": "money",
+      "className": "ak-icon-money-receipt-item",
+      "unicode": "E034",
+      "file": "money/receipt-item.svg"
+    },
+    {
+      "name": "money-receipt-minus",
+      "group": "money",
+      "className": "ak-icon-money-receipt-minus",
+      "unicode": "E035",
+      "file": "money/receipt-minus.svg"
+    },
+    {
+      "name": "money-receipt-search",
+      "group": "money",
+      "className": "ak-icon-money-receipt-search",
+      "unicode": "E036",
+      "file": "money/receipt-search.svg"
+    },
+    {
+      "name": "money-receipt-text",
+      "group": "money",
+      "className": "ak-icon-money-receipt-text",
+      "unicode": "E037",
+      "file": "money/receipt-text.svg"
+    },
+    {
+      "name": "money-receipt",
+      "group": "money",
+      "className": "ak-icon-money-receipt",
+      "unicode": "E02C",
+      "file": "money/receipt.svg"
+    },
+    {
+      "name": "money-security-card",
+      "group": "money",
+      "className": "ak-icon-money-security-card",
+      "unicode": "E038",
+      "file": "money/security-card.svg"
+    },
+    {
+      "name": "money-strongbox-2",
+      "group": "money",
+      "className": "ak-icon-money-strongbox-2",
+      "unicode": "E03A",
+      "file": "money/strongbox-2.svg"
+    },
+    {
+      "name": "money-strongbox",
+      "group": "money",
+      "className": "ak-icon-money-strongbox",
+      "unicode": "E039",
+      "file": "money/strongbox.svg"
+    },
+    {
+      "name": "money-tag-2",
+      "group": "money",
+      "className": "ak-icon-money-tag-2",
+      "unicode": "E03C",
+      "file": "money/tag-2.svg"
+    },
+    {
+      "name": "money-tag",
+      "group": "money",
+      "className": "ak-icon-money-tag",
+      "unicode": "E03B",
+      "file": "money/tag.svg"
+    },
+    {
+      "name": "money-ticket-2",
+      "group": "money",
+      "className": "ak-icon-money-ticket-2",
+      "unicode": "E03E",
+      "file": "money/ticket-2.svg"
+    },
+    {
+      "name": "money-ticket-discount",
+      "group": "money",
+      "className": "ak-icon-money-ticket-discount",
+      "unicode": "E03F",
+      "file": "money/ticket-discount.svg"
+    },
+    {
+      "name": "money-ticket-expired",
+      "group": "money",
+      "className": "ak-icon-money-ticket-expired",
+      "unicode": "E040",
+      "file": "money/ticket-expired.svg"
+    },
+    {
+      "name": "money-ticket-star",
+      "group": "money",
+      "className": "ak-icon-money-ticket-star",
+      "unicode": "E041",
+      "file": "money/ticket-star.svg"
+    },
+    {
+      "name": "money-ticket",
+      "group": "money",
+      "className": "ak-icon-money-ticket",
+      "unicode": "E03D",
+      "file": "money/ticket.svg"
+    },
+    {
+      "name": "money-transaction-minus",
+      "group": "money",
+      "className": "ak-icon-money-transaction-minus",
+      "unicode": "E042",
+      "file": "money/transaction-minus.svg"
+    },
+    {
+      "name": "money-wallet-1",
+      "group": "money",
+      "className": "ak-icon-money-wallet-1",
+      "unicode": "E044",
+      "file": "money/wallet-1.svg"
+    },
+    {
+      "name": "money-wallet-2",
+      "group": "money",
+      "className": "ak-icon-money-wallet-2",
+      "unicode": "E045",
+      "file": "money/wallet-2.svg"
+    },
+    {
+      "name": "money-wallet-3",
+      "group": "money",
+      "className": "ak-icon-money-wallet-3",
+      "unicode": "E046",
+      "file": "money/wallet-3.svg"
+    },
+    {
+      "name": "money-wallet-add-1",
+      "group": "money",
+      "className": "ak-icon-money-wallet-add-1",
+      "unicode": "E048",
+      "file": "money/wallet-add-1.svg"
+    },
+    {
+      "name": "money-wallet-add",
+      "group": "money",
+      "className": "ak-icon-money-wallet-add",
+      "unicode": "E047",
+      "file": "money/wallet-add.svg"
+    },
+    {
+      "name": "money-wallet-check",
+      "group": "money",
+      "className": "ak-icon-money-wallet-check",
+      "unicode": "E049",
+      "file": "money/wallet-check.svg"
+    },
+    {
+      "name": "money-wallet-minus",
+      "group": "money",
+      "className": "ak-icon-money-wallet-minus",
+      "unicode": "E04A",
+      "file": "money/wallet-minus.svg"
+    },
+    {
+      "name": "money-wallet-money",
+      "group": "money",
+      "className": "ak-icon-money-wallet-money",
+      "unicode": "E04B",
+      "file": "money/wallet-money.svg"
+    },
+    {
+      "name": "money-wallet-remove",
+      "group": "money",
+      "className": "ak-icon-money-wallet-remove",
+      "unicode": "E04C",
+      "file": "money/wallet-remove.svg"
+    },
+    {
+      "name": "money-wallet-search",
+      "group": "money",
+      "className": "ak-icon-money-wallet-search",
+      "unicode": "E04D",
+      "file": "money/wallet-search.svg"
+    },
+    {
+      "name": "money-wallet",
+      "group": "money",
+      "className": "ak-icon-money-wallet",
+      "unicode": "E043",
+      "file": "money/wallet.svg"
+    },
+    {
+      "name": "video-audio-square",
+      "group": "video",
+      "className": "ak-icon-video-audio-square",
+      "unicode": "E04E",
+      "file": "video/audio-square.svg"
+    },
+    {
+      "name": "video-backward-10-seconds",
+      "group": "video",
+      "className": "ak-icon-video-backward-10-seconds",
+      "unicode": "E050",
+      "file": "video/backward-10-seconds.svg"
+    },
+    {
+      "name": "video-backward-15-seconds",
+      "group": "video",
+      "className": "ak-icon-video-backward-15-seconds",
+      "unicode": "E051",
+      "file": "video/backward-15-seconds.svg"
+    },
+    {
+      "name": "video-backward-5-seconds",
+      "group": "video",
+      "className": "ak-icon-video-backward-5-seconds",
+      "unicode": "E052",
+      "file": "video/backward-5-seconds.svg"
+    },
+    {
+      "name": "video-backward",
+      "group": "video",
+      "className": "ak-icon-video-backward",
+      "unicode": "E04F",
+      "file": "video/backward.svg"
+    },
+    {
+      "name": "video-camera-slash",
+      "group": "video",
+      "className": "ak-icon-video-camera-slash",
+      "unicode": "E054",
+      "file": "video/camera-slash.svg"
+    },
+    {
+      "name": "video-camera",
+      "group": "video",
+      "className": "ak-icon-video-camera",
+      "unicode": "E053",
+      "file": "video/camera.svg"
+    },
+    {
+      "name": "video-devices",
+      "group": "video",
+      "className": "ak-icon-video-devices",
+      "unicode": "E055",
+      "file": "video/devices.svg"
+    },
+    {
+      "name": "video-forward-10-seconds",
+      "group": "video",
+      "className": "ak-icon-video-forward-10-seconds",
+      "unicode": "E057",
+      "file": "video/forward-10-seconds.svg"
+    },
+    {
+      "name": "video-forward-15-seconds",
+      "group": "video",
+      "className": "ak-icon-video-forward-15-seconds",
+      "unicode": "E058",
+      "file": "video/forward-15-seconds.svg"
+    },
+    {
+      "name": "video-forward-5-seconds",
+      "group": "video",
+      "className": "ak-icon-video-forward-5-seconds",
+      "unicode": "E059",
+      "file": "video/forward-5-seconds.svg"
+    },
+    {
+      "name": "video-forward",
+      "group": "video",
+      "className": "ak-icon-video-forward",
+      "unicode": "E056",
+      "file": "video/forward.svg"
+    },
+    {
+      "name": "video-gallery-add",
+      "group": "video",
+      "className": "ak-icon-video-gallery-add",
+      "unicode": "E05B",
+      "file": "video/gallery-add.svg"
+    },
+    {
+      "name": "video-gallery-edit",
+      "group": "video",
+      "className": "ak-icon-video-gallery-edit",
+      "unicode": "E05C",
+      "file": "video/gallery-edit.svg"
+    },
+    {
+      "name": "video-gallery-export",
+      "group": "video",
+      "className": "ak-icon-video-gallery-export",
+      "unicode": "E05D",
+      "file": "video/gallery-export.svg"
+    },
+    {
+      "name": "video-gallery-favorite",
+      "group": "video",
+      "className": "ak-icon-video-gallery-favorite",
+      "unicode": "E05E",
+      "file": "video/gallery-favorite.svg"
+    },
+    {
+      "name": "video-gallery-import",
+      "group": "video",
+      "className": "ak-icon-video-gallery-import",
+      "unicode": "E05F",
+      "file": "video/gallery-import.svg"
+    },
+    {
+      "name": "video-gallery-remove",
+      "group": "video",
+      "className": "ak-icon-video-gallery-remove",
+      "unicode": "E060",
+      "file": "video/gallery-remove.svg"
+    },
+    {
+      "name": "video-gallery-slash",
+      "group": "video",
+      "className": "ak-icon-video-gallery-slash",
+      "unicode": "E061",
+      "file": "video/gallery-slash.svg"
+    },
+    {
+      "name": "video-gallery-tick",
+      "group": "video",
+      "className": "ak-icon-video-gallery-tick",
+      "unicode": "E062",
+      "file": "video/gallery-tick.svg"
+    },
+    {
+      "name": "video-gallery",
+      "group": "video",
+      "className": "ak-icon-video-gallery",
+      "unicode": "E05A",
+      "file": "video/gallery.svg"
+    },
+    {
+      "name": "video-image",
+      "group": "video",
+      "className": "ak-icon-video-image",
+      "unicode": "E063",
+      "file": "video/image.svg"
+    },
+    {
+      "name": "video-maximize-circle",
+      "group": "video",
+      "className": "ak-icon-video-maximize-circle",
+      "unicode": "E064",
+      "file": "video/maximize-circle.svg"
+    },
+    {
+      "name": "video-microphone-2",
+      "group": "video",
+      "className": "ak-icon-video-microphone-2",
+      "unicode": "E066",
+      "file": "video/microphone-2.svg"
+    },
+    {
+      "name": "video-microphone-slash-1",
+      "group": "video",
+      "className": "ak-icon-video-microphone-slash-1",
+      "unicode": "E068",
+      "file": "video/microphone-slash-1.svg"
+    },
+    {
+      "name": "video-microphone-slash",
+      "group": "video",
+      "className": "ak-icon-video-microphone-slash",
+      "unicode": "E067",
+      "file": "video/microphone-slash.svg"
+    },
+    {
+      "name": "video-microphone",
+      "group": "video",
+      "className": "ak-icon-video-microphone",
+      "unicode": "E065",
+      "file": "video/microphone.svg"
+    },
+    {
+      "name": "video-mini-music-sqaure",
+      "group": "video",
+      "className": "ak-icon-video-mini-music-sqaure",
+      "unicode": "E069",
+      "file": "video/mini-music-sqaure.svg"
+    },
+    {
+      "name": "video-music-circle",
+      "group": "video",
+      "className": "ak-icon-video-music-circle",
+      "unicode": "E06B",
+      "file": "video/music-circle.svg"
+    },
+    {
+      "name": "video-music-dashboard",
+      "group": "video",
+      "className": "ak-icon-video-music-dashboard",
+      "unicode": "E06C",
+      "file": "video/music-dashboard.svg"
+    },
+    {
+      "name": "video-music-filter",
+      "group": "video",
+      "className": "ak-icon-video-music-filter",
+      "unicode": "E06D",
+      "file": "video/music-filter.svg"
+    },
+    {
+      "name": "video-music-library-2",
+      "group": "video",
+      "className": "ak-icon-video-music-library-2",
+      "unicode": "E06E",
+      "file": "video/music-library-2.svg"
+    },
+    {
+      "name": "video-music-playlist",
+      "group": "video",
+      "className": "ak-icon-video-music-playlist",
+      "unicode": "E06F",
+      "file": "video/music-playlist.svg"
+    },
+    {
+      "name": "video-music-square-add",
+      "group": "video",
+      "className": "ak-icon-video-music-square-add",
+      "unicode": "E071",
+      "file": "video/music-square-add.svg"
+    },
+    {
+      "name": "video-music-square-remove",
+      "group": "video",
+      "className": "ak-icon-video-music-square-remove",
+      "unicode": "E072",
+      "file": "video/music-square-remove.svg"
+    },
+    {
+      "name": "video-music-square-search",
+      "group": "video",
+      "className": "ak-icon-video-music-square-search",
+      "unicode": "E073",
+      "file": "video/music-square-search.svg"
+    },
+    {
+      "name": "video-music-square",
+      "group": "video",
+      "className": "ak-icon-video-music-square",
+      "unicode": "E070",
+      "file": "video/music-square.svg"
+    },
+    {
+      "name": "video-music",
+      "group": "video",
+      "className": "ak-icon-video-music",
+      "unicode": "E06A",
+      "file": "video/music.svg"
+    },
+    {
+      "name": "video-musicnote",
+      "group": "video",
+      "className": "ak-icon-video-musicnote",
+      "unicode": "E074",
+      "file": "video/musicnote.svg"
+    },
+    {
+      "name": "video-next",
+      "group": "video",
+      "className": "ak-icon-video-next",
+      "unicode": "E075",
+      "file": "video/next.svg"
+    },
+    {
+      "name": "video-note-square",
+      "group": "video",
+      "className": "ak-icon-video-note-square",
+      "unicode": "E076",
+      "file": "video/note-square.svg"
+    },
+    {
+      "name": "video-pause-circle",
+      "group": "video",
+      "className": "ak-icon-video-pause-circle",
+      "unicode": "E078",
+      "file": "video/pause-circle.svg"
+    },
+    {
+      "name": "video-pause",
+      "group": "video",
+      "className": "ak-icon-video-pause",
+      "unicode": "E077",
+      "file": "video/pause.svg"
+    },
+    {
+      "name": "video-play-add",
+      "group": "video",
+      "className": "ak-icon-video-play-add",
+      "unicode": "E07A",
+      "file": "video/play-add.svg"
+    },
+    {
+      "name": "video-play-circle",
+      "group": "video",
+      "className": "ak-icon-video-play-circle",
+      "unicode": "E07B",
+      "file": "video/play-circle.svg"
+    },
+    {
+      "name": "video-play-cricle",
+      "group": "video",
+      "className": "ak-icon-video-play-cricle",
+      "unicode": "E07C",
+      "file": "video/play-cricle.svg"
+    },
+    {
+      "name": "video-play-remove",
+      "group": "video",
+      "className": "ak-icon-video-play-remove",
+      "unicode": "E07D",
+      "file": "video/play-remove.svg"
+    },
+    {
+      "name": "video-play",
+      "group": "video",
+      "className": "ak-icon-video-play",
+      "unicode": "E079",
+      "file": "video/play.svg"
+    },
+    {
+      "name": "video-previous",
+      "group": "video",
+      "className": "ak-icon-video-previous",
+      "unicode": "E07E",
+      "file": "video/previous.svg"
+    },
+    {
+      "name": "video-radio",
+      "group": "video",
+      "className": "ak-icon-video-radio",
+      "unicode": "E07F",
+      "file": "video/radio.svg"
+    },
+    {
+      "name": "video-record-circle",
+      "group": "video",
+      "className": "ak-icon-video-record-circle",
+      "unicode": "E081",
+      "file": "video/record-circle.svg"
+    },
+    {
+      "name": "video-record",
+      "group": "video",
+      "className": "ak-icon-video-record",
+      "unicode": "E080",
+      "file": "video/record.svg"
+    },
+    {
+      "name": "video-repeate-music",
+      "group": "video",
+      "className": "ak-icon-video-repeate-music",
+      "unicode": "E082",
+      "file": "video/repeate-music.svg"
+    },
+    {
+      "name": "video-repeate-one",
+      "group": "video",
+      "className": "ak-icon-video-repeate-one",
+      "unicode": "E083",
+      "file": "video/repeate-one.svg"
+    },
+    {
+      "name": "video-scissor",
+      "group": "video",
+      "className": "ak-icon-video-scissor",
+      "unicode": "E084",
+      "file": "video/scissor.svg"
+    },
+    {
+      "name": "video-screenmirroring",
+      "group": "video",
+      "className": "ak-icon-video-screenmirroring",
+      "unicode": "E085",
+      "file": "video/screenmirroring.svg"
+    },
+    {
+      "name": "video-shuffle",
+      "group": "video",
+      "className": "ak-icon-video-shuffle",
+      "unicode": "E086",
+      "file": "video/shuffle.svg"
+    },
+    {
+      "name": "video-stop-circle",
+      "group": "video",
+      "className": "ak-icon-video-stop-circle",
+      "unicode": "E088",
+      "file": "video/stop-circle.svg"
+    },
+    {
+      "name": "video-stop",
+      "group": "video",
+      "className": "ak-icon-video-stop",
+      "unicode": "E087",
+      "file": "video/stop.svg"
+    },
+    {
+      "name": "video-subtitle",
+      "group": "video",
+      "className": "ak-icon-video-subtitle",
+      "unicode": "E089",
+      "file": "video/subtitle.svg"
+    },
+    {
+      "name": "video-video-add",
+      "group": "video",
+      "className": "ak-icon-video-video-add",
+      "unicode": "E08B",
+      "file": "video/video-add.svg"
+    },
+    {
+      "name": "video-video-circle",
+      "group": "video",
+      "className": "ak-icon-video-video-circle",
+      "unicode": "E08C",
+      "file": "video/video-circle.svg"
+    },
+    {
+      "name": "video-video-horizontal",
+      "group": "video",
+      "className": "ak-icon-video-video-horizontal",
+      "unicode": "E08D",
+      "file": "video/video-horizontal.svg"
+    },
+    {
+      "name": "video-video-octagon",
+      "group": "video",
+      "className": "ak-icon-video-video-octagon",
+      "unicode": "E08E",
+      "file": "video/video-octagon.svg"
+    },
+    {
+      "name": "video-video-play",
+      "group": "video",
+      "className": "ak-icon-video-video-play",
+      "unicode": "E08F",
+      "file": "video/video-play.svg"
+    },
+    {
+      "name": "video-video-remove",
+      "group": "video",
+      "className": "ak-icon-video-video-remove",
+      "unicode": "E090",
+      "file": "video/video-remove.svg"
+    },
+    {
+      "name": "video-video-slash",
+      "group": "video",
+      "className": "ak-icon-video-video-slash",
+      "unicode": "E091",
+      "file": "video/video-slash.svg"
+    },
+    {
+      "name": "video-video-square",
+      "group": "video",
+      "className": "ak-icon-video-video-square",
+      "unicode": "E092",
+      "file": "video/video-square.svg"
+    },
+    {
+      "name": "video-video-tick",
+      "group": "video",
+      "className": "ak-icon-video-video-tick",
+      "unicode": "E093",
+      "file": "video/video-tick.svg"
+    },
+    {
+      "name": "video-video-time",
+      "group": "video",
+      "className": "ak-icon-video-video-time",
+      "unicode": "E094",
+      "file": "video/video-time.svg"
+    },
+    {
+      "name": "video-video-vertical",
+      "group": "video",
+      "className": "ak-icon-video-video-vertical",
+      "unicode": "E095",
+      "file": "video/video-vertical.svg"
+    },
+    {
+      "name": "video-video",
+      "group": "video",
+      "className": "ak-icon-video-video",
+      "unicode": "E08A",
+      "file": "video/video.svg"
+    },
+    {
+      "name": "video-voice-cricle",
+      "group": "video",
+      "className": "ak-icon-video-voice-cricle",
+      "unicode": "E096",
+      "file": "video/voice-cricle.svg"
+    },
+    {
+      "name": "video-voice-square",
+      "group": "video",
+      "className": "ak-icon-video-voice-square",
+      "unicode": "E097",
+      "file": "video/voice-square.svg"
+    },
+    {
+      "name": "video-volume-cross",
+      "group": "video",
+      "className": "ak-icon-video-volume-cross",
+      "unicode": "E098",
+      "file": "video/volume-cross.svg"
+    },
+    {
+      "name": "video-volume-high",
+      "group": "video",
+      "className": "ak-icon-video-volume-high",
+      "unicode": "E099",
+      "file": "video/volume-high.svg"
+    },
+    {
+      "name": "video-volume-low-1",
+      "group": "video",
+      "className": "ak-icon-video-volume-low-1",
+      "unicode": "E09B",
+      "file": "video/volume-low-1.svg"
+    },
+    {
+      "name": "video-volume-low",
+      "group": "video",
+      "className": "ak-icon-video-volume-low",
+      "unicode": "E09A",
+      "file": "video/volume-low.svg"
+    },
+    {
+      "name": "video-volume-mute",
+      "group": "video",
+      "className": "ak-icon-video-volume-mute",
+      "unicode": "E09C",
+      "file": "video/volume-mute.svg"
+    },
+    {
+      "name": "video-volume-slash",
+      "group": "video",
+      "className": "ak-icon-video-volume-slash",
+      "unicode": "E09D",
+      "file": "video/volume-slash.svg"
+    },
+    {
+      "name": "video-volume-up",
+      "group": "video",
+      "className": "ak-icon-video-volume-up",
+      "unicode": "E09E",
+      "file": "video/volume-up.svg"
+    }
+  ]
+}

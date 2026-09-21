@@ -1,0 +1,642 @@
+{
+  "version": 1,
+  "fontFamily": "ak-icons",
+  "icons": {
+    "money-archive": {
+      "group": "money",
+      "codePoint": "E000"
+    },
+    "money-card": {
+      "group": "money",
+      "codePoint": "E001"
+    },
+    "money-card-add": {
+      "group": "money",
+      "codePoint": "E002"
+    },
+    "money-card-edit": {
+      "group": "money",
+      "codePoint": "E003"
+    },
+    "money-card-pos": {
+      "group": "money",
+      "codePoint": "E004"
+    },
+    "money-card-receive": {
+      "group": "money",
+      "codePoint": "E005"
+    },
+    "money-card-remove": {
+      "group": "money",
+      "codePoint": "E006"
+    },
+    "money-card-remove-1": {
+      "group": "money",
+      "codePoint": "E007"
+    },
+    "money-card-send": {
+      "group": "money",
+      "codePoint": "E008"
+    },
+    "money-card-slash": {
+      "group": "money",
+      "codePoint": "E009"
+    },
+    "money-card-tick": {
+      "group": "money",
+      "codePoint": "E00A"
+    },
+    "money-card-tick-1": {
+      "group": "money",
+      "codePoint": "E00B"
+    },
+    "money-cards": {
+      "group": "money",
+      "codePoint": "E00C"
+    },
+    "money-chart-square": {
+      "group": "money",
+      "codePoint": "E00D"
+    },
+    "money-coin": {
+      "group": "money",
+      "codePoint": "E00E"
+    },
+    "money-coin-1": {
+      "group": "money",
+      "codePoint": "E00F"
+    },
+    "money-convert-card": {
+      "group": "money",
+      "codePoint": "E010"
+    },
+    "money-discount-circle": {
+      "group": "money",
+      "codePoint": "E011"
+    },
+    "money-discount-shape": {
+      "group": "money",
+      "codePoint": "E012"
+    },
+    "money-document": {
+      "group": "money",
+      "codePoint": "E013"
+    },
+    "money-dollar-circle": {
+      "group": "money",
+      "codePoint": "E014"
+    },
+    "money-dollar-square": {
+      "group": "money",
+      "codePoint": "E015"
+    },
+    "money-empty-wallet": {
+      "group": "money",
+      "codePoint": "E016"
+    },
+    "money-empty-wallet-add": {
+      "group": "money",
+      "codePoint": "E017"
+    },
+    "money-empty-wallet-change": {
+      "group": "money",
+      "codePoint": "E018"
+    },
+    "money-empty-wallet-remove": {
+      "group": "money",
+      "codePoint": "E019"
+    },
+    "money-empty-wallet-tick": {
+      "group": "money",
+      "codePoint": "E01A"
+    },
+    "money-empty-wallet-time": {
+      "group": "money",
+      "codePoint": "E01B"
+    },
+    "money-math": {
+      "group": "money",
+      "codePoint": "E01C"
+    },
+    "money-money": {
+      "group": "money",
+      "codePoint": "E01D"
+    },
+    "money-money-2": {
+      "group": "money",
+      "codePoint": "E01E"
+    },
+    "money-money-3": {
+      "group": "money",
+      "codePoint": "E01F"
+    },
+    "money-money-4": {
+      "group": "money",
+      "codePoint": "E020"
+    },
+    "money-money-add": {
+      "group": "money",
+      "codePoint": "E021"
+    },
+    "money-money-change": {
+      "group": "money",
+      "codePoint": "E022"
+    },
+    "money-money-forbidden": {
+      "group": "money",
+      "codePoint": "E023"
+    },
+    "money-money-recive": {
+      "group": "money",
+      "codePoint": "E024"
+    },
+    "money-money-remove": {
+      "group": "money",
+      "codePoint": "E025"
+    },
+    "money-money-send": {
+      "group": "money",
+      "codePoint": "E026"
+    },
+    "money-money-tick": {
+      "group": "money",
+      "codePoint": "E027"
+    },
+    "money-money-time": {
+      "group": "money",
+      "codePoint": "E028"
+    },
+    "money-moneys": {
+      "group": "money",
+      "codePoint": "E029"
+    },
+    "money-percentage-circle": {
+      "group": "money",
+      "codePoint": "E02A"
+    },
+    "money-percentage-square": {
+      "group": "money",
+      "codePoint": "E02B"
+    },
+    "money-receipt": {
+      "group": "money",
+      "codePoint": "E02C"
+    },
+    "money-receipt-1": {
+      "group": "money",
+      "codePoint": "E02D"
+    },
+    "money-receipt-2": {
+      "group": "money",
+      "codePoint": "E02E"
+    },
+    "money-receipt-2-1": {
+      "group": "money",
+      "codePoint": "E02F"
+    },
+    "money-receipt-add": {
+      "group": "money",
+      "codePoint": "E030"
+    },
+    "money-receipt-discount": {
+      "group": "money",
+      "codePoint": "E031"
+    },
+    "money-receipt-disscount": {
+      "group": "money",
+      "codePoint": "E032"
+    },
+    "money-receipt-edit": {
+      "group": "money",
+      "codePoint": "E033"
+    },
+    "money-receipt-item": {
+      "group": "money",
+      "codePoint": "E034"
+    },
+    "money-receipt-minus": {
+      "group": "money",
+      "codePoint": "E035"
+    },
+    "money-receipt-search": {
+      "group": "money",
+      "codePoint": "E036"
+    },
+    "money-receipt-text": {
+      "group": "money",
+      "codePoint": "E037"
+    },
+    "money-security-card": {
+      "group": "money",
+      "codePoint": "E038"
+    },
+    "money-strongbox": {
+      "group": "money",
+      "codePoint": "E039"
+    },
+    "money-strongbox-2": {
+      "group": "money",
+      "codePoint": "E03A"
+    },
+    "money-tag": {
+      "group": "money",
+      "codePoint": "E03B"
+    },
+    "money-tag-2": {
+      "group": "money",
+      "codePoint": "E03C"
+    },
+    "money-ticket": {
+      "group": "money",
+      "codePoint": "E03D"
+    },
+    "money-ticket-2": {
+      "group": "money",
+      "codePoint": "E03E"
+    },
+    "money-ticket-discount": {
+      "group": "money",
+      "codePoint": "E03F"
+    },
+    "money-ticket-expired": {
+      "group": "money",
+      "codePoint": "E040"
+    },
+    "money-ticket-star": {
+      "group": "money",
+      "codePoint": "E041"
+    },
+    "money-transaction-minus": {
+      "group": "money",
+      "codePoint": "E042"
+    },
+    "money-wallet": {
+      "group": "money",
+      "codePoint": "E043"
+    },
+    "money-wallet-1": {
+      "group": "money",
+      "codePoint": "E044"
+    },
+    "money-wallet-2": {
+      "group": "money",
+      "codePoint": "E045"
+    },
+    "money-wallet-3": {
+      "group": "money",
+      "codePoint": "E046"
+    },
+    "money-wallet-add": {
+      "group": "money",
+      "codePoint": "E047"
+    },
+    "money-wallet-add-1": {
+      "group": "money",
+      "codePoint": "E048"
+    },
+    "money-wallet-check": {
+      "group": "money",
+      "codePoint": "E049"
+    },
+    "money-wallet-minus": {
+      "group": "money",
+      "codePoint": "E04A"
+    },
+    "money-wallet-money": {
+      "group": "money",
+      "codePoint": "E04B"
+    },
+    "money-wallet-remove": {
+      "group": "money",
+      "codePoint": "E04C"
+    },
+    "money-wallet-search": {
+      "group": "money",
+      "codePoint": "E04D"
+    },
+    "video-audio-square": {
+      "group": "video",
+      "codePoint": "E04E"
+    },
+    "video-backward": {
+      "group": "video",
+      "codePoint": "E04F"
+    },
+    "video-backward-10-seconds": {
+      "group": "video",
+      "codePoint": "E050"
+    },
+    "video-backward-15-seconds": {
+      "group": "video",
+      "codePoint": "E051"
+    },
+    "video-backward-5-seconds": {
+      "group": "video",
+      "codePoint": "E052"
+    },
+    "video-camera": {
+      "group": "video",
+      "codePoint": "E053"
+    },
+    "video-camera-slash": {
+      "group": "video",
+      "codePoint": "E054"
+    },
+    "video-devices": {
+      "group": "video",
+      "codePoint": "E055"
+    },
+    "video-forward": {
+      "group": "video",
+      "codePoint": "E056"
+    },
+    "video-forward-10-seconds": {
+      "group": "video",
+      "codePoint": "E057"
+    },
+    "video-forward-15-seconds": {
+      "group": "video",
+      "codePoint": "E058"
+    },
+    "video-forward-5-seconds": {
+      "group": "video",
+      "codePoint": "E059"
+    },
+    "video-gallery": {
+      "group": "video",
+      "codePoint": "E05A"
+    },
+    "video-gallery-add": {
+      "group": "video",
+      "codePoint": "E05B"
+    },
+    "video-gallery-edit": {
+      "group": "video",
+      "codePoint": "E05C"
+    },
+    "video-gallery-export": {
+      "group": "video",
+      "codePoint": "E05D"
+    },
+    "video-gallery-favorite": {
+      "group": "video",
+      "codePoint": "E05E"
+    },
+    "video-gallery-import": {
+      "group": "video",
+      "codePoint": "E05F"
+    },
+    "video-gallery-remove": {
+      "group": "video",
+      "codePoint": "E060"
+    },
+    "video-gallery-slash": {
+      "group": "video",
+      "codePoint": "E061"
+    },
+    "video-gallery-tick": {
+      "group": "video",
+      "codePoint": "E062"
+    },
+    "video-image": {
+      "group": "video",
+      "codePoint": "E063"
+    },
+    "video-maximize-circle": {
+      "group": "video",
+      "codePoint": "E064"
+    },
+    "video-microphone": {
+      "group": "video",
+      "codePoint": "E065"
+    },
+    "video-microphone-2": {
+      "group": "video",
+      "codePoint": "E066"
+    },
+    "video-microphone-slash": {
+      "group": "video",
+      "codePoint": "E067"
+    },
+    "video-microphone-slash-1": {
+      "group": "video",
+      "codePoint": "E068"
+    },
+    "video-mini-music-sqaure": {
+      "group": "video",
+      "codePoint": "E069"
+    },
+    "video-music": {
+      "group": "video",
+      "codePoint": "E06A"
+    },
+    "video-music-circle": {
+      "group": "video",
+      "codePoint": "E06B"
+    },
+    "video-music-dashboard": {
+      "group": "video",
+      "codePoint": "E06C"
+    },
+    "video-music-filter": {
+      "group": "video",
+      "codePoint": "E06D"
+    },
+    "video-music-library-2": {
+      "group": "video",
+      "codePoint": "E06E"
+    },
+    "video-music-playlist": {
+      "group": "video",
+      "codePoint": "E06F"
+    },
+    "video-music-square": {
+      "group": "video",
+      "codePoint": "E070"
+    },
+    "video-music-square-add": {
+      "group": "video",
+      "codePoint": "E071"
+    },
+    "video-music-square-remove": {
+      "group": "video",
+      "codePoint": "E072"
+    },
+    "video-music-square-search": {
+      "group": "video",
+      "codePoint": "E073"
+    },
+    "video-musicnote": {
+      "group": "video",
+      "codePoint": "E074"
+    },
+    "video-next": {
+      "group": "video",
+      "codePoint": "E075"
+    },
+    "video-note-square": {
+      "group": "video",
+      "codePoint": "E076"
+    },
+    "video-pause": {
+      "group": "video",
+      "codePoint": "E077"
+    },
+    "video-pause-circle": {
+      "group": "video",
+      "codePoint": "E078"
+    },
+    "video-play": {
+      "group": "video",
+      "codePoint": "E079"
+    },
+    "video-play-add": {
+      "group": "video",
+      "codePoint": "E07A"
+    },
+    "video-play-circle": {
+      "group": "video",
+      "codePoint": "E07B"
+    },
+    "video-play-cricle": {
+      "group": "video",
+      "codePoint": "E07C"
+    },
+    "video-play-remove": {
+      "group": "video",
+      "codePoint": "E07D"
+    },
+    "video-previous": {
+      "group": "video",
+      "codePoint": "E07E"
+    },
+    "video-radio": {
+      "group": "video",
+      "codePoint": "E07F"
+    },
+    "video-record": {
+      "group": "video",
+      "codePoint": "E080"
+    },
+    "video-record-circle": {
+      "group": "video",
+      "codePoint": "E081"
+    },
+    "video-repeate-music": {
+      "group": "video",
+      "codePoint": "E082"
+    },
+    "video-repeate-one": {
+      "group": "video",
+      "codePoint": "E083"
+    },
+    "video-scissor": {
+      "group": "video",
+      "codePoint": "E084"
+    },
+    "video-screenmirroring": {
+      "group": "video",
+      "codePoint": "E085"
+    },
+    "video-shuffle": {
+      "group": "video",
+      "codePoint": "E086"
+    },
+    "video-stop": {
+      "group": "video",
+      "codePoint": "E087"
+    },
+    "video-stop-circle": {
+      "group": "video",
+      "codePoint": "E088"
+    },
+    "video-subtitle": {
+      "group": "video",
+      "codePoint": "E089"
+    },
+    "video-video": {
+      "group": "video",
+      "codePoint": "E08A"
+    },
+    "video-video-add": {
+      "group": "video",
+      "codePoint": "E08B"
+    },
+    "video-video-circle": {
+      "group": "video",
+      "codePoint": "E08C"
+    },
+    "video-video-horizontal": {
+      "group": "video",
+      "codePoint": "E08D"
+    },
+    "video-video-octagon": {
+      "group": "video",
+      "codePoint": "E08E"
+    },
+    "video-video-play": {
+      "group": "video",
+      "codePoint": "E08F"
+    },
+    "video-video-remove": {
+      "group": "video",
+      "codePoint": "E090"
+    },
+    "video-video-slash": {
+      "group": "video",
+      "codePoint": "E091"
+    },
+    "video-video-square": {
+      "group": "video",
+      "codePoint": "E092"
+    },
+    "video-video-tick": {
+      "group": "video",
+      "codePoint": "E093"
+    },
+    "video-video-time": {
+      "group": "video",
+      "codePoint": "E094"
+    },
+    "video-video-vertical": {
+      "group": "video",
+      "codePoint": "E095"
+    },
+    "video-voice-cricle": {
+      "group": "video",
+      "codePoint": "E096"
+    },
+    "video-voice-square": {
+      "group": "video",
+      "codePoint": "E097"
+    },
+    "video-volume-cross": {
+      "group": "video",
+      "codePoint": "E098"
+    },
+    "video-volume-high": {
+      "group": "video",
+      "codePoint": "E099"
+    },
+    "video-volume-low": {
+      "group": "video",
+      "codePoint": "E09A"
+    },
+    "video-volume-low-1": {
+      "group": "video",
+      "codePoint": "E09B"
+    },
+    "video-volume-mute": {
+      "group": "video",
+      "codePoint": "E09C"
+    },
+    "video-volume-slash": {
+      "group": "video",
+      "codePoint": "E09D"
+    },
+    "video-volume-up": {
+      "group": "video",
+      "codePoint": "E09E"
+    }
+  }
+}

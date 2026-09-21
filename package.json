@@ -1,0 +1,44 @@
+{
+  "name": "ak-ui",
+  "version": "0.1.0",
+  "description": "AK UI - Agribank HTML/CSS UI Framework",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "author": "AK UI Team",
+
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+
+  "scripts": {
+    "clean": "node scripts/clean.mjs",
+
+    "build:icons": "node scripts/build-icons.mjs",
+
+    "build:css": "sass src/ak-ui.scss dist/ak-ui.css --style=compressed --no-source-map",
+
+    "build:css:dev": "sass src/ak-ui.scss dist/ak-ui.css --style=expanded --source-map",
+
+    "build": "npm run clean && npm run build:icons && npm run build:css",
+
+    "dev": "sass src/ak-ui.scss dist/ak-ui.css --watch --style=expanded --source-map",
+
+    "check": "npm run check:icons && npm run check:css",
+
+    "check:icons": "node scripts/check-icons.mjs",
+
+    "check:css": "sass src/ak-ui.scss dist/ak-ui.css --no-source-map --style=expanded --error-css=false",
+
+    "prepare": "npm run build"
+  },
+
+  "devDependencies": {
+    "sass": "^1.92.1",
+    "svg2ttf": "^6.0.3",
+    "svgicons2svgfont": "^15.0.1",
+    "ttf2woff2": "^6.0.0"
+  }
+}

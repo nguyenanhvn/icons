@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>AK UI — Icons</title>
+
+    <link
+        rel="stylesheet"
+        href="../../dist/icons/ak-icons.css"
+    >
+
+    <style>
+        :root {
+            --ak-bg: #f5f6f8;
+            --ak-surface: #ffffff;
+            --ak-border: #e5e7eb;
+            --ak-text: #1f2937;
+            --ak-text-muted: #6b7280;
+            --ak-primary: #c8102e;
+            --ak-primary-soft: #fff1f2;
+            --ak-radius: 10px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+
+            background: var(--ak-bg);
+            color: var(--ak-text);
+
+            font-family:
+                Inter,
+                -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                Arial,
+                sans-serif;
+        }
+
+        /* ==================================================
+           HEADER
+           ================================================== */
+
+        .page-header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+
+            padding: 24px 32px;
+
+            background: rgba(255, 255, 255, 0.96);
+
+            border-bottom: 1px solid var(--ak-border);
+
+            backdrop-filter: blur(12px);
+        }
+
+        .page-header-inner {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+
+            margin-bottom: 20px;
+        }
+
+        .brand-mark {
+            width: 42px;
+            height: 42px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            border-radius: 10px;
+
+            background: var(--ak-primary);
+            color: #fff;
+
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .brand-title {
+            margin: 0;
+
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .brand-subtitle {
+            margin: 4px 0 0;
+
+            color: var(--ak-text-muted);
+
+            font-size: 13px;
+        }
+
+        /* ==================================================
+           SEARCH
+           ================================================== */
+
+        .search-wrapper {
+            position: relative;
+        }
+
+        .search-icon {
+            position: absolute;
+            top: 50%;
+            left: 16px;
+
+            transform: translateY(-50%);
+
+            color: var(--ak-text-muted);
+
+            font-size: 18px;
+
+            pointer-events: none;
+        }
+
+        .search-input {
+            width: 100%;
+            height: 48px;
+
+            padding: 0 48px;
+
+            border: 1px solid var(--ak-border);
+            border-radius: 8px;
+
+            outline: none;
+
+            background: #fff;
+
+            color: var(--ak-text);
+
+            font-size: 15px;
+
+            transition:
+                border-color 0.15s ease,
+                box-shadow 0.15s ease;
+        }
+
+        .search-input:focus {
+            border-color: var(--ak-primary);
+
+            box-shadow:
+                0 0 0 3px
+                rgba(200, 16, 46, 0.1);
+        }
+
+        .search-clear {
+            position: absolute;
+            top: 50%;
+            right: 12px;
+
+            width: 32px;
+            height: 32px;
+
+            display: none;
+            align-items: center;
+            justify-content: center;
+
+            transform: translateY(-50%);
+
+            border: 0;
+            border-radius: 6px;
+
+            background: transparent;
+
+            color: var(--ak-text-muted);
+
+            cursor: pointer;
+        }
+
+        .search-clear:hover {
+            background: var(--ak-bg);
+            color: var(--ak-text);
+        }
+
+        /* ==================================================
+           MAIN
+           ================================================== */
+
+        .page-content {
+            max-width: 1400px;
+
+            margin: 0 auto;
+
+            padding: 32px;
+        }
+
+        .toolbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            gap: 16px;
+
+            margin-bottom: 28px;
+        }
+
+        .icon-count {
+            color: var(--ak-text-muted);
+
+            font-size: 14px;
+        }
+
+        .icon-count strong {
+            color: var(--ak-text);
+
+            font-weight: 600;
+        }
+
+        /* ==================================================
+           GROUP
+           ================================================== */
+
+        .icon-group {
+            margin-bottom: 40px;
+        }
+
+        .group-header {
+            display: flex;
+            align-items: center;
+
+            gap: 10px;
+
+            margin-bottom: 14px;
+        }
+
+        .group-title {
+            margin: 0;
+
+            font-size: 17px;
+            font-weight: 700;
+        }
+
+        .group-count {
+            padding: 3px 8px;
+
+            border-radius: 999px;
+
+            background: #e5e7eb;
+
+            color: var(--ak-text-muted);
+
+            font-size: 11px;
+            font-weight: 600;
+        }
+
+        .icon-grid {
+            display: grid;
+
+            grid-template-columns:
+                repeat(auto-fill, minmax(180px, 1fr));
+
+            gap: 12px;
+        }
+
+        /* ==================================================
+           ICON CARD
+           ================================================== */
+
+        .icon-card {
+            min-height: 132px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            padding: 20px 12px;
+
+            border: 1px solid var(--ak-border);
+            border-radius: var(--ak-radius);
+
+            background: var(--ak-surface);
+
+            cursor: pointer;
+
+            text-align: center;
+
+            transition:
+                border-color 0.15s ease,
+                box-shadow 0.15s ease,
+                transform 0.15s ease;
+        }
+
+        .icon-card:hover {
+            border-color: #d1d5db;
+
+            box-shadow:
+                0 6px 20px
+                rgba(0, 0, 0, 0.06);
+
+            transform: translateY(-2px);
+        }
+
+        .icon-preview {
+            width: 56px;
+            height: 56px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            margin-bottom: 14px;
+
+            border-radius: 10px;
+
+            background: #f8f9fa;
+
+            color: var(--ak-text);
+
+            font-size: 30px;
+        }
+
+        .icon-card:hover .icon-preview {
+            background: var(--ak-primary-soft);
+            color: var(--ak-primary);
+        }
+
+        .icon-name {
+            width: 100%;
+
+            overflow: hidden;
+
+            color: var(--ak-text);
+
+            font-size: 13px;
+            font-weight: 600;
+
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .icon-class {
+            width: 100%;
+
+            margin-top: 5px;
+
+            overflow: hidden;
+
+            color: var(--ak-text-muted);
+
+            font-family:
+                ui-monospace,
+                SFMono-Regular,
+                Menlo,
+                Monaco,
+                Consolas,
+                monospace;
+
+            font-size: 10px;
+
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        /* ==================================================
+           EMPTY
+           ================================================== */
+
+        .empty-state {
+            display: none;
+
+            padding: 80px 20px;
+
+            border: 1px dashed var(--ak-border);
+            border-radius: var(--ak-radius);
+
+            background: #fff;
+
+            text-align: center;
+        }
+
+        .empty-state-icon {
+            margin-bottom: 16px;
+
+            color: #9ca3af;
+
+            font-size: 40px;
+        }
+
+        .empty-state-title {
+            margin: 0 0 6px;
+
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .empty-state-text {
+            margin: 0;
+
+            color: var(--ak-text-muted);
+
+            font-size: 13px;
+        }
+
+        /* ==================================================
+           LOADING / ERROR
+           ================================================== */
+
+        .status {
+            padding: 60px 20px;
+
+            color: var(--ak-text-muted);
+
+            text-align: center;
+        }
+
+        .error {
+            color: #b91c1c;
+        }
+
+        /* ==================================================
+           TOAST
+           ================================================== */
+
+        .toast {
+            position: fixed;
+            right: 24px;
+            bottom: 24px;
+            z-index: 200;
+
+            padding: 12px 18px;
+
+            border-radius: 8px;
+
+            background: #111827;
+            color: #fff;
+
+            font-size: 13px;
+
+            opacity: 0;
+            visibility: hidden;
+
+            transform: translateY(10px);
+
+            transition:
+                opacity 0.2s ease,
+                transform 0.2s ease,
+                visibility 0.2s ease;
+        }
+
+        .toast.is-visible {
+            opacity: 1;
+            visibility: visible;
+
+            transform: translateY(0);
+        }
+
+        /* ==================================================
+           RESPONSIVE
+           ================================================== */
+
+        @media (max-width: 768px) {
+            .page-header {
+                padding: 20px;
+            }
+
+            .page-content {
+                padding: 20px;
+            }
+
+            .icon-grid {
+                grid-template-columns:
+                    repeat(
+                        auto-fill,
+                        minmax(140px, 1fr)
+                    );
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header class="page-header">
+
+    <div class="page-header-inner">
+
+        <div class="brand">
+
+            <div class="brand-mark">
+                AK
+            </div>
+
+            <div>
+                <h1 class="brand-title">
+                    AK UI Icons
+                </h1>
+
+                <p class="brand-subtitle">
+                    Icon font gallery
+                </p>
+            </div>
+
+        </div>
+
+        <div class="search-wrapper">
+
+            <i
+                class="ak-icon ak-icon-system-search search-icon"
+                aria-hidden="true"
+            ></i>
+
+            <input
+                id="searchInput"
+                class="search-input"
+                type="search"
+                placeholder="Tìm kiếm icon..."
+                autocomplete="off"
+                spellcheck="false"
+            >
+
+            <button
+                id="searchClear"
+                class="search-clear"
+                type="button"
+                aria-label="Xóa tìm kiếm"
+            >
+                ×
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+<i class="ak-icon ak-icon-money-wallet-minus"></i>
+<main class="page-content">
+
+    <div class="toolbar">
+
+        <div
+            id="iconCount"
+            class="icon-count"
+        >
+            Đang tải...
+        </div>
+
+    </div>
+
+
+    <div
+        id="gallery"
+    >
+        <div
+            id="loading"
+            class="status"
+        >
+            Đang tải icon...
+        </div>
+    </div>
+
+
+    <div
+        id="emptyState"
+        class="empty-state"
+    >
+
+        <div class="empty-state-icon">
+            <i
+                class="ak-icon ak-icon-system-search"
+            ></i>
+        </div>
+
+        <h2 class="empty-state-title">
+            Không tìm thấy icon
+        </h2>
+
+        <p class="empty-state-text">
+            Thử tìm kiếm bằng tên icon, nhóm hoặc class.
+        </p>
+
+    </div>
+
+</main>
+
+
+<div
+    id="toast"
+    class="toast"
+>
+    Đã copy class icon
+</div>
+
+
+<script>
+    const MANIFEST_URL =
+        "../../dist/icons/manifest.json";
+
+    const gallery =
+        document.getElementById("gallery");
+
+    const loading =
+        document.getElementById("loading");
+
+    const emptyState =
+        document.getElementById("emptyState");
+
+    const searchInput =
+        document.getElementById("searchInput");
+
+    const searchClear =
+        document.getElementById("searchClear");
+
+    const iconCount =
+        document.getElementById("iconCount");
+
+    const toast =
+        document.getElementById("toast");
+
+
+    let manifest = null;
+
+    let allIcons = [];
+
+
+    // ========================================================
+    // LOAD MANIFEST
+    // ========================================================
+
+    async function loadManifest() {
+        try {
+            const response =
+                await fetch(MANIFEST_URL);
+
+            if (!response.ok) {
+                throw new Error(
+                    `HTTP ${response.status}`
+                );
+            }
+
+            manifest =
+                await response.json();
+
+            if (
+                !manifest ||
+                !Array.isArray(manifest.icons)
+            ) {
+                throw new Error(
+                    "manifest.json không đúng cấu trúc."
+                );
+            }
+
+            allIcons =
+                manifest.icons;
+
+            renderGallery(
+                allIcons
+            );
+
+        } catch (error) {
+
+            console.error(
+                "Cannot load icon manifest:",
+                error
+            );
+
+            gallery.innerHTML = `
+                <div class="status error">
+                    Không thể đọc
+                    <code>dist/icons/manifest.json</code>.
+                    <br><br>
+                    ${escapeHtml(error.message)}
+                </div>
+            `;
+
+            iconCount.textContent =
+                "Không thể tải icon.";
+        }
+    }
+
+
+    // ========================================================
+    // RENDER GALLERY
+    // ========================================================
+
+    function renderGallery(
+        icons
+    ) {
+        gallery.innerHTML = "";
+
+        if (!icons.length) {
+            showEmpty();
+            updateCount(0);
+            return;
+        }
+
+        hideEmpty();
+
+        const groups =
+            groupIcons(icons);
+
+        const fragment =
+            document.createDocumentFragment();
+
+        Object
+            .keys(groups)
+            .sort()
+            .forEach(
+                groupName => {
+
+                    const groupIcons =
+                        groups[groupName];
+
+                    const section =
+                        createGroup(
+                            groupName,
+                            groupIcons
+                        );
+
+                    fragment.appendChild(
+                        section
+                    );
+                }
+            );
+
+        gallery.appendChild(
+            fragment
+        );
+
+        updateCount(
+            icons.length
+        );
+    }
+
+
+    // ========================================================
+    // GROUP ICONS
+    // ========================================================
+
+    function groupIcons(
+        icons
+    ) {
+        const groups = {};
+
+        icons.forEach(
+            icon => {
+
+                const group =
+                    icon.group ||
+                    "other";
+
+                if (!groups[group]) {
+                    groups[group] = [];
+                }
+
+                groups[group].push(
+                    icon
+                );
+            }
+        );
+
+        return groups;
+    }
+
+
+    // ========================================================
+    // CREATE GROUP
+    // ========================================================
+
+    function createGroup(
+        groupName,
+        icons
+    ) {
+        const section =
+            document.createElement(
+                "section"
+            );
+
+        section.className =
+            "icon-group";
+
+        const header =
+            document.createElement(
+                "div"
+            );
+
+        header.className =
+            "group-header";
+
+        const title =
+            document.createElement(
+                "h2"
+            );
+
+        title.className =
+            "group-title";
+
+        title.textContent =
+            formatGroupName(
+                groupName
+            );
+
+        const count =
+            document.createElement(
+                "span"
+            );
+
+        count.className =
+            "group-count";
+
+        count.textContent =
+            icons.length;
+
+        header.appendChild(
+            title
+        );
+
+        header.appendChild(
+            count
+        );
+
+
+        const grid =
+            document.createElement(
+                "div"
+            );
+
+        grid.className =
+            "icon-grid";
+
+
+        icons
+            .sort(
+                (a, b) =>
+                    a.name.localeCompare(
+                        b.name
+                    )
+            )
+            .forEach(
+                icon => {
+
+                    grid.appendChild(
+                        createIconCard(
+                            icon
+                        )
+                    );
+                }
+            );
+
+
+        section.appendChild(
+            header
+        );
+
+        section.appendChild(
+            grid
+        );
+
+        return section;
+    }
+
+
+    // ========================================================
+    // CREATE ICON CARD
+    // ========================================================
+
+    function createIconCard(
+        icon
+    ) {
+        const card =
+            document.createElement(
+                "button"
+            );
+
+        card.type =
+            "button";
+
+        card.className =
+            "icon-card";
+
+        card.title =
+            `Click để copy ${icon.className}`;
+
+
+        const preview =
+            document.createElement(
+                "div"
+            );
+
+        preview.className =
+            "icon-preview";
+
+
+        const iconElement =
+            document.createElement(
+                "i"
+            );
+
+        iconElement.className =
+            `ak-icon ${icon.className}`;
+
+        iconElement.setAttribute(
+            "aria-hidden",
+            "true"
+        );
+
+
+        preview.appendChild(
+            iconElement
+        );
+
+
+        const name =
+            document.createElement(
+                "div"
+            );
+
+        name.className =
+            "icon-name";
+
+        name.textContent =
+            icon.name;
+
+
+        const className =
+            document.createElement(
+                "div"
+            );
+
+        className.className =
+            "icon-class";
+
+        className.textContent =
+            `.${icon.className}`;
+
+
+        card.appendChild(
+            preview
+        );
+
+        card.appendChild(
+            name
+        );
+
+        card.appendChild(
+            className
+        );
+
+
+        card.addEventListener(
+            "click",
+            () => {
+
+                copyToClipboard(
+                    icon.className
+                );
+
+            }
+        );
+
+
+        return card;
+    }
+
+
+    // ========================================================
+    // SEARCH
+    // ========================================================
+
+    function searchIcons(
+        keyword
+    ) {
+        const query =
+            keyword
+                .trim()
+                .toLowerCase();
+
+        if (!query) {
+            renderGallery(
+                allIcons
+            );
+
+            return;
+        }
+
+        const filtered =
+            allIcons.filter(
+                icon => {
+
+                    const name =
+                        (
+                            icon.name ||
+                            ""
+                        ).toLowerCase();
+
+                    const className =
+                        (
+                            icon.className ||
+                            ""
+                        ).toLowerCase();
+
+                    const group =
+                        (
+                            icon.group ||
+                            ""
+                        ).toLowerCase();
+
+                    const file =
+                        (
+                            icon.file ||
+                            ""
+                        ).toLowerCase();
+
+                    return (
+                        name.includes(query) ||
+                        className.includes(query) ||
+                        group.includes(query) ||
+                        file.includes(query)
+                    );
+                }
+            );
+
+        renderGallery(
+            filtered
+        );
+    }
+
+
+    // ========================================================
+    // SEARCH EVENTS
+    // ========================================================
+
+    searchInput.addEventListener(
+        "input",
+        event => {
+
+            const value =
+                event.target.value;
+
+            searchClear.style.display =
+                value
+                    ? "flex"
+                    : "none";
+
+            searchIcons(
+                value
+            );
+        }
+    );
+
+
+    searchClear.addEventListener(
+        "click",
+        () => {
+
+            searchInput.value = "";
+
+            searchClear.style.display =
+                "none";
+
+            searchInput.focus();
+
+            searchIcons("");
+        }
+    );
+
+
+    // ========================================================
+    // COPY
+    // ========================================================
+
+    async function copyToClipboard(
+        text
+    ) {
+        try {
+
+            await navigator.clipboard.writeText(
+                text
+            );
+
+            showToast(
+                `Đã copy: ${text}`
+            );
+
+        } catch (error) {
+
+            console.error(
+                "Cannot copy:",
+                error
+            );
+
+            showToast(
+                text
+            );
+        }
+    }
+
+
+    // ========================================================
+    // TOAST
+    // ========================================================
+
+    let toastTimer = null;
+
+    function showToast(
+        message
+    ) {
+        toast.textContent =
+            message;
+
+        toast.classList.add(
+            "is-visible"
+        );
+
+        clearTimeout(
+            toastTimer
+        );
+
+        toastTimer =
+            setTimeout(
+                () => {
+                    toast.classList.remove(
+                        "is-visible"
+                    );
+                },
+                1600
+            );
+    }
+
+
+    // ========================================================
+    // COUNT
+    // ========================================================
+
+    function updateCount(
+        count
+    ) {
+        const total =
+            allIcons.length;
+
+        if (count === total) {
+
+            iconCount.innerHTML =
+                `<strong>${total}</strong> icons`;
+
+            return;
+        }
+
+        iconCount.innerHTML =
+            `Hiển thị <strong>${count}</strong>
+             / ${total} icons`;
+    }
+
+
+    // ========================================================
+    // EMPTY
+    // ========================================================
+
+    function showEmpty() {
+        emptyState.style.display =
+            "block";
+    }
+
+
+    function hideEmpty() {
+        emptyState.style.display =
+            "none";
+    }
+
+
+    // ========================================================
+    // GROUP NAME
+    // ========================================================
+
+    function formatGroupName(
+        name
+    ) {
+        return name
+            .split("-")
+            .map(
+                word =>
+                    word.charAt(0).toUpperCase() +
+                    word.slice(1)
+            )
+            .join(" ");
+    }
+
+
+    // ========================================================
+    // HTML ESCAPE
+    // ========================================================
+
+    function escapeHtml(
+        value
+    ) {
+        return String(value)
+            .replace(
+                /&/g,
+                "&amp;"
+            )
+            .replace(
+                /</g,
+                "&lt;"
+            )
+            .replace(
+                />/g,
+                "&gt;"
+            )
+            .replace(
+                /"/g,
+                "&quot;"
+            )
+            .replace(
+                /'/g,
+                "&#039;"
+            );
+    }
+
+
+    // ========================================================
+    // INIT
+    // ========================================================
+
+    loadManifest();
+</script>
+
+</body>
+</html>
