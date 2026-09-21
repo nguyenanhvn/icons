@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>AK UI — Icons</title>
+    <title>Agribank UI Icons</title>
 
     <link
         rel="stylesheet"
@@ -16,14 +13,28 @@
 
     <style>
         :root {
-            --ak-bg: #f5f6f8;
-            --ak-surface: #ffffff;
-            --ak-border: #e5e7eb;
-            --ak-text: #1f2937;
-            --ak-text-muted: #6b7280;
-            --ak-primary: #c8102e;
-            --ak-primary-soft: #fff1f2;
-            --ak-radius: 10px;
+            --page-bg: #f6f7f9;
+            --surface: #ffffff;
+            --border: #e5e7eb;
+            --border-hover: #d1d5db;
+
+            --text: #111827;
+            --text-secondary: #6b7280;
+            --text-muted: #9ca3af;
+
+            --brand: #a71930;
+            --brand-hover: #8f1529;
+            --brand-light: #fdf0f2;
+
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+
+            --shadow-sm:
+                0 1px 2px rgba(0, 0, 0, 0.04);
+
+            --shadow-md:
+                0 4px 12px rgba(0, 0, 0, 0.06);
         }
 
         * {
@@ -31,104 +42,90 @@
         }
 
         html {
-            scroll-behavior: smooth;
+            font-size: 16px;
         }
 
         body {
             margin: 0;
+            min-height: 100vh;
 
-            background: var(--ak-bg);
-            color: var(--ak-text);
+            background: var(--page-bg);
+            color: var(--text);
 
             font-family:
                 Inter,
                 -apple-system,
                 BlinkMacSystemFont,
                 "Segoe UI",
+                Roboto,
                 Arial,
                 sans-serif;
         }
 
-        /* ==================================================
+        /* =========================================================
+           PAGE
+        ========================================================= */
+
+        .page {
+            width: min(1440px, calc(100% - 48px));
+            margin: 0 auto;
+            padding: 40px 0 60px;
+        }
+
+        /* =========================================================
            HEADER
-           ================================================== */
+        ========================================================= */
 
         .page-header {
-            position: sticky;
-            top: 0;
-            z-index: 100;
-
-            padding: 24px 32px;
-
-            background: rgba(255, 255, 255, 0.96);
-
-            border-bottom: 1px solid var(--ak-border);
-
-            backdrop-filter: blur(12px);
+            margin-bottom: 28px;
         }
 
-        .page-header-inner {
-            max-width: 1400px;
-            margin: 0 auto;
+        .page-title {
+            margin: 0;
+
+            font-size: 28px;
+            line-height: 1.25;
+            font-weight: 700;
+            letter-spacing: -0.02em;
         }
 
-        .brand {
+        .page-description {
+            margin: 8px 0 0;
+
+            color: var(--text-secondary);
+
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        /* =========================================================
+           TOOLBAR
+        ========================================================= */
+
+        .toolbar {
             display: flex;
             align-items: center;
-            gap: 12px;
+            justify-content: space-between;
+            gap: 16px;
 
             margin-bottom: 20px;
         }
 
-        .brand-mark {
-            width: 42px;
-            height: 42px;
-
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            border-radius: 10px;
-
-            background: var(--ak-primary);
-            color: #fff;
-
-            font-size: 20px;
-            font-weight: 700;
-        }
-
-        .brand-title {
-            margin: 0;
-
-            font-size: 22px;
-            font-weight: 700;
-            line-height: 1.2;
-        }
-
-        .brand-subtitle {
-            margin: 4px 0 0;
-
-            color: var(--ak-text-muted);
-
-            font-size: 13px;
-        }
-
-        /* ==================================================
-           SEARCH
-           ================================================== */
-
-        .search-wrapper {
+        .search {
             position: relative;
+
+            flex: 1;
+            max-width: 480px;
         }
 
         .search-icon {
             position: absolute;
             top: 50%;
-            left: 16px;
+            left: 14px;
 
             transform: translateY(-50%);
 
-            color: var(--ak-text-muted);
+            color: var(--text-muted);
 
             font-size: 18px;
 
@@ -137,110 +134,171 @@
 
         .search-input {
             width: 100%;
-            height: 48px;
+            height: 44px;
 
-            padding: 0 48px;
+            padding: 0 16px 0 44px;
 
-            border: 1px solid var(--ak-border);
-            border-radius: 8px;
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
 
             outline: none;
 
-            background: #fff;
+            background: var(--surface);
+            color: var(--text);
 
-            color: var(--ak-text);
-
-            font-size: 15px;
+            font-size: 14px;
 
             transition:
                 border-color 0.15s ease,
                 box-shadow 0.15s ease;
         }
 
+        .search-input::placeholder {
+            color: var(--text-muted);
+        }
+
         .search-input:focus {
-            border-color: var(--ak-primary);
+            border-color: var(--brand);
 
             box-shadow:
-                0 0 0 3px
-                rgba(200, 16, 46, 0.1);
+                0 0 0 3px rgba(167, 25, 48, 0.08);
         }
 
-        .search-clear {
-            position: absolute;
-            top: 50%;
-            right: 12px;
+        .toolbar-count {
+            flex-shrink: 0;
 
-            width: 32px;
-            height: 32px;
+            color: var(--text-secondary);
 
-            display: none;
-            align-items: center;
-            justify-content: center;
-
-            transform: translateY(-50%);
-
-            border: 0;
-            border-radius: 6px;
-
-            background: transparent;
-
-            color: var(--ak-text-muted);
-
-            cursor: pointer;
+            font-size: 13px;
         }
 
-        .search-clear:hover {
-            background: var(--ak-bg);
-            color: var(--ak-text);
-        }
-
-        /* ==================================================
-           MAIN
-           ================================================== */
-
-        .page-content {
-            max-width: 1400px;
-
-            margin: 0 auto;
-
-            padding: 32px;
-        }
-
-        .toolbar {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-
-            gap: 16px;
-
-            margin-bottom: 28px;
-        }
-
-        .icon-count {
-            color: var(--ak-text-muted);
-
-            font-size: 14px;
-        }
-
-        .icon-count strong {
-            color: var(--ak-text);
-
+        .toolbar-count strong {
+            color: var(--text);
             font-weight: 600;
         }
 
-        /* ==================================================
+        /* =========================================================
+           TABS
+        ========================================================= */
+
+        .tabs-wrapper {
+            margin-bottom: 24px;
+
+            border-bottom: 1px solid var(--border);
+        }
+
+        .tabs {
+            display: flex;
+            align-items: stretch;
+            gap: 4px;
+
+            overflow-x: auto;
+            overflow-y: hidden;
+
+            scrollbar-width: thin;
+        }
+
+        .tabs::-webkit-scrollbar {
+            height: 4px;
+        }
+
+        .tabs::-webkit-scrollbar-thumb {
+            border-radius: 999px;
+            background: #d1d5db;
+        }
+
+        .tab {
+            position: relative;
+
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+
+            flex-shrink: 0;
+
+            min-height: 44px;
+            padding: 0 14px;
+
+            border: 0;
+
+            background: transparent;
+            color: var(--text-secondary);
+
+            font: inherit;
+            font-size: 13px;
+            font-weight: 500;
+
+            cursor: pointer;
+
+            white-space: nowrap;
+
+            transition:
+                color 0.15s ease,
+                background 0.15s ease;
+        }
+
+        .tab:hover {
+            color: var(--text);
+            background: rgba(0, 0, 0, 0.025);
+        }
+
+        .tab.is-active {
+            color: var(--brand);
+            font-weight: 600;
+        }
+
+        .tab.is-active::after {
+            content: "";
+
+            position: absolute;
+            right: 8px;
+            bottom: -1px;
+            left: 8px;
+
+            height: 2px;
+
+            border-radius: 2px 2px 0 0;
+
+            background: var(--brand);
+        }
+
+        .tab-count {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+
+            min-width: 22px;
+            height: 20px;
+
+            margin-left: 7px;
+            padding: 0 6px;
+
+            border-radius: 999px;
+
+            background: #f1f3f5;
+            color: var(--text-muted);
+
+            font-size: 11px;
+            font-weight: 600;
+        }
+
+        .tab.is-active .tab-count {
+            background: var(--brand-light);
+            color: var(--brand);
+        }
+
+        /* =========================================================
            GROUP
-           ================================================== */
+        ========================================================= */
 
         .icon-group {
-            margin-bottom: 40px;
+            margin-bottom: 36px;
         }
 
         .group-header {
             display: flex;
-            align-items: center;
-
-            gap: 10px;
+            align-items: baseline;
+            justify-content: space-between;
 
             margin-bottom: 14px;
         }
@@ -249,49 +307,47 @@
             margin: 0;
 
             font-size: 17px;
-            font-weight: 700;
+            line-height: 1.4;
+            font-weight: 650;
         }
 
         .group-count {
-            padding: 3px 8px;
-
-            border-radius: 999px;
-
-            background: #e5e7eb;
-
-            color: var(--ak-text-muted);
-
-            font-size: 11px;
-            font-weight: 600;
+            color: var(--text-muted);
+            font-size: 12px;
         }
+
+        /* =========================================================
+           GRID
+        ========================================================= */
 
         .icon-grid {
             display: grid;
 
             grid-template-columns:
-                repeat(auto-fill, minmax(180px, 1fr));
+                repeat(
+                    auto-fill,
+                    minmax(150px, 1fr)
+                );
 
             gap: 12px;
         }
 
-        /* ==================================================
+        /* =========================================================
            ICON CARD
-           ================================================== */
+        ========================================================= */
 
         .icon-card {
-            min-height: 132px;
-
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
 
-            padding: 20px 12px;
+            min-height: 142px;
+            padding: 20px 12px 16px;
 
-            border: 1px solid var(--ak-border);
-            border-radius: var(--ak-radius);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
 
-            background: var(--ak-surface);
+            background: var(--surface);
 
             cursor: pointer;
 
@@ -304,37 +360,43 @@
         }
 
         .icon-card:hover {
-            border-color: #d1d5db;
+            border-color: var(--border-hover);
 
-            box-shadow:
-                0 6px 20px
-                rgba(0, 0, 0, 0.06);
+            box-shadow: var(--shadow-md);
 
-            transform: translateY(-2px);
+            transform: translateY(-1px);
+        }
+
+        .icon-card:active {
+            transform: translateY(0);
         }
 
         .icon-preview {
-            width: 56px;
-            height: 56px;
-
             display: flex;
             align-items: center;
             justify-content: center;
 
+            width: 64px;
+            height: 64px;
+
             margin-bottom: 14px;
 
-            border-radius: 10px;
+            border-radius: var(--radius-md);
 
             background: #f8f9fa;
 
-            color: var(--ak-text);
+            color: var(--text);
 
             font-size: 30px;
+
+            transition:
+                background 0.15s ease,
+                color 0.15s ease;
         }
 
         .icon-card:hover .icon-preview {
-            background: var(--ak-primary-soft);
-            color: var(--ak-primary);
+            background: var(--brand-light);
+            color: var(--brand);
         }
 
         .icon-name {
@@ -342,9 +404,10 @@
 
             overflow: hidden;
 
-            color: var(--ak-text);
+            color: var(--text);
 
-            font-size: 13px;
+            font-size: 12px;
+            line-height: 1.5;
             font-weight: 600;
 
             text-overflow: ellipsis;
@@ -354,138 +417,187 @@
         .icon-class {
             width: 100%;
 
-            margin-top: 5px;
+            margin-top: 3px;
 
             overflow: hidden;
 
-            color: var(--ak-text-muted);
+            color: var(--text-muted);
 
             font-family:
-                ui-monospace,
-                SFMono-Regular,
-                Menlo,
-                Monaco,
+                "SFMono-Regular",
                 Consolas,
+                "Liberation Mono",
                 monospace;
 
             font-size: 10px;
+            line-height: 1.4;
 
             text-overflow: ellipsis;
             white-space: nowrap;
         }
 
-        /* ==================================================
+        /* =========================================================
            EMPTY
-           ================================================== */
+        ========================================================= */
 
-        .empty-state {
-            display: none;
+        .empty {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
 
-            padding: 80px 20px;
+            min-height: 260px;
 
-            border: 1px dashed var(--ak-border);
-            border-radius: var(--ak-radius);
+            padding: 40px;
 
-            background: #fff;
+            border: 1px dashed var(--border);
+            border-radius: var(--radius-lg);
+
+            background: var(--surface);
 
             text-align: center;
         }
 
-        .empty-state-icon {
-            margin-bottom: 16px;
+        .empty-icon {
+            margin-bottom: 14px;
 
-            color: #9ca3af;
+            color: var(--text-muted);
 
-            font-size: 40px;
+            font-size: 36px;
         }
 
-        .empty-state-title {
-            margin: 0 0 6px;
+        .empty-title {
+            margin: 0;
 
-            font-size: 16px;
+            font-size: 15px;
             font-weight: 600;
         }
 
-        .empty-state-text {
-            margin: 0;
+        .empty-description {
+            margin: 6px 0 0;
 
-            color: var(--ak-text-muted);
+            color: var(--text-secondary);
 
             font-size: 13px;
         }
 
-        /* ==================================================
-           LOADING / ERROR
-           ================================================== */
+        /* =========================================================
+           LOADING
+        ========================================================= */
 
-        .status {
-            padding: 60px 20px;
+        .loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
-            color: var(--ak-text-muted);
+            min-height: 300px;
 
-            text-align: center;
+            color: var(--text-secondary);
+
+            font-size: 14px;
         }
+
+        /* =========================================================
+           ERROR
+        ========================================================= */
 
         .error {
-            color: #b91c1c;
+            padding: 20px;
+
+            border: 1px solid #f1c4cc;
+            border-radius: var(--radius-md);
+
+            background: #fff6f7;
+
+            color: #8f1529;
+
+            font-size: 14px;
+            line-height: 1.6;
         }
 
-        /* ==================================================
+        /* =========================================================
            TOAST
-           ================================================== */
+        ========================================================= */
 
         .toast {
             position: fixed;
             right: 24px;
             bottom: 24px;
-            z-index: 200;
 
-            padding: 12px 18px;
+            z-index: 1000;
 
-            border-radius: 8px;
+            padding: 12px 16px;
+
+            border-radius: var(--radius-md);
 
             background: #111827;
-            color: #fff;
+            color: #ffffff;
 
             font-size: 13px;
+            font-weight: 500;
+
+            box-shadow:
+                0 8px 24px rgba(0, 0, 0, 0.15);
 
             opacity: 0;
-            visibility: hidden;
-
             transform: translateY(10px);
+
+            pointer-events: none;
 
             transition:
                 opacity 0.2s ease,
-                transform 0.2s ease,
-                visibility 0.2s ease;
+                transform 0.2s ease;
         }
 
         .toast.is-visible {
             opacity: 1;
-            visibility: visible;
-
             transform: translateY(0);
         }
 
-        /* ==================================================
+        /* =========================================================
            RESPONSIVE
-           ================================================== */
+        ========================================================= */
 
         @media (max-width: 768px) {
-            .page-header {
-                padding: 20px;
+            .page {
+                width: min(100% - 24px, 1440px);
+                padding-top: 24px;
             }
 
-            .page-content {
-                padding: 20px;
+            .toolbar {
+                align-items: stretch;
+                flex-direction: column;
+            }
+
+            .search {
+                max-width: none;
+            }
+
+            .toolbar-count {
+                text-align: right;
             }
 
             .icon-grid {
                 grid-template-columns:
                     repeat(
                         auto-fill,
-                        minmax(140px, 1fr)
+                        minmax(120px, 1fr)
                     );
+            }
+        }
+
+        @media (max-width: 480px) {
+            .page-title {
+                font-size: 24px;
+            }
+
+            .icon-grid {
+                grid-template-columns:
+                    repeat(2, minmax(0, 1fr));
+            }
+
+            .icon-card {
+                min-height: 132px;
             }
         }
     </style>
@@ -493,29 +605,33 @@
 
 <body>
 
-<header class="page-header">
+<div class="page">
 
-    <div class="page-header-inner">
+    <!-- =========================================================
+         HEADER
+    ========================================================== -->
 
-        <div class="brand">
+    <header class="page-header">
 
-            <div class="brand-mark">
-                AK
-            </div>
+        <h1 class="page-title">
+            Agribank UI Icons
+        </h1>
 
-            <div>
-                <h1 class="brand-title">
-                    AK UI Icons
-                </h1>
+        <p class="page-description">
+            Icon library generated from SVG sources.
+            Click an icon to copy its CSS class.
+        </p>
 
-                <p class="brand-subtitle">
-                    Icon font gallery
-                </p>
-            </div>
+    </header>
 
-        </div>
 
-        <div class="search-wrapper">
+    <!-- =========================================================
+         TOOLBAR
+    ========================================================== -->
+
+    <div class="toolbar">
+
+        <div class="search">
 
             <i
                 class="ak-icon ak-icon-system-search search-icon"
@@ -526,669 +642,136 @@
                 id="searchInput"
                 class="search-input"
                 type="search"
-                placeholder="Tìm kiếm icon..."
+                placeholder="Search icons..."
                 autocomplete="off"
-                spellcheck="false"
             >
 
-            <button
-                id="searchClear"
-                class="search-clear"
-                type="button"
-                aria-label="Xóa tìm kiếm"
-            >
-                ×
-            </button>
-
         </div>
-
-    </div>
-
-</header>
-
-<i class="ak-icon ak-icon-money-wallet-minus"></i>
-<main class="page-content">
-
-    <div class="toolbar">
 
         <div
-            id="iconCount"
-            class="icon-count"
+            id="toolbarCount"
+            class="toolbar-count"
         >
-            Đang tải...
+            Loading...
         </div>
 
     </div>
 
 
-    <div
-        id="gallery"
-    >
-        <div
-            id="loading"
-            class="status"
-        >
-            Đang tải icon...
-        </div>
-    </div>
+    <!-- =========================================================
+         TABS
+    ========================================================== -->
 
+    <div class="tabs-wrapper">
 
-    <div
-        id="emptyState"
-        class="empty-state"
-    >
-
-        <div class="empty-state-icon">
-            <i
-                class="ak-icon ak-icon-system-search"
-            ></i>
-        </div>
-
-        <h2 class="empty-state-title">
-            Không tìm thấy icon
-        </h2>
-
-        <p class="empty-state-text">
-            Thử tìm kiếm bằng tên icon, nhóm hoặc class.
-        </p>
+        <nav
+            id="tabs"
+            class="tabs"
+            aria-label="Icon groups"
+        ></nav>
 
     </div>
 
-</main>
 
+    <!-- =========================================================
+         CONTENT
+    ========================================================== -->
+
+    <main id="content">
+
+        <div class="loading">
+            Loading icons...
+        </div>
+
+    </main>
+
+</div>
+
+
+<!-- =========================================================
+     TOAST
+========================================================== -->
 
 <div
     id="toast"
     class="toast"
->
-    Đã copy class icon
-</div>
+    role="status"
+    aria-live="polite"
+></div>
 
 
 <script>
+
     const MANIFEST_URL =
         "../../dist/icons/manifest.json";
 
-    const gallery =
-        document.getElementById("gallery");
 
-    const loading =
-        document.getElementById("loading");
+    /*
+     * ---------------------------------------------------------
+     * STATE
+     * ---------------------------------------------------------
+     */
 
-    const emptyState =
-        document.getElementById("emptyState");
+    const state = {
+        icons: [],
+        groups: {},
+        activeGroup: "all",
+        search: ""
+    };
+
+
+    /*
+     * ---------------------------------------------------------
+     * ELEMENTS
+     * ---------------------------------------------------------
+     */
+
+    const tabsElement =
+        document.getElementById("tabs");
+
+    const contentElement =
+        document.getElementById("content");
 
     const searchInput =
         document.getElementById("searchInput");
 
-    const searchClear =
-        document.getElementById("searchClear");
+    const toolbarCount =
+        document.getElementById("toolbarCount");
 
-    const iconCount =
-        document.getElementById("iconCount");
-
-    const toast =
+    const toastElement =
         document.getElementById("toast");
 
 
-    let manifest = null;
+    /*
+     * ---------------------------------------------------------
+     * HELPERS
+     * ---------------------------------------------------------
+     */
 
-    let allIcons = [];
+    function escapeHtml(value) {
 
+        return String(value)
+            .replaceAll("&", "&amp;")
+            .replaceAll("<", "&lt;")
+            .replaceAll(">", "&gt;")
+            .replaceAll('"', "&quot;")
+            .replaceAll("'", "&#039;");
 
-    // ========================================================
-    // LOAD MANIFEST
-    // ========================================================
-
-    async function loadManifest() {
-        try {
-            const response =
-                await fetch(MANIFEST_URL);
-
-            if (!response.ok) {
-                throw new Error(
-                    `HTTP ${response.status}`
-                );
-            }
-
-            manifest =
-                await response.json();
-
-            if (
-                !manifest ||
-                !Array.isArray(manifest.icons)
-            ) {
-                throw new Error(
-                    "manifest.json không đúng cấu trúc."
-                );
-            }
-
-            allIcons =
-                manifest.icons;
-
-            renderGallery(
-                allIcons
-            );
-
-        } catch (error) {
-
-            console.error(
-                "Cannot load icon manifest:",
-                error
-            );
-
-            gallery.innerHTML = `
-                <div class="status error">
-                    Không thể đọc
-                    <code>dist/icons/manifest.json</code>.
-                    <br><br>
-                    ${escapeHtml(error.message)}
-                </div>
-            `;
-
-            iconCount.textContent =
-                "Không thể tải icon.";
-        }
     }
 
 
-    // ========================================================
-    // RENDER GALLERY
-    // ========================================================
+    function normalize(value) {
 
-    function renderGallery(
-        icons
-    ) {
-        gallery.innerHTML = "";
+        return String(value || "")
+            .toLowerCase()
+            .trim();
 
-        if (!icons.length) {
-            showEmpty();
-            updateCount(0);
-            return;
-        }
-
-        hideEmpty();
-
-        const groups =
-            groupIcons(icons);
-
-        const fragment =
-            document.createDocumentFragment();
-
-        Object
-            .keys(groups)
-            .sort()
-            .forEach(
-                groupName => {
-
-                    const groupIcons =
-                        groups[groupName];
-
-                    const section =
-                        createGroup(
-                            groupName,
-                            groupIcons
-                        );
-
-                    fragment.appendChild(
-                        section
-                    );
-                }
-            );
-
-        gallery.appendChild(
-            fragment
-        );
-
-        updateCount(
-            icons.length
-        );
     }
 
 
-    // ========================================================
-    // GROUP ICONS
-    // ========================================================
+    function formatGroupName(group) {
 
-    function groupIcons(
-        icons
-    ) {
-        const groups = {};
-
-        icons.forEach(
-            icon => {
-
-                const group =
-                    icon.group ||
-                    "other";
-
-                if (!groups[group]) {
-                    groups[group] = [];
-                }
-
-                groups[group].push(
-                    icon
-                );
-            }
-        );
-
-        return groups;
-    }
-
-
-    // ========================================================
-    // CREATE GROUP
-    // ========================================================
-
-    function createGroup(
-        groupName,
-        icons
-    ) {
-        const section =
-            document.createElement(
-                "section"
-            );
-
-        section.className =
-            "icon-group";
-
-        const header =
-            document.createElement(
-                "div"
-            );
-
-        header.className =
-            "group-header";
-
-        const title =
-            document.createElement(
-                "h2"
-            );
-
-        title.className =
-            "group-title";
-
-        title.textContent =
-            formatGroupName(
-                groupName
-            );
-
-        const count =
-            document.createElement(
-                "span"
-            );
-
-        count.className =
-            "group-count";
-
-        count.textContent =
-            icons.length;
-
-        header.appendChild(
-            title
-        );
-
-        header.appendChild(
-            count
-        );
-
-
-        const grid =
-            document.createElement(
-                "div"
-            );
-
-        grid.className =
-            "icon-grid";
-
-
-        icons
-            .sort(
-                (a, b) =>
-                    a.name.localeCompare(
-                        b.name
-                    )
-            )
-            .forEach(
-                icon => {
-
-                    grid.appendChild(
-                        createIconCard(
-                            icon
-                        )
-                    );
-                }
-            );
-
-
-        section.appendChild(
-            header
-        );
-
-        section.appendChild(
-            grid
-        );
-
-        return section;
-    }
-
-
-    // ========================================================
-    // CREATE ICON CARD
-    // ========================================================
-
-    function createIconCard(
-        icon
-    ) {
-        const card =
-            document.createElement(
-                "button"
-            );
-
-        card.type =
-            "button";
-
-        card.className =
-            "icon-card";
-
-        card.title =
-            `Click để copy ${icon.className}`;
-
-
-        const preview =
-            document.createElement(
-                "div"
-            );
-
-        preview.className =
-            "icon-preview";
-
-
-        const iconElement =
-            document.createElement(
-                "i"
-            );
-
-        iconElement.className =
-            `ak-icon ${icon.className}`;
-
-        iconElement.setAttribute(
-            "aria-hidden",
-            "true"
-        );
-
-
-        preview.appendChild(
-            iconElement
-        );
-
-
-        const name =
-            document.createElement(
-                "div"
-            );
-
-        name.className =
-            "icon-name";
-
-        name.textContent =
-            icon.name;
-
-
-        const className =
-            document.createElement(
-                "div"
-            );
-
-        className.className =
-            "icon-class";
-
-        className.textContent =
-            `.${icon.className}`;
-
-
-        card.appendChild(
-            preview
-        );
-
-        card.appendChild(
-            name
-        );
-
-        card.appendChild(
-            className
-        );
-
-
-        card.addEventListener(
-            "click",
-            () => {
-
-                copyToClipboard(
-                    icon.className
-                );
-
-            }
-        );
-
-
-        return card;
-    }
-
-
-    // ========================================================
-    // SEARCH
-    // ========================================================
-
-    function searchIcons(
-        keyword
-    ) {
-        const query =
-            keyword
-                .trim()
-                .toLowerCase();
-
-        if (!query) {
-            renderGallery(
-                allIcons
-            );
-
-            return;
-        }
-
-        const filtered =
-            allIcons.filter(
-                icon => {
-
-                    const name =
-                        (
-                            icon.name ||
-                            ""
-                        ).toLowerCase();
-
-                    const className =
-                        (
-                            icon.className ||
-                            ""
-                        ).toLowerCase();
-
-                    const group =
-                        (
-                            icon.group ||
-                            ""
-                        ).toLowerCase();
-
-                    const file =
-                        (
-                            icon.file ||
-                            ""
-                        ).toLowerCase();
-
-                    return (
-                        name.includes(query) ||
-                        className.includes(query) ||
-                        group.includes(query) ||
-                        file.includes(query)
-                    );
-                }
-            );
-
-        renderGallery(
-            filtered
-        );
-    }
-
-
-    // ========================================================
-    // SEARCH EVENTS
-    // ========================================================
-
-    searchInput.addEventListener(
-        "input",
-        event => {
-
-            const value =
-                event.target.value;
-
-            searchClear.style.display =
-                value
-                    ? "flex"
-                    : "none";
-
-            searchIcons(
-                value
-            );
-        }
-    );
-
-
-    searchClear.addEventListener(
-        "click",
-        () => {
-
-            searchInput.value = "";
-
-            searchClear.style.display =
-                "none";
-
-            searchInput.focus();
-
-            searchIcons("");
-        }
-    );
-
-
-    // ========================================================
-    // COPY
-    // ========================================================
-
-    async function copyToClipboard(
-        text
-    ) {
-        try {
-
-            await navigator.clipboard.writeText(
-                text
-            );
-
-            showToast(
-                `Đã copy: ${text}`
-            );
-
-        } catch (error) {
-
-            console.error(
-                "Cannot copy:",
-                error
-            );
-
-            showToast(
-                text
-            );
-        }
-    }
-
-
-    // ========================================================
-    // TOAST
-    // ========================================================
-
-    let toastTimer = null;
-
-    function showToast(
-        message
-    ) {
-        toast.textContent =
-            message;
-
-        toast.classList.add(
-            "is-visible"
-        );
-
-        clearTimeout(
-            toastTimer
-        );
-
-        toastTimer =
-            setTimeout(
-                () => {
-                    toast.classList.remove(
-                        "is-visible"
-                    );
-                },
-                1600
-            );
-    }
-
-
-    // ========================================================
-    // COUNT
-    // ========================================================
-
-    function updateCount(
-        count
-    ) {
-        const total =
-            allIcons.length;
-
-        if (count === total) {
-
-            iconCount.innerHTML =
-                `<strong>${total}</strong> icons`;
-
-            return;
-        }
-
-        iconCount.innerHTML =
-            `Hiển thị <strong>${count}</strong>
-             / ${total} icons`;
-    }
-
-
-    // ========================================================
-    // EMPTY
-    // ========================================================
-
-    function showEmpty() {
-        emptyState.style.display =
-            "block";
-    }
-
-
-    function hideEmpty() {
-        emptyState.style.display =
-            "none";
-    }
-
-
-    // ========================================================
-    // GROUP NAME
-    // ========================================================
-
-    function formatGroupName(
-        name
-    ) {
-        return name
+        return String(group)
             .split("-")
             .map(
                 word =>
@@ -1196,45 +779,771 @@
                     word.slice(1)
             )
             .join(" ");
+
     }
 
 
-    // ========================================================
-    // HTML ESCAPE
-    // ========================================================
+    function showToast(message) {
 
-    function escapeHtml(
-        value
-    ) {
-        return String(value)
-            .replace(
-                /&/g,
-                "&amp;"
-            )
-            .replace(
-                /</g,
-                "&lt;"
-            )
-            .replace(
-                />/g,
-                "&gt;"
-            )
-            .replace(
-                /"/g,
-                "&quot;"
-            )
-            .replace(
-                /'/g,
-                "&#039;"
+        toastElement.textContent = message;
+
+        toastElement.classList.add(
+            "is-visible"
+        );
+
+        clearTimeout(
+            showToast.timer
+        );
+
+        showToast.timer = setTimeout(() => {
+
+            toastElement.classList.remove(
+                "is-visible"
             );
+
+        }, 1800);
+
     }
 
 
-    // ========================================================
-    // INIT
-    // ========================================================
+    /*
+     * ---------------------------------------------------------
+     * LOAD MANIFEST
+     * ---------------------------------------------------------
+     */
+
+    async function loadManifest() {
+
+        try {
+
+            const response =
+                await fetch(MANIFEST_URL);
+
+            if (!response.ok) {
+
+                throw new Error(
+                    `HTTP ${response.status} - ${response.statusText}`
+                );
+
+            }
+
+            const manifest =
+                await response.json();
+
+            if (
+                !manifest ||
+                !Array.isArray(manifest.icons)
+            ) {
+
+                throw new Error(
+                    "manifest.json does not contain a valid icons array."
+                );
+
+            }
+
+            state.icons =
+                manifest.icons;
+
+            buildGroups();
+
+            renderTabs();
+
+            renderContent();
+
+            updateToolbarCount();
+
+        } catch (error) {
+
+            console.error(
+                "Failed to load icon manifest:",
+                error
+            );
+
+            tabsElement.innerHTML = "";
+
+            contentElement.innerHTML = `
+                <div class="error">
+                    <strong>
+                        Failed to load icon manifest.
+                    </strong>
+                    <br>
+                    ${escapeHtml(error.message)}
+                    <br><br>
+                    Make sure you are running this page
+                    through a local web server instead of
+                    opening the HTML file directly with
+                    <code>file://</code>.
+                </div>
+            `;
+
+            toolbarCount.textContent =
+                "Unable to load icons";
+
+        }
+
+    }
+
+
+    /*
+     * ---------------------------------------------------------
+     * BUILD GROUPS
+     * ---------------------------------------------------------
+     *
+     * Group is taken directly from:
+     *
+     * manifest.icons[].group
+     *
+     */
+
+    function buildGroups() {
+
+        const groups = {};
+
+        for (const icon of state.icons) {
+
+            const group =
+                icon.group || "other";
+
+            if (!groups[group]) {
+
+                groups[group] = [];
+
+            }
+
+            groups[group].push(icon);
+
+        }
+
+        /*
+         * Sort icons inside each group.
+         */
+
+        for (const group of Object.keys(groups)) {
+
+            groups[group].sort(
+                (a, b) =>
+                    String(a.name)
+                        .localeCompare(
+                            String(b.name)
+                        )
+            );
+
+        }
+
+        state.groups = groups;
+
+    }
+
+
+    /*
+     * ---------------------------------------------------------
+     * GET FILTERED ICONS
+     * ---------------------------------------------------------
+     */
+
+    function getFilteredIcons() {
+
+        let icons;
+
+        if (state.activeGroup === "all") {
+
+            icons = state.icons;
+
+        } else {
+
+            icons =
+                state.groups[state.activeGroup] || [];
+
+        }
+
+        const query =
+            normalize(state.search);
+
+        if (!query) {
+
+            return icons;
+
+        }
+
+        return icons.filter(icon => {
+
+            const searchableText = [
+                icon.name,
+                icon.className,
+                icon.group,
+                icon.file
+            ]
+                .filter(Boolean)
+                .join(" ");
+
+            return normalize(
+                searchableText
+            ).includes(query);
+
+        });
+
+    }
+
+
+    /*
+     * ---------------------------------------------------------
+     * RENDER TABS
+     * ---------------------------------------------------------
+     */
+
+    function renderTabs() {
+
+        const groupNames =
+            Object.keys(state.groups)
+                .sort(
+                    (a, b) =>
+                        a.localeCompare(b)
+                );
+
+
+        /*
+         * ALL TAB
+         */
+
+        const allTab =
+            createTab(
+                "all",
+                "All",
+                state.icons.length
+            );
+
+        tabsElement.appendChild(
+            allTab
+        );
+
+
+        /*
+         * GROUP TABS
+         */
+
+        for (const group of groupNames) {
+
+            const tab =
+                createTab(
+                    group,
+                    formatGroupName(group),
+                    state.groups[group].length
+                );
+
+            tabsElement.appendChild(
+                tab
+            );
+
+        }
+
+    }
+
+
+    /*
+     * ---------------------------------------------------------
+     * CREATE TAB
+     * ---------------------------------------------------------
+     */
+
+    function createTab(
+        group,
+        label,
+        count
+    ) {
+
+        const button =
+            document.createElement("button");
+
+        button.type = "button";
+
+        button.className =
+            "tab";
+
+        if (
+            state.activeGroup === group
+        ) {
+
+            button.classList.add(
+                "is-active"
+            );
+
+        }
+
+        button.dataset.group =
+            group;
+
+        button.innerHTML = `
+            <span>
+                ${escapeHtml(label)}
+            </span>
+
+            <span class="tab-count">
+                ${count}
+            </span>
+        `;
+
+        button.addEventListener(
+            "click",
+            () => {
+
+                state.activeGroup =
+                    group;
+
+                state.search = "";
+
+                searchInput.value = "";
+
+                updateActiveTab();
+
+                renderContent();
+
+                updateToolbarCount();
+
+            }
+        );
+
+        return button;
+
+    }
+
+
+    /*
+     * ---------------------------------------------------------
+     * UPDATE ACTIVE TAB
+     * ---------------------------------------------------------
+     */
+
+    function updateActiveTab() {
+
+        const tabs =
+            tabsElement.querySelectorAll(
+                ".tab"
+            );
+
+        tabs.forEach(tab => {
+
+            const isActive =
+                tab.dataset.group ===
+                state.activeGroup;
+
+            tab.classList.toggle(
+                "is-active",
+                isActive
+            );
+
+        });
+
+    }
+
+
+    /*
+     * ---------------------------------------------------------
+     * RENDER CONTENT
+     * ---------------------------------------------------------
+     */
+
+    function renderContent() {
+
+        const icons =
+            getFilteredIcons();
+
+
+        /*
+         * Empty state
+         */
+
+        if (!icons.length) {
+
+            contentElement.innerHTML = `
+                <div class="empty">
+
+                    <div class="empty-icon">
+                        ⌕
+                    </div>
+
+                    <h2 class="empty-title">
+                        No icons found
+                    </h2>
+
+                    <p class="empty-description">
+                        Try another search keyword.
+                    </p>
+
+                </div>
+            `;
+
+            return;
+
+        }
+
+
+        /*
+         * When searching, render a single result group.
+         */
+
+        if (state.search.trim()) {
+
+            contentElement.innerHTML = `
+                <section class="icon-group">
+
+                    <div class="group-header">
+
+                        <h2 class="group-title">
+                            Search results
+                        </h2>
+
+                        <span class="group-count">
+                            ${icons.length} icon${icons.length === 1 ? "" : "s"}
+                        </span>
+
+                    </div>
+
+                    <div class="icon-grid">
+                        ${icons
+                            .map(createIconCard)
+                            .join("")}
+                    </div>
+
+                </section>
+            `;
+
+            return;
+
+        }
+
+
+        /*
+         * ALL TAB
+         *
+         * Render each group separately.
+         */
+
+        if (state.activeGroup === "all") {
+
+            const groupNames =
+                Object.keys(state.groups)
+                    .sort(
+                        (a, b) =>
+                            a.localeCompare(b)
+                    );
+
+
+            contentElement.innerHTML =
+                groupNames
+                    .map(group => {
+
+                        const icons =
+                            state.groups[group];
+
+                        return createGroup(
+                            group,
+                            icons
+                        );
+
+                    })
+                    .join("");
+
+            return;
+
+        }
+
+
+        /*
+         * SINGLE GROUP TAB
+         */
+
+        const group =
+            state.activeGroup;
+
+        const groupIcons =
+            state.groups[group] || [];
+
+
+        contentElement.innerHTML =
+            createGroup(
+                group,
+                groupIcons
+            );
+
+    }
+
+
+    /*
+     * ---------------------------------------------------------
+     * CREATE GROUP
+     * ---------------------------------------------------------
+     */
+
+    function createGroup(
+        group,
+        icons
+    ) {
+
+        return `
+            <section class="icon-group">
+
+                <div class="group-header">
+
+                    <h2 class="group-title">
+                        ${escapeHtml(
+                            formatGroupName(group)
+                        )}
+                    </h2>
+
+                    <span class="group-count">
+                        ${icons.length}
+                        icon${icons.length === 1 ? "" : "s"}
+                    </span>
+
+                </div>
+
+                <div class="icon-grid">
+                    ${icons
+                        .map(createIconCard)
+                        .join("")}
+                </div>
+
+            </section>
+        `;
+
+    }
+
+
+    /*
+     * ---------------------------------------------------------
+     * CREATE ICON CARD
+     * ---------------------------------------------------------
+     */
+
+    function createIconCard(icon) {
+
+        const className =
+            icon.className ||
+            `ak-icon-${icon.name}`;
+
+
+        return `
+            <button
+                type="button"
+                class="icon-card"
+                data-icon-class="${escapeHtml(className)}"
+                title="Click to copy ${escapeHtml(className)}"
+            >
+
+                <span class="icon-preview">
+
+                    <i
+                        class="ak-icon ${escapeHtml(className)}"
+                        aria-hidden="true"
+                    ></i>
+
+                </span>
+
+                <span class="icon-name">
+                    ${escapeHtml(icon.name)}
+                </span>
+
+                <span class="icon-class">
+                    .${escapeHtml(className)}
+                </span>
+
+            </button>
+        `;
+
+    }
+
+
+    /*
+     * ---------------------------------------------------------
+     * COPY ICON CLASS
+     * ---------------------------------------------------------
+     */
+
+    async function copyIconClass(className) {
+
+        try {
+
+            await navigator.clipboard.writeText(
+                className
+            );
+
+            showToast(
+                `Copied: .${className}`
+            );
+
+        } catch (error) {
+
+            /*
+             * Fallback for browsers where
+             * Clipboard API is unavailable.
+             */
+
+            const textarea =
+                document.createElement("textarea");
+
+            textarea.value =
+                className;
+
+            textarea.style.position =
+                "fixed";
+
+            textarea.style.opacity =
+                "0";
+
+            document.body.appendChild(
+                textarea
+            );
+
+            textarea.select();
+
+            document.execCommand(
+                "copy"
+            );
+
+            textarea.remove();
+
+            showToast(
+                `Copied: .${className}`
+            );
+
+        }
+
+    }
+
+
+    /*
+     * ---------------------------------------------------------
+     * CARD CLICK
+     * ---------------------------------------------------------
+     */
+
+    contentElement.addEventListener(
+        "click",
+        event => {
+
+            const card =
+                event.target.closest(
+                    ".icon-card"
+                );
+
+            if (!card) {
+
+                return;
+
+            }
+
+            const className =
+                card.dataset.iconClass;
+
+            if (!className) {
+
+                return;
+
+            }
+
+            copyIconClass(
+                className
+            );
+
+        }
+    );
+
+
+    /*
+     * ---------------------------------------------------------
+     * SEARCH
+     * ---------------------------------------------------------
+     */
+
+    searchInput.addEventListener(
+        "input",
+        event => {
+
+            state.search =
+                event.target.value;
+
+            renderContent();
+
+            updateToolbarCount();
+
+        }
+    );
+
+
+    /*
+     * ---------------------------------------------------------
+     * TOOLBAR COUNT
+     * ---------------------------------------------------------
+     */
+
+    function updateToolbarCount() {
+
+        const icons =
+            getFilteredIcons();
+
+        const total =
+            state.icons.length;
+
+        const current =
+            icons.length;
+
+
+        if (state.search.trim()) {
+
+            toolbarCount.innerHTML = `
+                <strong>
+                    ${current}
+                </strong>
+                of
+                <strong>
+                    ${total}
+                </strong>
+                icons
+            `;
+
+            return;
+
+        }
+
+
+        if (state.activeGroup === "all") {
+
+            toolbarCount.innerHTML = `
+                <strong>
+                    ${total}
+                </strong>
+                icons
+            `;
+
+            return;
+
+        }
+
+
+        const groupTotal =
+            state.groups[
+                state.activeGroup
+            ]?.length || 0;
+
+
+        toolbarCount.innerHTML = `
+            <strong>
+                ${groupTotal}
+            </strong>
+            icons
+        `;
+
+    }
+
+
+    /*
+     * ---------------------------------------------------------
+     * START
+     * ---------------------------------------------------------
+     */
 
     loadManifest();
+
 </script>
 
 </body>

@@ -3,8 +3,166 @@
   "family": "ak-icons",
   "version": "0.1.0",
   "format": "woff2",
-  "count": 159,
+  "count": 342,
   "groups": {
+    "astrology": [
+      "astrology-aquarius",
+      "astrology-gemini-2",
+      "astrology-gemini",
+      "astrology-man",
+      "astrology-sagittarius",
+      "astrology-woman"
+    ],
+    "building": [
+      "building-bank",
+      "building-building-3",
+      "building-building-4",
+      "building-building",
+      "building-buildings-2",
+      "building-buildings",
+      "building-buliding",
+      "building-courthouse",
+      "building-gemini",
+      "building-hospital",
+      "building-house-2",
+      "building-house"
+    ],
+    "business": [
+      "business-activity",
+      "business-chart-1",
+      "business-chart-2",
+      "business-chart-21",
+      "business-chart-fail",
+      "business-chart-success",
+      "business-chart",
+      "business-diagram",
+      "business-favorite-chart",
+      "business-graph",
+      "business-hashtag",
+      "business-health",
+      "business-home-hashtag",
+      "business-home-trend-down",
+      "business-home-trend-up",
+      "business-personalcard",
+      "business-presention-chart",
+      "business-status-up",
+      "business-trend-down",
+      "business-trend-up"
+    ],
+    "call": [
+      "call-call-add",
+      "call-call-calling",
+      "call-call-incoming",
+      "call-call-minus",
+      "call-call-outgoing",
+      "call-call-received",
+      "call-call-remove",
+      "call-call-slash",
+      "call-call"
+    ],
+    "crypto": [
+      "crypto-aave-aave",
+      "crypto-android",
+      "crypto-ankr-ankr",
+      "crypto-apple",
+      "crypto-augur-rep",
+      "crypto-autonio-niox",
+      "crypto-avalanche-avax",
+      "crypto-be",
+      "crypto-binance-coin-bnb",
+      "crypto-binance-usd-busd",
+      "crypto-bitcoin-btc",
+      "crypto-blogger",
+      "crypto-bootstrap",
+      "crypto-cardano-ada",
+      "crypto-celo-celo",
+      "crypto-celsius-cel",
+      "crypto-chainlink-link",
+      "crypto-civic-cvc",
+      "crypto-dai-dai",
+      "crypto-dash-dash",
+      "crypto-decred-dcr",
+      "crypto-dent-dent",
+      "crypto-dribbble",
+      "crypto-dropbox",
+      "crypto-educare-ekt",
+      "crypto-emercoin-emc",
+      "crypto-enjin-coin-enj",
+      "crypto-eos-eos",
+      "crypto-ethereum-eth",
+      "crypto-ethereum-classic-etc",
+      "crypto-facebook",
+      "crypto-figma-1",
+      "crypto-figma",
+      "crypto-framer",
+      "crypto-ftx-token-ftt",
+      "crypto-google-drive",
+      "crypto-google-paly",
+      "crypto-google",
+      "crypto-harmony-one",
+      "crypto-hedera-hashgraph-hbar",
+      "crypto-hex-hex",
+      "crypto-html-3",
+      "crypto-html-5",
+      "crypto-huobi-token-ht",
+      "crypto-icon-icx",
+      "crypto-icon-1",
+      "crypto-icon",
+      "crypto-illustrator",
+      "crypto-iost-iost",
+      "crypto-java-script",
+      "crypto-js",
+      "crypto-kyber-network-knc",
+      "crypto-litecoin-ltc",
+      "crypto-maker-mkr",
+      "crypto-messenger",
+      "crypto-monero-xmr",
+      "crypto-nebulas-nas",
+      "crypto-nem-xem",
+      "crypto-nexo-nexo",
+      "crypto-ocean-protocol-ocean",
+      "crypto-okb-okb",
+      "crypto-ontology-ont",
+      "crypto-paypal",
+      "crypto-photoshop",
+      "crypto-polkadot-dot",
+      "crypto-polygon-matic",
+      "crypto-polyswarm-nct",
+      "crypto-python",
+      "crypto-quant-qnt",
+      "crypto-siacoin-sc",
+      "crypto-slack",
+      "crypto-snapchat",
+      "crypto-solana-sol",
+      "crypto-spotify",
+      "crypto-stacks-stx",
+      "crypto-stellar-xlm",
+      "crypto-tenx-pay",
+      "crypto-tether-usdt",
+      "crypto-the-graph-grt",
+      "crypto-theta-theta",
+      "crypto-thorchain-rune",
+      "crypto-trello",
+      "crypto-triangle",
+      "crypto-trontron-trx",
+      "crypto-twitch",
+      "crypto-ui8",
+      "crypto-usd-coin-usdc",
+      "crypto-velas-vlx",
+      "crypto-vibe-vibe",
+      "crypto-vuesax",
+      "crypto-wanchain-wan-1",
+      "crypto-wanchain-wan",
+      "crypto-whatsapp",
+      "crypto-windows",
+      "crypto-wing-wing",
+      "crypto-xd",
+      "crypto-xiaomi",
+      "crypto-xrp-xrp",
+      "crypto-youtube",
+      "crypto-zel-zel",
+      "crypto-zoom"
+    ],
     "money": [
       "money-archive",
       "money-card-add",
@@ -84,6 +242,43 @@
       "money-wallet-remove",
       "money-wallet-search",
       "money-wallet"
+    ],
+    "paragraph": [
+      "paragraph-attach-circle",
+      "paragraph-attach-square",
+      "paragraph-eraser",
+      "paragraph-firstline",
+      "paragraph-language-circle",
+      "paragraph-language-square",
+      "paragraph-link-1",
+      "paragraph-link-2",
+      "paragraph-link-21",
+      "paragraph-link-circle",
+      "paragraph-link-square",
+      "paragraph-link",
+      "paragraph-maximize",
+      "paragraph-paperclip-2",
+      "paragraph-paperclip",
+      "paragraph-pharagraphspacing",
+      "paragraph-quote-down-circle",
+      "paragraph-quote-down-square",
+      "paragraph-quote-down",
+      "paragraph-quote-up-circle",
+      "paragraph-quote-up-square",
+      "paragraph-quote-up",
+      "paragraph-smallcaps",
+      "paragraph-text-block",
+      "paragraph-text-bold",
+      "paragraph-text-italic",
+      "paragraph-text-underline",
+      "paragraph-text",
+      "paragraph-textalign-center",
+      "paragraph-textalign-justifycenter",
+      "paragraph-textalign-justifyleft",
+      "paragraph-textalign-justifyright",
+      "paragraph-textalign-left",
+      "paragraph-textalign-right",
+      "paragraph-translate"
     ],
     "video": [
       "video-audio-square",
@@ -170,6 +365,1042 @@
     ]
   },
   "icons": [
+    {
+      "name": "astrology-aquarius",
+      "group": "astrology",
+      "className": "ak-icon-astrology-aquarius",
+      "unicode": "E1A3",
+      "file": "astrology/aquarius.svg"
+    },
+    {
+      "name": "astrology-gemini-2",
+      "group": "astrology",
+      "className": "ak-icon-astrology-gemini-2",
+      "unicode": "E1A5",
+      "file": "astrology/gemini-2.svg"
+    },
+    {
+      "name": "astrology-gemini",
+      "group": "astrology",
+      "className": "ak-icon-astrology-gemini",
+      "unicode": "E1A4",
+      "file": "astrology/gemini.svg"
+    },
+    {
+      "name": "astrology-man",
+      "group": "astrology",
+      "className": "ak-icon-astrology-man",
+      "unicode": "E1A6",
+      "file": "astrology/man.svg"
+    },
+    {
+      "name": "astrology-sagittarius",
+      "group": "astrology",
+      "className": "ak-icon-astrology-sagittarius",
+      "unicode": "E1A7",
+      "file": "astrology/sagittarius.svg"
+    },
+    {
+      "name": "astrology-woman",
+      "group": "astrology",
+      "className": "ak-icon-astrology-woman",
+      "unicode": "E1A8",
+      "file": "astrology/woman.svg"
+    },
+    {
+      "name": "building-bank",
+      "group": "building",
+      "className": "ak-icon-building-bank",
+      "unicode": "E1A9",
+      "file": "building/bank.svg"
+    },
+    {
+      "name": "building-building-3",
+      "group": "building",
+      "className": "ak-icon-building-building-3",
+      "unicode": "E1AB",
+      "file": "building/building-3.svg"
+    },
+    {
+      "name": "building-building-4",
+      "group": "building",
+      "className": "ak-icon-building-building-4",
+      "unicode": "E1AC",
+      "file": "building/building-4.svg"
+    },
+    {
+      "name": "building-building",
+      "group": "building",
+      "className": "ak-icon-building-building",
+      "unicode": "E1AA",
+      "file": "building/building.svg"
+    },
+    {
+      "name": "building-buildings-2",
+      "group": "building",
+      "className": "ak-icon-building-buildings-2",
+      "unicode": "E1AE",
+      "file": "building/buildings-2.svg"
+    },
+    {
+      "name": "building-buildings",
+      "group": "building",
+      "className": "ak-icon-building-buildings",
+      "unicode": "E1AD",
+      "file": "building/buildings.svg"
+    },
+    {
+      "name": "building-buliding",
+      "group": "building",
+      "className": "ak-icon-building-buliding",
+      "unicode": "E1AF",
+      "file": "building/buliding.svg"
+    },
+    {
+      "name": "building-courthouse",
+      "group": "building",
+      "className": "ak-icon-building-courthouse",
+      "unicode": "E1B0",
+      "file": "building/courthouse.svg"
+    },
+    {
+      "name": "building-gemini",
+      "group": "building",
+      "className": "ak-icon-building-gemini",
+      "unicode": "E1B1",
+      "file": "building/gemini.svg"
+    },
+    {
+      "name": "building-hospital",
+      "group": "building",
+      "className": "ak-icon-building-hospital",
+      "unicode": "E1B2",
+      "file": "building/hospital.svg"
+    },
+    {
+      "name": "building-house-2",
+      "group": "building",
+      "className": "ak-icon-building-house-2",
+      "unicode": "E1B4",
+      "file": "building/house-2.svg"
+    },
+    {
+      "name": "building-house",
+      "group": "building",
+      "className": "ak-icon-building-house",
+      "unicode": "E1B3",
+      "file": "building/house.svg"
+    },
+    {
+      "name": "business-activity",
+      "group": "business",
+      "className": "ak-icon-business-activity",
+      "unicode": "E1B5",
+      "file": "business/activity.svg"
+    },
+    {
+      "name": "business-chart-1",
+      "group": "business",
+      "className": "ak-icon-business-chart-1",
+      "unicode": "E1B7",
+      "file": "business/chart-1.svg"
+    },
+    {
+      "name": "business-chart-2",
+      "group": "business",
+      "className": "ak-icon-business-chart-2",
+      "unicode": "E1B8",
+      "file": "business/chart-2.svg"
+    },
+    {
+      "name": "business-chart-21",
+      "group": "business",
+      "className": "ak-icon-business-chart-21",
+      "unicode": "E1B9",
+      "file": "business/chart-21.svg"
+    },
+    {
+      "name": "business-chart-fail",
+      "group": "business",
+      "className": "ak-icon-business-chart-fail",
+      "unicode": "E1BA",
+      "file": "business/chart-fail.svg"
+    },
+    {
+      "name": "business-chart-success",
+      "group": "business",
+      "className": "ak-icon-business-chart-success",
+      "unicode": "E1BB",
+      "file": "business/chart-success.svg"
+    },
+    {
+      "name": "business-chart",
+      "group": "business",
+      "className": "ak-icon-business-chart",
+      "unicode": "E1B6",
+      "file": "business/chart.svg"
+    },
+    {
+      "name": "business-diagram",
+      "group": "business",
+      "className": "ak-icon-business-diagram",
+      "unicode": "E1BC",
+      "file": "business/diagram.svg"
+    },
+    {
+      "name": "business-favorite-chart",
+      "group": "business",
+      "className": "ak-icon-business-favorite-chart",
+      "unicode": "E1BD",
+      "file": "business/favorite-chart.svg"
+    },
+    {
+      "name": "business-graph",
+      "group": "business",
+      "className": "ak-icon-business-graph",
+      "unicode": "E1BE",
+      "file": "business/graph.svg"
+    },
+    {
+      "name": "business-hashtag",
+      "group": "business",
+      "className": "ak-icon-business-hashtag",
+      "unicode": "E1BF",
+      "file": "business/hashtag.svg"
+    },
+    {
+      "name": "business-health",
+      "group": "business",
+      "className": "ak-icon-business-health",
+      "unicode": "E1C0",
+      "file": "business/health.svg"
+    },
+    {
+      "name": "business-home-hashtag",
+      "group": "business",
+      "className": "ak-icon-business-home-hashtag",
+      "unicode": "E1C1",
+      "file": "business/home-hashtag.svg"
+    },
+    {
+      "name": "business-home-trend-down",
+      "group": "business",
+      "className": "ak-icon-business-home-trend-down",
+      "unicode": "E1C2",
+      "file": "business/home-trend-down.svg"
+    },
+    {
+      "name": "business-home-trend-up",
+      "group": "business",
+      "className": "ak-icon-business-home-trend-up",
+      "unicode": "E1C3",
+      "file": "business/home-trend-up.svg"
+    },
+    {
+      "name": "business-personalcard",
+      "group": "business",
+      "className": "ak-icon-business-personalcard",
+      "unicode": "E1C4",
+      "file": "business/personalcard.svg"
+    },
+    {
+      "name": "business-presention-chart",
+      "group": "business",
+      "className": "ak-icon-business-presention-chart",
+      "unicode": "E1C5",
+      "file": "business/presention-chart.svg"
+    },
+    {
+      "name": "business-status-up",
+      "group": "business",
+      "className": "ak-icon-business-status-up",
+      "unicode": "E1C6",
+      "file": "business/status-up.svg"
+    },
+    {
+      "name": "business-trend-down",
+      "group": "business",
+      "className": "ak-icon-business-trend-down",
+      "unicode": "E1C7",
+      "file": "business/trend-down.svg"
+    },
+    {
+      "name": "business-trend-up",
+      "group": "business",
+      "className": "ak-icon-business-trend-up",
+      "unicode": "E1C8",
+      "file": "business/trend-up.svg"
+    },
+    {
+      "name": "call-call-add",
+      "group": "call",
+      "className": "ak-icon-call-call-add",
+      "unicode": "E1CA",
+      "file": "call/call-add.svg"
+    },
+    {
+      "name": "call-call-calling",
+      "group": "call",
+      "className": "ak-icon-call-call-calling",
+      "unicode": "E1CB",
+      "file": "call/call-calling.svg"
+    },
+    {
+      "name": "call-call-incoming",
+      "group": "call",
+      "className": "ak-icon-call-call-incoming",
+      "unicode": "E1CC",
+      "file": "call/call-incoming.svg"
+    },
+    {
+      "name": "call-call-minus",
+      "group": "call",
+      "className": "ak-icon-call-call-minus",
+      "unicode": "E1CD",
+      "file": "call/call-minus.svg"
+    },
+    {
+      "name": "call-call-outgoing",
+      "group": "call",
+      "className": "ak-icon-call-call-outgoing",
+      "unicode": "E1CE",
+      "file": "call/call-outgoing.svg"
+    },
+    {
+      "name": "call-call-received",
+      "group": "call",
+      "className": "ak-icon-call-call-received",
+      "unicode": "E1CF",
+      "file": "call/call-received.svg"
+    },
+    {
+      "name": "call-call-remove",
+      "group": "call",
+      "className": "ak-icon-call-call-remove",
+      "unicode": "E1D0",
+      "file": "call/call-remove.svg"
+    },
+    {
+      "name": "call-call-slash",
+      "group": "call",
+      "className": "ak-icon-call-call-slash",
+      "unicode": "E1D1",
+      "file": "call/call-slash.svg"
+    },
+    {
+      "name": "call-call",
+      "group": "call",
+      "className": "ak-icon-call-call",
+      "unicode": "E1C9",
+      "file": "call/call.svg"
+    },
+    {
+      "name": "crypto-aave-aave",
+      "group": "crypto",
+      "className": "ak-icon-crypto-aave-aave",
+      "unicode": "E13E",
+      "file": "crypto/aave-(aave).svg"
+    },
+    {
+      "name": "crypto-android",
+      "group": "crypto",
+      "className": "ak-icon-crypto-android",
+      "unicode": "E13F",
+      "file": "crypto/android.svg"
+    },
+    {
+      "name": "crypto-ankr-ankr",
+      "group": "crypto",
+      "className": "ak-icon-crypto-ankr-ankr",
+      "unicode": "E140",
+      "file": "crypto/ankr-(ankr).svg"
+    },
+    {
+      "name": "crypto-apple",
+      "group": "crypto",
+      "className": "ak-icon-crypto-apple",
+      "unicode": "E141",
+      "file": "crypto/apple.svg"
+    },
+    {
+      "name": "crypto-augur-rep",
+      "group": "crypto",
+      "className": "ak-icon-crypto-augur-rep",
+      "unicode": "E142",
+      "file": "crypto/augur-(rep).svg"
+    },
+    {
+      "name": "crypto-autonio-niox",
+      "group": "crypto",
+      "className": "ak-icon-crypto-autonio-niox",
+      "unicode": "E143",
+      "file": "crypto/autonio-(niox).svg"
+    },
+    {
+      "name": "crypto-avalanche-avax",
+      "group": "crypto",
+      "className": "ak-icon-crypto-avalanche-avax",
+      "unicode": "E144",
+      "file": "crypto/avalanche-(avax).svg"
+    },
+    {
+      "name": "crypto-be",
+      "group": "crypto",
+      "className": "ak-icon-crypto-be",
+      "unicode": "E145",
+      "file": "crypto/be.svg"
+    },
+    {
+      "name": "crypto-binance-coin-bnb",
+      "group": "crypto",
+      "className": "ak-icon-crypto-binance-coin-bnb",
+      "unicode": "E146",
+      "file": "crypto/binance-coin-(bnb).svg"
+    },
+    {
+      "name": "crypto-binance-usd-busd",
+      "group": "crypto",
+      "className": "ak-icon-crypto-binance-usd-busd",
+      "unicode": "E147",
+      "file": "crypto/binance-usd-(busd).svg"
+    },
+    {
+      "name": "crypto-bitcoin-btc",
+      "group": "crypto",
+      "className": "ak-icon-crypto-bitcoin-btc",
+      "unicode": "E148",
+      "file": "crypto/bitcoin-(btc).svg"
+    },
+    {
+      "name": "crypto-blogger",
+      "group": "crypto",
+      "className": "ak-icon-crypto-blogger",
+      "unicode": "E149",
+      "file": "crypto/blogger.svg"
+    },
+    {
+      "name": "crypto-bootstrap",
+      "group": "crypto",
+      "className": "ak-icon-crypto-bootstrap",
+      "unicode": "E14A",
+      "file": "crypto/bootstrap.svg"
+    },
+    {
+      "name": "crypto-cardano-ada",
+      "group": "crypto",
+      "className": "ak-icon-crypto-cardano-ada",
+      "unicode": "E14B",
+      "file": "crypto/cardano-(ada).svg"
+    },
+    {
+      "name": "crypto-celo-celo",
+      "group": "crypto",
+      "className": "ak-icon-crypto-celo-celo",
+      "unicode": "E14C",
+      "file": "crypto/celo-(celo).svg"
+    },
+    {
+      "name": "crypto-celsius-cel",
+      "group": "crypto",
+      "className": "ak-icon-crypto-celsius-cel",
+      "unicode": "E14D",
+      "file": "crypto/celsius-(cel)-.svg"
+    },
+    {
+      "name": "crypto-chainlink-link",
+      "group": "crypto",
+      "className": "ak-icon-crypto-chainlink-link",
+      "unicode": "E14E",
+      "file": "crypto/chainlink-(link).svg"
+    },
+    {
+      "name": "crypto-civic-cvc",
+      "group": "crypto",
+      "className": "ak-icon-crypto-civic-cvc",
+      "unicode": "E14F",
+      "file": "crypto/civic-(cvc).svg"
+    },
+    {
+      "name": "crypto-dai-dai",
+      "group": "crypto",
+      "className": "ak-icon-crypto-dai-dai",
+      "unicode": "E150",
+      "file": "crypto/dai-(dai).svg"
+    },
+    {
+      "name": "crypto-dash-dash",
+      "group": "crypto",
+      "className": "ak-icon-crypto-dash-dash",
+      "unicode": "E151",
+      "file": "crypto/dash-(dash).svg"
+    },
+    {
+      "name": "crypto-decred-dcr",
+      "group": "crypto",
+      "className": "ak-icon-crypto-decred-dcr",
+      "unicode": "E152",
+      "file": "crypto/decred-(dcr).svg"
+    },
+    {
+      "name": "crypto-dent-dent",
+      "group": "crypto",
+      "className": "ak-icon-crypto-dent-dent",
+      "unicode": "E153",
+      "file": "crypto/dent-(dent).svg"
+    },
+    {
+      "name": "crypto-dribbble",
+      "group": "crypto",
+      "className": "ak-icon-crypto-dribbble",
+      "unicode": "E154",
+      "file": "crypto/dribbble.svg"
+    },
+    {
+      "name": "crypto-dropbox",
+      "group": "crypto",
+      "className": "ak-icon-crypto-dropbox",
+      "unicode": "E155",
+      "file": "crypto/dropbox.svg"
+    },
+    {
+      "name": "crypto-educare-ekt",
+      "group": "crypto",
+      "className": "ak-icon-crypto-educare-ekt",
+      "unicode": "E156",
+      "file": "crypto/educare-(ekt).svg"
+    },
+    {
+      "name": "crypto-emercoin-emc",
+      "group": "crypto",
+      "className": "ak-icon-crypto-emercoin-emc",
+      "unicode": "E157",
+      "file": "crypto/emercoin-(emc).svg"
+    },
+    {
+      "name": "crypto-enjin-coin-enj",
+      "group": "crypto",
+      "className": "ak-icon-crypto-enjin-coin-enj",
+      "unicode": "E158",
+      "file": "crypto/enjin-coin-(enj).svg"
+    },
+    {
+      "name": "crypto-eos-eos",
+      "group": "crypto",
+      "className": "ak-icon-crypto-eos-eos",
+      "unicode": "E159",
+      "file": "crypto/eos-(eos).svg"
+    },
+    {
+      "name": "crypto-ethereum-eth",
+      "group": "crypto",
+      "className": "ak-icon-crypto-ethereum-eth",
+      "unicode": "E15B",
+      "file": "crypto/ethereum-(eth).svg"
+    },
+    {
+      "name": "crypto-ethereum-classic-etc",
+      "group": "crypto",
+      "className": "ak-icon-crypto-ethereum-classic-etc",
+      "unicode": "E15A",
+      "file": "crypto/ethereum-classic-(etc).svg"
+    },
+    {
+      "name": "crypto-facebook",
+      "group": "crypto",
+      "className": "ak-icon-crypto-facebook",
+      "unicode": "E15C",
+      "file": "crypto/facebook.svg"
+    },
+    {
+      "name": "crypto-figma-1",
+      "group": "crypto",
+      "className": "ak-icon-crypto-figma-1",
+      "unicode": "E15E",
+      "file": "crypto/figma-1.svg"
+    },
+    {
+      "name": "crypto-figma",
+      "group": "crypto",
+      "className": "ak-icon-crypto-figma",
+      "unicode": "E15D",
+      "file": "crypto/figma.svg"
+    },
+    {
+      "name": "crypto-framer",
+      "group": "crypto",
+      "className": "ak-icon-crypto-framer",
+      "unicode": "E15F",
+      "file": "crypto/framer.svg"
+    },
+    {
+      "name": "crypto-ftx-token-ftt",
+      "group": "crypto",
+      "className": "ak-icon-crypto-ftx-token-ftt",
+      "unicode": "E160",
+      "file": "crypto/ftx-token-(ftt).svg"
+    },
+    {
+      "name": "crypto-google-drive",
+      "group": "crypto",
+      "className": "ak-icon-crypto-google-drive",
+      "unicode": "E162",
+      "file": "crypto/google-drive.svg"
+    },
+    {
+      "name": "crypto-google-paly",
+      "group": "crypto",
+      "className": "ak-icon-crypto-google-paly",
+      "unicode": "E163",
+      "file": "crypto/google-paly.svg"
+    },
+    {
+      "name": "crypto-google",
+      "group": "crypto",
+      "className": "ak-icon-crypto-google",
+      "unicode": "E161",
+      "file": "crypto/google.svg"
+    },
+    {
+      "name": "crypto-harmony-one",
+      "group": "crypto",
+      "className": "ak-icon-crypto-harmony-one",
+      "unicode": "E164",
+      "file": "crypto/harmony-(one).svg"
+    },
+    {
+      "name": "crypto-hedera-hashgraph-hbar",
+      "group": "crypto",
+      "className": "ak-icon-crypto-hedera-hashgraph-hbar",
+      "unicode": "E165",
+      "file": "crypto/hedera-hashgraph-(hbar).svg"
+    },
+    {
+      "name": "crypto-hex-hex",
+      "group": "crypto",
+      "className": "ak-icon-crypto-hex-hex",
+      "unicode": "E166",
+      "file": "crypto/hex-(hex).svg"
+    },
+    {
+      "name": "crypto-html-3",
+      "group": "crypto",
+      "className": "ak-icon-crypto-html-3",
+      "unicode": "E167",
+      "file": "crypto/html-3.svg"
+    },
+    {
+      "name": "crypto-html-5",
+      "group": "crypto",
+      "className": "ak-icon-crypto-html-5",
+      "unicode": "E168",
+      "file": "crypto/html-5.svg"
+    },
+    {
+      "name": "crypto-huobi-token-ht",
+      "group": "crypto",
+      "className": "ak-icon-crypto-huobi-token-ht",
+      "unicode": "E169",
+      "file": "crypto/huobi-token-(ht).svg"
+    },
+    {
+      "name": "crypto-icon-icx",
+      "group": "crypto",
+      "className": "ak-icon-crypto-icon-icx",
+      "unicode": "E16C",
+      "file": "crypto/icon-(icx).svg"
+    },
+    {
+      "name": "crypto-icon-1",
+      "group": "crypto",
+      "className": "ak-icon-crypto-icon-1",
+      "unicode": "E16B",
+      "file": "crypto/icon-1.svg"
+    },
+    {
+      "name": "crypto-icon",
+      "group": "crypto",
+      "className": "ak-icon-crypto-icon",
+      "unicode": "E16A",
+      "file": "crypto/icon.svg"
+    },
+    {
+      "name": "crypto-illustrator",
+      "group": "crypto",
+      "className": "ak-icon-crypto-illustrator",
+      "unicode": "E16D",
+      "file": "crypto/illustrator.svg"
+    },
+    {
+      "name": "crypto-iost-iost",
+      "group": "crypto",
+      "className": "ak-icon-crypto-iost-iost",
+      "unicode": "E16E",
+      "file": "crypto/iost-(iost).svg"
+    },
+    {
+      "name": "crypto-java-script",
+      "group": "crypto",
+      "className": "ak-icon-crypto-java-script",
+      "unicode": "E16F",
+      "file": "crypto/java-script.svg"
+    },
+    {
+      "name": "crypto-js",
+      "group": "crypto",
+      "className": "ak-icon-crypto-js",
+      "unicode": "E170",
+      "file": "crypto/js.svg"
+    },
+    {
+      "name": "crypto-kyber-network-knc",
+      "group": "crypto",
+      "className": "ak-icon-crypto-kyber-network-knc",
+      "unicode": "E171",
+      "file": "crypto/kyber-network-(knc).svg"
+    },
+    {
+      "name": "crypto-litecoin-ltc",
+      "group": "crypto",
+      "className": "ak-icon-crypto-litecoin-ltc",
+      "unicode": "E172",
+      "file": "crypto/litecoin(ltc).svg"
+    },
+    {
+      "name": "crypto-maker-mkr",
+      "group": "crypto",
+      "className": "ak-icon-crypto-maker-mkr",
+      "unicode": "E173",
+      "file": "crypto/maker-(mkr).svg"
+    },
+    {
+      "name": "crypto-messenger",
+      "group": "crypto",
+      "className": "ak-icon-crypto-messenger",
+      "unicode": "E174",
+      "file": "crypto/messenger.svg"
+    },
+    {
+      "name": "crypto-monero-xmr",
+      "group": "crypto",
+      "className": "ak-icon-crypto-monero-xmr",
+      "unicode": "E175",
+      "file": "crypto/monero-(xmr).svg"
+    },
+    {
+      "name": "crypto-nebulas-nas",
+      "group": "crypto",
+      "className": "ak-icon-crypto-nebulas-nas",
+      "unicode": "E176",
+      "file": "crypto/nebulas-(nas).svg"
+    },
+    {
+      "name": "crypto-nem-xem",
+      "group": "crypto",
+      "className": "ak-icon-crypto-nem-xem",
+      "unicode": "E177",
+      "file": "crypto/nem-(xem).svg"
+    },
+    {
+      "name": "crypto-nexo-nexo",
+      "group": "crypto",
+      "className": "ak-icon-crypto-nexo-nexo",
+      "unicode": "E178",
+      "file": "crypto/nexo-(nexo).svg"
+    },
+    {
+      "name": "crypto-ocean-protocol-ocean",
+      "group": "crypto",
+      "className": "ak-icon-crypto-ocean-protocol-ocean",
+      "unicode": "E179",
+      "file": "crypto/ocean-protocol-(ocean).svg"
+    },
+    {
+      "name": "crypto-okb-okb",
+      "group": "crypto",
+      "className": "ak-icon-crypto-okb-okb",
+      "unicode": "E17A",
+      "file": "crypto/okb-(okb).svg"
+    },
+    {
+      "name": "crypto-ontology-ont",
+      "group": "crypto",
+      "className": "ak-icon-crypto-ontology-ont",
+      "unicode": "E17B",
+      "file": "crypto/ontology-(ont).svg"
+    },
+    {
+      "name": "crypto-paypal",
+      "group": "crypto",
+      "className": "ak-icon-crypto-paypal",
+      "unicode": "E17C",
+      "file": "crypto/paypal.svg"
+    },
+    {
+      "name": "crypto-photoshop",
+      "group": "crypto",
+      "className": "ak-icon-crypto-photoshop",
+      "unicode": "E17D",
+      "file": "crypto/photoshop.svg"
+    },
+    {
+      "name": "crypto-polkadot-dot",
+      "group": "crypto",
+      "className": "ak-icon-crypto-polkadot-dot",
+      "unicode": "E17E",
+      "file": "crypto/polkadot-(dot).svg"
+    },
+    {
+      "name": "crypto-polygon-matic",
+      "group": "crypto",
+      "className": "ak-icon-crypto-polygon-matic",
+      "unicode": "E17F",
+      "file": "crypto/polygon-(matic).svg"
+    },
+    {
+      "name": "crypto-polyswarm-nct",
+      "group": "crypto",
+      "className": "ak-icon-crypto-polyswarm-nct",
+      "unicode": "E180",
+      "file": "crypto/polyswarm-(nct).svg"
+    },
+    {
+      "name": "crypto-python",
+      "group": "crypto",
+      "className": "ak-icon-crypto-python",
+      "unicode": "E181",
+      "file": "crypto/python.svg"
+    },
+    {
+      "name": "crypto-quant-qnt",
+      "group": "crypto",
+      "className": "ak-icon-crypto-quant-qnt",
+      "unicode": "E182",
+      "file": "crypto/quant-(qnt).svg"
+    },
+    {
+      "name": "crypto-siacoin-sc",
+      "group": "crypto",
+      "className": "ak-icon-crypto-siacoin-sc",
+      "unicode": "E183",
+      "file": "crypto/siacoin-(sc).svg"
+    },
+    {
+      "name": "crypto-slack",
+      "group": "crypto",
+      "className": "ak-icon-crypto-slack",
+      "unicode": "E184",
+      "file": "crypto/slack.svg"
+    },
+    {
+      "name": "crypto-snapchat",
+      "group": "crypto",
+      "className": "ak-icon-crypto-snapchat",
+      "unicode": "E185",
+      "file": "crypto/snapchat.svg"
+    },
+    {
+      "name": "crypto-solana-sol",
+      "group": "crypto",
+      "className": "ak-icon-crypto-solana-sol",
+      "unicode": "E186",
+      "file": "crypto/solana-(sol).svg"
+    },
+    {
+      "name": "crypto-spotify",
+      "group": "crypto",
+      "className": "ak-icon-crypto-spotify",
+      "unicode": "E187",
+      "file": "crypto/spotify.svg"
+    },
+    {
+      "name": "crypto-stacks-stx",
+      "group": "crypto",
+      "className": "ak-icon-crypto-stacks-stx",
+      "unicode": "E188",
+      "file": "crypto/stacks-(stx).svg"
+    },
+    {
+      "name": "crypto-stellar-xlm",
+      "group": "crypto",
+      "className": "ak-icon-crypto-stellar-xlm",
+      "unicode": "E189",
+      "file": "crypto/stellar-(xlm).svg"
+    },
+    {
+      "name": "crypto-tenx-pay",
+      "group": "crypto",
+      "className": "ak-icon-crypto-tenx-pay",
+      "unicode": "E18A",
+      "file": "crypto/tenx-(pay).svg"
+    },
+    {
+      "name": "crypto-tether-usdt",
+      "group": "crypto",
+      "className": "ak-icon-crypto-tether-usdt",
+      "unicode": "E18B",
+      "file": "crypto/tether-(usdt).svg"
+    },
+    {
+      "name": "crypto-the-graph-grt",
+      "group": "crypto",
+      "className": "ak-icon-crypto-the-graph-grt",
+      "unicode": "E18C",
+      "file": "crypto/the-graph-(grt).svg"
+    },
+    {
+      "name": "crypto-theta-theta",
+      "group": "crypto",
+      "className": "ak-icon-crypto-theta-theta",
+      "unicode": "E18D",
+      "file": "crypto/theta-(theta).svg"
+    },
+    {
+      "name": "crypto-thorchain-rune",
+      "group": "crypto",
+      "className": "ak-icon-crypto-thorchain-rune",
+      "unicode": "E18E",
+      "file": "crypto/thorchain-(rune).svg"
+    },
+    {
+      "name": "crypto-trello",
+      "group": "crypto",
+      "className": "ak-icon-crypto-trello",
+      "unicode": "E18F",
+      "file": "crypto/trello.svg"
+    },
+    {
+      "name": "crypto-triangle",
+      "group": "crypto",
+      "className": "ak-icon-crypto-triangle",
+      "unicode": "E190",
+      "file": "crypto/triangle.svg"
+    },
+    {
+      "name": "crypto-trontron-trx",
+      "group": "crypto",
+      "className": "ak-icon-crypto-trontron-trx",
+      "unicode": "E191",
+      "file": "crypto/trontron-(trx).svg"
+    },
+    {
+      "name": "crypto-twitch",
+      "group": "crypto",
+      "className": "ak-icon-crypto-twitch",
+      "unicode": "E192",
+      "file": "crypto/twitch.svg"
+    },
+    {
+      "name": "crypto-ui8",
+      "group": "crypto",
+      "className": "ak-icon-crypto-ui8",
+      "unicode": "E193",
+      "file": "crypto/ui8.svg"
+    },
+    {
+      "name": "crypto-usd-coin-usdc",
+      "group": "crypto",
+      "className": "ak-icon-crypto-usd-coin-usdc",
+      "unicode": "E194",
+      "file": "crypto/usd-coin-(usdc).svg"
+    },
+    {
+      "name": "crypto-velas-vlx",
+      "group": "crypto",
+      "className": "ak-icon-crypto-velas-vlx",
+      "unicode": "E195",
+      "file": "crypto/velas-(vlx).svg"
+    },
+    {
+      "name": "crypto-vibe-vibe",
+      "group": "crypto",
+      "className": "ak-icon-crypto-vibe-vibe",
+      "unicode": "E196",
+      "file": "crypto/vibe-(vibe).svg"
+    },
+    {
+      "name": "crypto-vuesax",
+      "group": "crypto",
+      "className": "ak-icon-crypto-vuesax",
+      "unicode": "E197",
+      "file": "crypto/vuesax.svg"
+    },
+    {
+      "name": "crypto-wanchain-wan-1",
+      "group": "crypto",
+      "className": "ak-icon-crypto-wanchain-wan-1",
+      "unicode": "E199",
+      "file": "crypto/wanchain-(wan)-1.svg"
+    },
+    {
+      "name": "crypto-wanchain-wan",
+      "group": "crypto",
+      "className": "ak-icon-crypto-wanchain-wan",
+      "unicode": "E198",
+      "file": "crypto/wanchain-(wan).svg"
+    },
+    {
+      "name": "crypto-whatsapp",
+      "group": "crypto",
+      "className": "ak-icon-crypto-whatsapp",
+      "unicode": "E19A",
+      "file": "crypto/whatsapp.svg"
+    },
+    {
+      "name": "crypto-windows",
+      "group": "crypto",
+      "className": "ak-icon-crypto-windows",
+      "unicode": "E19B",
+      "file": "crypto/windows.svg"
+    },
+    {
+      "name": "crypto-wing-wing",
+      "group": "crypto",
+      "className": "ak-icon-crypto-wing-wing",
+      "unicode": "E19C",
+      "file": "crypto/wing-(wing).svg"
+    },
+    {
+      "name": "crypto-xd",
+      "group": "crypto",
+      "className": "ak-icon-crypto-xd",
+      "unicode": "E19D",
+      "file": "crypto/xd.svg"
+    },
+    {
+      "name": "crypto-xiaomi",
+      "group": "crypto",
+      "className": "ak-icon-crypto-xiaomi",
+      "unicode": "E19E",
+      "file": "crypto/xiaomi.svg"
+    },
+    {
+      "name": "crypto-xrp-xrp",
+      "group": "crypto",
+      "className": "ak-icon-crypto-xrp-xrp",
+      "unicode": "E19F",
+      "file": "crypto/xrp-(xrp).svg"
+    },
+    {
+      "name": "crypto-youtube",
+      "group": "crypto",
+      "className": "ak-icon-crypto-youtube",
+      "unicode": "E1A0",
+      "file": "crypto/youtube.svg"
+    },
+    {
+      "name": "crypto-zel-zel",
+      "group": "crypto",
+      "className": "ak-icon-crypto-zel-zel",
+      "unicode": "E1A1",
+      "file": "crypto/zel-(zel).svg"
+    },
+    {
+      "name": "crypto-zoom",
+      "group": "crypto",
+      "className": "ak-icon-crypto-zoom",
+      "unicode": "E1A2",
+      "file": "crypto/zoom.svg"
+    },
     {
       "name": "money-archive",
       "group": "money",
@@ -715,6 +1946,251 @@
       "className": "ak-icon-money-wallet",
       "unicode": "E043",
       "file": "money/wallet.svg"
+    },
+    {
+      "name": "paragraph-attach-circle",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-attach-circle",
+      "unicode": "E1D2",
+      "file": "paragraph/attach-circle.svg"
+    },
+    {
+      "name": "paragraph-attach-square",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-attach-square",
+      "unicode": "E1D3",
+      "file": "paragraph/attach-square.svg"
+    },
+    {
+      "name": "paragraph-eraser",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-eraser",
+      "unicode": "E1D4",
+      "file": "paragraph/eraser.svg"
+    },
+    {
+      "name": "paragraph-firstline",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-firstline",
+      "unicode": "E1D5",
+      "file": "paragraph/firstline.svg"
+    },
+    {
+      "name": "paragraph-language-circle",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-language-circle",
+      "unicode": "E1D6",
+      "file": "paragraph/language-circle.svg"
+    },
+    {
+      "name": "paragraph-language-square",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-language-square",
+      "unicode": "E1D7",
+      "file": "paragraph/language-square.svg"
+    },
+    {
+      "name": "paragraph-link-1",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-link-1",
+      "unicode": "E1D9",
+      "file": "paragraph/link-1.svg"
+    },
+    {
+      "name": "paragraph-link-2",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-link-2",
+      "unicode": "E1DA",
+      "file": "paragraph/link-2.svg"
+    },
+    {
+      "name": "paragraph-link-21",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-link-21",
+      "unicode": "E1DB",
+      "file": "paragraph/link-21.svg"
+    },
+    {
+      "name": "paragraph-link-circle",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-link-circle",
+      "unicode": "E1DC",
+      "file": "paragraph/link-circle.svg"
+    },
+    {
+      "name": "paragraph-link-square",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-link-square",
+      "unicode": "E1DD",
+      "file": "paragraph/link-square.svg"
+    },
+    {
+      "name": "paragraph-link",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-link",
+      "unicode": "E1D8",
+      "file": "paragraph/link.svg"
+    },
+    {
+      "name": "paragraph-maximize",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-maximize",
+      "unicode": "E1DE",
+      "file": "paragraph/maximize.svg"
+    },
+    {
+      "name": "paragraph-paperclip-2",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-paperclip-2",
+      "unicode": "E1E0",
+      "file": "paragraph/paperclip-2.svg"
+    },
+    {
+      "name": "paragraph-paperclip",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-paperclip",
+      "unicode": "E1DF",
+      "file": "paragraph/paperclip.svg"
+    },
+    {
+      "name": "paragraph-pharagraphspacing",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-pharagraphspacing",
+      "unicode": "E1E1",
+      "file": "paragraph/pharagraphspacing.svg"
+    },
+    {
+      "name": "paragraph-quote-down-circle",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-quote-down-circle",
+      "unicode": "E1E3",
+      "file": "paragraph/quote-down-circle.svg"
+    },
+    {
+      "name": "paragraph-quote-down-square",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-quote-down-square",
+      "unicode": "E1E4",
+      "file": "paragraph/quote-down-square.svg"
+    },
+    {
+      "name": "paragraph-quote-down",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-quote-down",
+      "unicode": "E1E2",
+      "file": "paragraph/quote-down.svg"
+    },
+    {
+      "name": "paragraph-quote-up-circle",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-quote-up-circle",
+      "unicode": "E1E6",
+      "file": "paragraph/quote-up-circle.svg"
+    },
+    {
+      "name": "paragraph-quote-up-square",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-quote-up-square",
+      "unicode": "E1E7",
+      "file": "paragraph/quote-up-square.svg"
+    },
+    {
+      "name": "paragraph-quote-up",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-quote-up",
+      "unicode": "E1E5",
+      "file": "paragraph/quote-up.svg"
+    },
+    {
+      "name": "paragraph-smallcaps",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-smallcaps",
+      "unicode": "E1E8",
+      "file": "paragraph/smallcaps.svg"
+    },
+    {
+      "name": "paragraph-text-block",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-text-block",
+      "unicode": "E1EA",
+      "file": "paragraph/text-block.svg"
+    },
+    {
+      "name": "paragraph-text-bold",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-text-bold",
+      "unicode": "E1EB",
+      "file": "paragraph/text-bold.svg"
+    },
+    {
+      "name": "paragraph-text-italic",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-text-italic",
+      "unicode": "E1EC",
+      "file": "paragraph/text-italic.svg"
+    },
+    {
+      "name": "paragraph-text-underline",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-text-underline",
+      "unicode": "E1ED",
+      "file": "paragraph/text-underline.svg"
+    },
+    {
+      "name": "paragraph-text",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-text",
+      "unicode": "E1E9",
+      "file": "paragraph/text.svg"
+    },
+    {
+      "name": "paragraph-textalign-center",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-textalign-center",
+      "unicode": "E1EE",
+      "file": "paragraph/textalign-center.svg"
+    },
+    {
+      "name": "paragraph-textalign-justifycenter",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-textalign-justifycenter",
+      "unicode": "E1EF",
+      "file": "paragraph/textalign-justifycenter.svg"
+    },
+    {
+      "name": "paragraph-textalign-justifyleft",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-textalign-justifyleft",
+      "unicode": "E1F0",
+      "file": "paragraph/textalign-justifyleft.svg"
+    },
+    {
+      "name": "paragraph-textalign-justifyright",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-textalign-justifyright",
+      "unicode": "E1F1",
+      "file": "paragraph/textalign-justifyright.svg"
+    },
+    {
+      "name": "paragraph-textalign-left",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-textalign-left",
+      "unicode": "E1F2",
+      "file": "paragraph/textalign-left.svg"
+    },
+    {
+      "name": "paragraph-textalign-right",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-textalign-right",
+      "unicode": "E1F3",
+      "file": "paragraph/textalign-right.svg"
+    },
+    {
+      "name": "paragraph-translate",
+      "group": "paragraph",
+      "className": "ak-icon-paragraph-translate",
+      "unicode": "E1F4",
+      "file": "paragraph/translate.svg"
     },
     {
       "name": "video-audio-square",

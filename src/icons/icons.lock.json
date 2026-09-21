@@ -637,6 +637,1374 @@
     "video-volume-up": {
       "group": "video",
       "codePoint": "E09E"
+    },
+    "agribank-b-n-b": {
+      "group": "agribank",
+      "codePoint": "E09F"
+    },
+    "agribank-b-n-ngo-i-t": {
+      "group": "agribank",
+      "codePoint": "E0A0"
+    },
+    "agribank-b-o-hi-m": {
+      "group": "agribank",
+      "codePoint": "E0A1"
+    },
+    "agribank-b-o-hi-m-abic": {
+      "group": "agribank",
+      "codePoint": "E0A2"
+    },
+    "agribank-b-o-hi-m-b-o-an-ch-th": {
+      "group": "agribank",
+      "codePoint": "E0A3"
+    },
+    "agribank-b-o-hi-m-b-o-an-t-i-kho-n": {
+      "group": "agribank",
+      "codePoint": "E0A4"
+    },
+    "agribank-b-o-hi-m-fwd": {
+      "group": "agribank",
+      "codePoint": "E0A5"
+    },
+    "agribank-b-o-hi-m-s-c-kh-e": {
+      "group": "agribank",
+      "codePoint": "E0A6"
+    },
+    "agribank-b-o-hi-m-t": {
+      "group": "agribank",
+      "codePoint": "E0A7"
+    },
+    "agribank-b-o-hi-m-t-ch-h-ng": {
+      "group": "agribank",
+      "codePoint": "E0A8"
+    },
+    "agribank-b-o-hi-m-t-ch-ng-i-kh-ng-kinh-doanh": {
+      "group": "agribank",
+      "codePoint": "E0A9"
+    },
+    "agribank-b-o-hi-m-t-ch-ng-i-kinh-doanh-v-n-t-i": {
+      "group": "agribank",
+      "codePoint": "E0AA"
+    },
+    "agribank-b-o-hi-m-t-ch-ng-i-v-h-ng": {
+      "group": "agribank",
+      "codePoint": "E0AB"
+    },
+    "agribank-b-o-hi-m-tai-n-n": {
+      "group": "agribank",
+      "codePoint": "E0AC"
+    },
+    "agribank-b-o-hi-m-x-h-i": {
+      "group": "agribank",
+      "codePoint": "E0AD"
+    },
+    "agribank-b-o-hi-m-xe-3-b-nh-v-c-c-lo-i-xe-t-ng-t": {
+      "group": "agribank",
+      "codePoint": "E0AE"
+    },
+    "agribank-b-o-hi-m-xe-m-y": {
+      "group": "agribank",
+      "codePoint": "E0AF"
+    },
+    "agribank-b-o-hi-m-xe-m-y-50cc": {
+      "group": "agribank",
+      "codePoint": "E0B0"
+    },
+    "agribank-b-o-hi-m-xe-m-y-i-n-d-i-50cc": {
+      "group": "agribank",
+      "codePoint": "E0B1"
+    },
+    "agribank-bao-hiem-agribank": {
+      "group": "agribank",
+      "codePoint": "E0B2"
+    },
+    "agribank-bien-dong-so-du": {
+      "group": "agribank",
+      "codePoint": "E0B3"
+    },
+    "agribank-c-a-h-ng": {
+      "group": "agribank",
+      "codePoint": "E0B4"
+    },
+    "agribank-c-ng-t-c-vi-n": {
+      "group": "agribank",
+      "codePoint": "E0B5"
+    },
+    "agribank-c-p-i-m-pin-th": {
+      "group": "agribank",
+      "codePoint": "E0B6"
+    },
+    "agribank-cai-dat-avatar": {
+      "group": "agribank",
+      "codePoint": "E0B7"
+    },
+    "agribank-cai-dat-avatar-1": {
+      "group": "agribank",
+      "codePoint": "E0B8"
+    },
+    "agribank-cai-dat-co-chu": {
+      "group": "agribank",
+      "codePoint": "E0B9"
+    },
+    "agribank-cai-dat-dang-nhap": {
+      "group": "agribank",
+      "codePoint": "E0BA"
+    },
+    "agribank-cai-dat-face-id": {
+      "group": "agribank",
+      "codePoint": "E0BB"
+    },
+    "agribank-cai-dat-han-muc": {
+      "group": "agribank",
+      "codePoint": "E0BC"
+    },
+    "agribank-cai-dat-ngon-ngu": {
+      "group": "agribank",
+      "codePoint": "E0BD"
+    },
+    "agribank-cai-dat-otp": {
+      "group": "agribank",
+      "codePoint": "E0BE"
+    },
+    "agribank-cai-dat-tai-khoan": {
+      "group": "agribank",
+      "codePoint": "E0BF"
+    },
+    "agribank-cai-dat-van-tay": {
+      "group": "agribank",
+      "codePoint": "E0C0"
+    },
+    "agribank-cap-doi-ma-pin": {
+      "group": "agribank",
+      "codePoint": "E0C1"
+    },
+    "agribank-ch-ng-kho-n": {
+      "group": "agribank",
+      "codePoint": "E0C2"
+    },
+    "agribank-ch-ng-kho-n-agriseco": {
+      "group": "agribank",
+      "codePoint": "E0C3"
+    },
+    "agribank-chuy-n-i-sang-th-chip": {
+      "group": "agribank",
+      "codePoint": "E0C4"
+    },
+    "agribank-chuy-n-nhanh-ngo-i-agribank": {
+      "group": "agribank",
+      "codePoint": "E0C5"
+    },
+    "agribank-chuy-n-th-ng-ngo-i-agribank": {
+      "group": "agribank",
+      "codePoint": "E0C6"
+    },
+    "agribank-chuy-n-ti-n-t-thi-n": {
+      "group": "agribank",
+      "codePoint": "E0C7"
+    },
+    "agribank-chuy-n-trong-agribank": {
+      "group": "agribank",
+      "codePoint": "E0C8"
+    },
+    "agribank-d-ch-v-sms-banking": {
+      "group": "agribank",
+      "codePoint": "E0C9"
+    },
+    "agribank-dang-ki-e-com": {
+      "group": "agribank",
+      "codePoint": "E0CA"
+    },
+    "agribank-danh-ba-hoa-don": {
+      "group": "agribank",
+      "codePoint": "E0CB"
+    },
+    "agribank-danh-ba-nap-tien": {
+      "group": "agribank",
+      "codePoint": "E0CC"
+    },
+    "agribank-danh-ba-tai-chung-khoan": {
+      "group": "agribank",
+      "codePoint": "E0CD"
+    },
+    "agribank-danh-ba-tai-khoan-the": {
+      "group": "agribank",
+      "codePoint": "E0CE"
+    },
+    "agribank-danh-ba-the-tin-dung": {
+      "group": "agribank",
+      "codePoint": "E0CF"
+    },
+    "agribank-default": {
+      "group": "agribank",
+      "codePoint": "E0D0"
+    },
+    "agribank-dich-vu-chu-ky-so": {
+      "group": "agribank",
+      "codePoint": "E0D1"
+    },
+    "agribank-dieu-khoan-rieng-tu": {
+      "group": "agribank",
+      "codePoint": "E0D2"
+    },
+    "agribank-doi-mat-khau": {
+      "group": "agribank",
+      "codePoint": "E0D3"
+    },
+    "agribank-dong-tai-khoan": {
+      "group": "agribank",
+      "codePoint": "E0D4"
+    },
+    "agribank-g-i-ti-n-m-ng": {
+      "group": "agribank",
+      "codePoint": "E0D5"
+    },
+    "agribank-gi-v-ng": {
+      "group": "agribank",
+      "codePoint": "E0D6"
+    },
+    "agribank-giao-d-ch-ch-ng-kho-n": {
+      "group": "agribank",
+      "codePoint": "E0D7"
+    },
+    "agribank-h-a-n-i-n-t": {
+      "group": "agribank",
+      "codePoint": "E0D8"
+    },
+    "agribank-h-a-n-kh-c": {
+      "group": "agribank",
+      "codePoint": "E0D9"
+    },
+    "agribank-h-a-n-kh-c-2": {
+      "group": "agribank",
+      "codePoint": "E0DA"
+    },
+    "agribank-hoa-don-tu-dong": {
+      "group": "agribank",
+      "codePoint": "E0DB"
+    },
+    "agribank-hoi-dap": {
+      "group": "agribank",
+      "codePoint": "E0DC"
+    },
+    "agribank-k-ch-ho-t-th": {
+      "group": "agribank",
+      "codePoint": "E0DD"
+    },
+    "agribank-kh-a-m-kh-a-th": {
+      "group": "agribank",
+      "codePoint": "E0DE"
+    },
+    "agribank-l-ch-s-ph-t-h-nh-th-phi-v-t-l": {
+      "group": "agribank",
+      "codePoint": "E0DF"
+    },
+    "agribank-l-i-su-t": {
+      "group": "agribank",
+      "codePoint": "E0E0"
+    },
+    "agribank-lich-su-gd-shop": {
+      "group": "agribank",
+      "codePoint": "E0E1"
+    },
+    "agribank-lich-su-giao-dich": {
+      "group": "agribank",
+      "codePoint": "E0E2"
+    },
+    "agribank-m-khuy-n-m-i": {
+      "group": "agribank",
+      "codePoint": "E0E3"
+    },
+    "agribank-m-t-i-kho-n-ch-ng-kho-n": {
+      "group": "agribank",
+      "codePoint": "E0E4"
+    },
+    "agribank-mo-tai-khoan-tien-gui": {
+      "group": "agribank",
+      "codePoint": "E0E5"
+    },
+    "agribank-mo-tk-tien-gui-rut-goc-lh": {
+      "group": "agribank",
+      "codePoint": "E0E6"
+    },
+    "agribank-mo-tk-tien-gui-tra-lai-sau-dinh-ky": {
+      "group": "agribank",
+      "codePoint": "E0E7"
+    },
+    "agribank-mua-m-th": {
+      "group": "agribank",
+      "codePoint": "E0E8"
+    },
+    "agribank-n-p-h-c-ph": {
+      "group": "agribank",
+      "codePoint": "E0E9"
+    },
+    "agribank-n-p-h-c-ph-s-t-ng": {
+      "group": "agribank",
+      "codePoint": "E0EA"
+    },
+    "agribank-n-p-thu": {
+      "group": "agribank",
+      "codePoint": "E0EB"
+    },
+    "agribank-n-p-ti-n-ch-ng-kho-n": {
+      "group": "agribank",
+      "codePoint": "E0EC"
+    },
+    "agribank-n-p-ti-n-d-ch-v": {
+      "group": "agribank",
+      "codePoint": "E0ED"
+    },
+    "agribank-n-p-ti-n-d-ch-v-t-i-ch-nh": {
+      "group": "agribank",
+      "codePoint": "E0EE"
+    },
+    "agribank-n-p-ti-n-giao-th-ng": {
+      "group": "agribank",
+      "codePoint": "E0EF"
+    },
+    "agribank-n-p-ti-n-i-n-tho-i": {
+      "group": "agribank",
+      "codePoint": "E0F0"
+    },
+    "agribank-nap-tien-vao-ti-vec": {
+      "group": "agribank",
+      "codePoint": "E0F1"
+    },
+    "agribank-ng-k-n-p-b-o-hi-m-x-h-i": {
+      "group": "agribank",
+      "codePoint": "E0F2"
+    },
+    "agribank-ng-k-s-h-a-th-agri-pay": {
+      "group": "agribank",
+      "codePoint": "E0F3"
+    },
+    "agribank-nh-danh-th": {
+      "group": "agribank",
+      "codePoint": "E0F4"
+    },
+    "agribank-nh-n-ti-n-ki-u-h-i": {
+      "group": "agribank",
+      "codePoint": "E0F5"
+    },
+    "agribank-nh-t-nh-n": {
+      "group": "agribank",
+      "codePoint": "E0F6"
+    },
+    "agribank-ph-t-h-nh-l-i-th-phi-v-t-l": {
+      "group": "agribank",
+      "codePoint": "E0F7"
+    },
+    "agribank-ph-t-h-nh-m-i-th-phi-v-t-l": {
+      "group": "agribank",
+      "codePoint": "E0F8"
+    },
+    "agribank-ph-t-h-nh-m-i-th-v-t-l": {
+      "group": "agribank",
+      "codePoint": "E0F9"
+    },
+    "agribank-ph-t-h-nh-th-phi-v-t-l": {
+      "group": "agribank",
+      "codePoint": "E0FA"
+    },
+    "agribank-ph-t-h-nh-th-v-t-l": {
+      "group": "agribank",
+      "codePoint": "E0FB"
+    },
+    "agribank-quan-ly-danh-ba": {
+      "group": "agribank",
+      "codePoint": "E0FC"
+    },
+    "agribank-quan-ly-dau-tu": {
+      "group": "agribank",
+      "codePoint": "E0FD"
+    },
+    "agribank-quan-ly-facepay": {
+      "group": "agribank",
+      "codePoint": "E0FE"
+    },
+    "agribank-quan-ly-nickname": {
+      "group": "agribank",
+      "codePoint": "E0FF"
+    },
+    "agribank-rut-tien-bang-ma": {
+      "group": "agribank",
+      "codePoint": "E100"
+    },
+    "agribank-s-n-ph-m-d-ch-v": {
+      "group": "agribank",
+      "codePoint": "E101"
+    },
+    "agribank-sdk-giao-h-ng": {
+      "group": "agribank",
+      "codePoint": "E102"
+    },
+    "agribank-sdk-t-hoa": {
+      "group": "agribank",
+      "codePoint": "E103"
+    },
+    "agribank-sdk-t-l-ch-kh-m": {
+      "group": "agribank",
+      "codePoint": "E104"
+    },
+    "agribank-sdk-t-ph-ng-kh-ch-s-n": {
+      "group": "agribank",
+      "codePoint": "E105"
+    },
+    "agribank-sdk-t-s-n-golf": {
+      "group": "agribank",
+      "codePoint": "E106"
+    },
+    "agribank-sdk-t-v-m-y-bay": {
+      "group": "agribank",
+      "codePoint": "E107"
+    },
+    "agribank-sdk-t-v-t-u-h-a": {
+      "group": "agribank",
+      "codePoint": "E108"
+    },
+    "agribank-sdk-t-v-t-u-th-y": {
+      "group": "agribank",
+      "codePoint": "E109"
+    },
+    "agribank-sdk-t-v-xe-kh-ch": {
+      "group": "agribank",
+      "codePoint": "E10A"
+    },
+    "agribank-sdk-t-v-xem-phim": {
+      "group": "agribank",
+      "codePoint": "E10B"
+    },
+    "agribank-sdk-th-thao-gi-i-tr": {
+      "group": "agribank",
+      "codePoint": "E10C"
+    },
+    "agribank-sdk-vietlott-sms": {
+      "group": "agribank",
+      "codePoint": "E10D"
+    },
+    "agribank-sdk-vn-shop": {
+      "group": "agribank",
+      "codePoint": "E10E"
+    },
+    "agribank-sdk-vnpay-taxi": {
+      "group": "agribank",
+      "codePoint": "E10F"
+    },
+    "agribank-t-gi-ngo-i-t": {
+      "group": "agribank",
+      "codePoint": "E110"
+    },
+    "agribank-t-l-ch-chuy-n-ti-n": {
+      "group": "agribank",
+      "codePoint": "E111"
+    },
+    "agribank-t-t-to-n-kho-n-vay": {
+      "group": "agribank",
+      "codePoint": "E112"
+    },
+    "agribank-t-v-n-u-t": {
+      "group": "agribank",
+      "codePoint": "E113"
+    },
+    "agribank-tat-toan-tk-tien-gui": {
+      "group": "agribank",
+      "codePoint": "E114"
+    },
+    "agribank-tat-toan-tk-tien-gui-rut-goc-lh": {
+      "group": "agribank",
+      "codePoint": "E115"
+    },
+    "agribank-tat-toan-tk-tien-gui-tra-lai-sau-dinh-ky": {
+      "group": "agribank",
+      "codePoint": "E116"
+    },
+    "agribank-th-ng-tin-b-o-hi-m": {
+      "group": "agribank",
+      "codePoint": "E117"
+    },
+    "agribank-thanh-to-n-agri-pay": {
+      "group": "agribank",
+      "codePoint": "E118"
+    },
+    "agribank-thanh-to-n-b-o-hi-m": {
+      "group": "agribank",
+      "codePoint": "E119"
+    },
+    "agribank-thanh-to-n-b-o-hi-m-x-h-i": {
+      "group": "agribank",
+      "codePoint": "E11A"
+    },
+    "agribank-thanh-to-n-c-c-truy-n-h-nh": {
+      "group": "agribank",
+      "codePoint": "E11B"
+    },
+    "agribank-thanh-to-n-c-c-vi-n-th-ng": {
+      "group": "agribank",
+      "codePoint": "E11C"
+    },
+    "agribank-thanh-to-n-chuy-n-ph-t": {
+      "group": "agribank",
+      "codePoint": "E11D"
+    },
+    "agribank-thanh-to-n-d-ch-v-h-c-tr-c-tuy-n": {
+      "group": "agribank",
+      "codePoint": "E11E"
+    },
+    "agribank-thanh-to-n-h-a-n": {
+      "group": "agribank",
+      "codePoint": "E11F"
+    },
+    "agribank-thanh-to-n-h-a-n-i-n": {
+      "group": "agribank",
+      "codePoint": "E120"
+    },
+    "agribank-thanh-to-n-h-a-n-n-c": {
+      "group": "agribank",
+      "codePoint": "E121"
+    },
+    "agribank-thanh-to-n-ph-chung-c": {
+      "group": "agribank",
+      "codePoint": "E122"
+    },
+    "agribank-thanh-to-n-ph-l-u-tr": {
+      "group": "agribank",
+      "codePoint": "E123"
+    },
+    "agribank-thanh-to-n-th-t-n-d-ng": {
+      "group": "agribank",
+      "codePoint": "E124"
+    },
+    "agribank-thanh-to-n-v-m-y-bay": {
+      "group": "agribank",
+      "codePoint": "E125"
+    },
+    "agribank-thanh-to-n-vi-n-ph": {
+      "group": "agribank",
+      "codePoint": "E126"
+    },
+    "agribank-thong-tin-ung-dung": {
+      "group": "agribank",
+      "codePoint": "E127"
+    },
+    "agribank-thu-thap-sinh-trac-hoc": {
+      "group": "agribank",
+      "codePoint": "E128"
+    },
+    "agribank-ti-n-m-ng-c-a-t-i": {
+      "group": "agribank",
+      "codePoint": "E129"
+    },
+    "agribank-ti-n-vay": {
+      "group": "agribank",
+      "codePoint": "E12A"
+    },
+    "agribank-tien-gui": {
+      "group": "agribank",
+      "codePoint": "E12B"
+    },
+    "agribank-tien-gui-rut-goc-lh": {
+      "group": "agribank",
+      "codePoint": "E12C"
+    },
+    "agribank-tien-gui-tich-luy-thay-doi-tt": {
+      "group": "agribank",
+      "codePoint": "E12D"
+    },
+    "agribank-tien-gui-tich-luy-tt": {
+      "group": "agribank",
+      "codePoint": "E12E"
+    },
+    "agribank-tien-gui-tich-luy-tt-mo-tk": {
+      "group": "agribank",
+      "codePoint": "E12F"
+    },
+    "agribank-tien-gui-tich-luy-tt-tat-toan-tk": {
+      "group": "agribank",
+      "codePoint": "E130"
+    },
+    "agribank-tien-gui-tra-lai-sau-dinh-ky": {
+      "group": "agribank",
+      "codePoint": "E131"
+    },
+    "agribank-tiet-kiem": {
+      "group": "agribank",
+      "codePoint": "E132"
+    },
+    "agribank-tr-n-ti-n-vay": {
+      "group": "agribank",
+      "codePoint": "E133"
+    },
+    "agribank-tra-cuu-hd": {
+      "group": "agribank",
+      "codePoint": "E134"
+    },
+    "agribank-tra-cuu-thong-tin": {
+      "group": "agribank",
+      "codePoint": "E135"
+    },
+    "agribank-tra-so-t-online": {
+      "group": "agribank",
+      "codePoint": "E136"
+    },
+    "agribank-truy-v-n-th": {
+      "group": "agribank",
+      "codePoint": "E137"
+    },
+    "agribank-u-t-tr-i-phi-u": {
+      "group": "agribank",
+      "codePoint": "E138"
+    },
+    "agribank-v-i-n-t": {
+      "group": "agribank",
+      "codePoint": "E139"
+    },
+    "agribank-vay-m-b-o": {
+      "group": "agribank",
+      "codePoint": "E13A"
+    },
+    "agribank-voice-ott": {
+      "group": "agribank",
+      "codePoint": "E13B"
+    },
+    "agribank-vong-quay-may-man": {
+      "group": "agribank",
+      "codePoint": "E13C"
+    },
+    "agribank-friend": {
+      "group": "agribank",
+      "codePoint": "E13D"
+    },
+    "crypto-aave-aave": {
+      "group": "crypto",
+      "codePoint": "E13E"
+    },
+    "crypto-android": {
+      "group": "crypto",
+      "codePoint": "E13F"
+    },
+    "crypto-ankr-ankr": {
+      "group": "crypto",
+      "codePoint": "E140"
+    },
+    "crypto-apple": {
+      "group": "crypto",
+      "codePoint": "E141"
+    },
+    "crypto-augur-rep": {
+      "group": "crypto",
+      "codePoint": "E142"
+    },
+    "crypto-autonio-niox": {
+      "group": "crypto",
+      "codePoint": "E143"
+    },
+    "crypto-avalanche-avax": {
+      "group": "crypto",
+      "codePoint": "E144"
+    },
+    "crypto-be": {
+      "group": "crypto",
+      "codePoint": "E145"
+    },
+    "crypto-binance-coin-bnb": {
+      "group": "crypto",
+      "codePoint": "E146"
+    },
+    "crypto-binance-usd-busd": {
+      "group": "crypto",
+      "codePoint": "E147"
+    },
+    "crypto-bitcoin-btc": {
+      "group": "crypto",
+      "codePoint": "E148"
+    },
+    "crypto-blogger": {
+      "group": "crypto",
+      "codePoint": "E149"
+    },
+    "crypto-bootstrap": {
+      "group": "crypto",
+      "codePoint": "E14A"
+    },
+    "crypto-cardano-ada": {
+      "group": "crypto",
+      "codePoint": "E14B"
+    },
+    "crypto-celo-celo": {
+      "group": "crypto",
+      "codePoint": "E14C"
+    },
+    "crypto-celsius-cel": {
+      "group": "crypto",
+      "codePoint": "E14D"
+    },
+    "crypto-chainlink-link": {
+      "group": "crypto",
+      "codePoint": "E14E"
+    },
+    "crypto-civic-cvc": {
+      "group": "crypto",
+      "codePoint": "E14F"
+    },
+    "crypto-dai-dai": {
+      "group": "crypto",
+      "codePoint": "E150"
+    },
+    "crypto-dash-dash": {
+      "group": "crypto",
+      "codePoint": "E151"
+    },
+    "crypto-decred-dcr": {
+      "group": "crypto",
+      "codePoint": "E152"
+    },
+    "crypto-dent-dent": {
+      "group": "crypto",
+      "codePoint": "E153"
+    },
+    "crypto-dribbble": {
+      "group": "crypto",
+      "codePoint": "E154"
+    },
+    "crypto-dropbox": {
+      "group": "crypto",
+      "codePoint": "E155"
+    },
+    "crypto-educare-ekt": {
+      "group": "crypto",
+      "codePoint": "E156"
+    },
+    "crypto-emercoin-emc": {
+      "group": "crypto",
+      "codePoint": "E157"
+    },
+    "crypto-enjin-coin-enj": {
+      "group": "crypto",
+      "codePoint": "E158"
+    },
+    "crypto-eos-eos": {
+      "group": "crypto",
+      "codePoint": "E159"
+    },
+    "crypto-ethereum-classic-etc": {
+      "group": "crypto",
+      "codePoint": "E15A"
+    },
+    "crypto-ethereum-eth": {
+      "group": "crypto",
+      "codePoint": "E15B"
+    },
+    "crypto-facebook": {
+      "group": "crypto",
+      "codePoint": "E15C"
+    },
+    "crypto-figma": {
+      "group": "crypto",
+      "codePoint": "E15D"
+    },
+    "crypto-figma-1": {
+      "group": "crypto",
+      "codePoint": "E15E"
+    },
+    "crypto-framer": {
+      "group": "crypto",
+      "codePoint": "E15F"
+    },
+    "crypto-ftx-token-ftt": {
+      "group": "crypto",
+      "codePoint": "E160"
+    },
+    "crypto-google": {
+      "group": "crypto",
+      "codePoint": "E161"
+    },
+    "crypto-google-drive": {
+      "group": "crypto",
+      "codePoint": "E162"
+    },
+    "crypto-google-paly": {
+      "group": "crypto",
+      "codePoint": "E163"
+    },
+    "crypto-harmony-one": {
+      "group": "crypto",
+      "codePoint": "E164"
+    },
+    "crypto-hedera-hashgraph-hbar": {
+      "group": "crypto",
+      "codePoint": "E165"
+    },
+    "crypto-hex-hex": {
+      "group": "crypto",
+      "codePoint": "E166"
+    },
+    "crypto-html-3": {
+      "group": "crypto",
+      "codePoint": "E167"
+    },
+    "crypto-html-5": {
+      "group": "crypto",
+      "codePoint": "E168"
+    },
+    "crypto-huobi-token-ht": {
+      "group": "crypto",
+      "codePoint": "E169"
+    },
+    "crypto-icon": {
+      "group": "crypto",
+      "codePoint": "E16A"
+    },
+    "crypto-icon-1": {
+      "group": "crypto",
+      "codePoint": "E16B"
+    },
+    "crypto-icon-icx": {
+      "group": "crypto",
+      "codePoint": "E16C"
+    },
+    "crypto-illustrator": {
+      "group": "crypto",
+      "codePoint": "E16D"
+    },
+    "crypto-iost-iost": {
+      "group": "crypto",
+      "codePoint": "E16E"
+    },
+    "crypto-java-script": {
+      "group": "crypto",
+      "codePoint": "E16F"
+    },
+    "crypto-js": {
+      "group": "crypto",
+      "codePoint": "E170"
+    },
+    "crypto-kyber-network-knc": {
+      "group": "crypto",
+      "codePoint": "E171"
+    },
+    "crypto-litecoin-ltc": {
+      "group": "crypto",
+      "codePoint": "E172"
+    },
+    "crypto-maker-mkr": {
+      "group": "crypto",
+      "codePoint": "E173"
+    },
+    "crypto-messenger": {
+      "group": "crypto",
+      "codePoint": "E174"
+    },
+    "crypto-monero-xmr": {
+      "group": "crypto",
+      "codePoint": "E175"
+    },
+    "crypto-nebulas-nas": {
+      "group": "crypto",
+      "codePoint": "E176"
+    },
+    "crypto-nem-xem": {
+      "group": "crypto",
+      "codePoint": "E177"
+    },
+    "crypto-nexo-nexo": {
+      "group": "crypto",
+      "codePoint": "E178"
+    },
+    "crypto-ocean-protocol-ocean": {
+      "group": "crypto",
+      "codePoint": "E179"
+    },
+    "crypto-okb-okb": {
+      "group": "crypto",
+      "codePoint": "E17A"
+    },
+    "crypto-ontology-ont": {
+      "group": "crypto",
+      "codePoint": "E17B"
+    },
+    "crypto-paypal": {
+      "group": "crypto",
+      "codePoint": "E17C"
+    },
+    "crypto-photoshop": {
+      "group": "crypto",
+      "codePoint": "E17D"
+    },
+    "crypto-polkadot-dot": {
+      "group": "crypto",
+      "codePoint": "E17E"
+    },
+    "crypto-polygon-matic": {
+      "group": "crypto",
+      "codePoint": "E17F"
+    },
+    "crypto-polyswarm-nct": {
+      "group": "crypto",
+      "codePoint": "E180"
+    },
+    "crypto-python": {
+      "group": "crypto",
+      "codePoint": "E181"
+    },
+    "crypto-quant-qnt": {
+      "group": "crypto",
+      "codePoint": "E182"
+    },
+    "crypto-siacoin-sc": {
+      "group": "crypto",
+      "codePoint": "E183"
+    },
+    "crypto-slack": {
+      "group": "crypto",
+      "codePoint": "E184"
+    },
+    "crypto-snapchat": {
+      "group": "crypto",
+      "codePoint": "E185"
+    },
+    "crypto-solana-sol": {
+      "group": "crypto",
+      "codePoint": "E186"
+    },
+    "crypto-spotify": {
+      "group": "crypto",
+      "codePoint": "E187"
+    },
+    "crypto-stacks-stx": {
+      "group": "crypto",
+      "codePoint": "E188"
+    },
+    "crypto-stellar-xlm": {
+      "group": "crypto",
+      "codePoint": "E189"
+    },
+    "crypto-tenx-pay": {
+      "group": "crypto",
+      "codePoint": "E18A"
+    },
+    "crypto-tether-usdt": {
+      "group": "crypto",
+      "codePoint": "E18B"
+    },
+    "crypto-the-graph-grt": {
+      "group": "crypto",
+      "codePoint": "E18C"
+    },
+    "crypto-theta-theta": {
+      "group": "crypto",
+      "codePoint": "E18D"
+    },
+    "crypto-thorchain-rune": {
+      "group": "crypto",
+      "codePoint": "E18E"
+    },
+    "crypto-trello": {
+      "group": "crypto",
+      "codePoint": "E18F"
+    },
+    "crypto-triangle": {
+      "group": "crypto",
+      "codePoint": "E190"
+    },
+    "crypto-trontron-trx": {
+      "group": "crypto",
+      "codePoint": "E191"
+    },
+    "crypto-twitch": {
+      "group": "crypto",
+      "codePoint": "E192"
+    },
+    "crypto-ui8": {
+      "group": "crypto",
+      "codePoint": "E193"
+    },
+    "crypto-usd-coin-usdc": {
+      "group": "crypto",
+      "codePoint": "E194"
+    },
+    "crypto-velas-vlx": {
+      "group": "crypto",
+      "codePoint": "E195"
+    },
+    "crypto-vibe-vibe": {
+      "group": "crypto",
+      "codePoint": "E196"
+    },
+    "crypto-vuesax": {
+      "group": "crypto",
+      "codePoint": "E197"
+    },
+    "crypto-wanchain-wan": {
+      "group": "crypto",
+      "codePoint": "E198"
+    },
+    "crypto-wanchain-wan-1": {
+      "group": "crypto",
+      "codePoint": "E199"
+    },
+    "crypto-whatsapp": {
+      "group": "crypto",
+      "codePoint": "E19A"
+    },
+    "crypto-windows": {
+      "group": "crypto",
+      "codePoint": "E19B"
+    },
+    "crypto-wing-wing": {
+      "group": "crypto",
+      "codePoint": "E19C"
+    },
+    "crypto-xd": {
+      "group": "crypto",
+      "codePoint": "E19D"
+    },
+    "crypto-xiaomi": {
+      "group": "crypto",
+      "codePoint": "E19E"
+    },
+    "crypto-xrp-xrp": {
+      "group": "crypto",
+      "codePoint": "E19F"
+    },
+    "crypto-youtube": {
+      "group": "crypto",
+      "codePoint": "E1A0"
+    },
+    "crypto-zel-zel": {
+      "group": "crypto",
+      "codePoint": "E1A1"
+    },
+    "crypto-zoom": {
+      "group": "crypto",
+      "codePoint": "E1A2"
+    },
+    "astrology-aquarius": {
+      "group": "astrology",
+      "codePoint": "E1A3"
+    },
+    "astrology-gemini": {
+      "group": "astrology",
+      "codePoint": "E1A4"
+    },
+    "astrology-gemini-2": {
+      "group": "astrology",
+      "codePoint": "E1A5"
+    },
+    "astrology-man": {
+      "group": "astrology",
+      "codePoint": "E1A6"
+    },
+    "astrology-sagittarius": {
+      "group": "astrology",
+      "codePoint": "E1A7"
+    },
+    "astrology-woman": {
+      "group": "astrology",
+      "codePoint": "E1A8"
+    },
+    "building-bank": {
+      "group": "building",
+      "codePoint": "E1A9"
+    },
+    "building-building": {
+      "group": "building",
+      "codePoint": "E1AA"
+    },
+    "building-building-3": {
+      "group": "building",
+      "codePoint": "E1AB"
+    },
+    "building-building-4": {
+      "group": "building",
+      "codePoint": "E1AC"
+    },
+    "building-buildings": {
+      "group": "building",
+      "codePoint": "E1AD"
+    },
+    "building-buildings-2": {
+      "group": "building",
+      "codePoint": "E1AE"
+    },
+    "building-buliding": {
+      "group": "building",
+      "codePoint": "E1AF"
+    },
+    "building-courthouse": {
+      "group": "building",
+      "codePoint": "E1B0"
+    },
+    "building-gemini": {
+      "group": "building",
+      "codePoint": "E1B1"
+    },
+    "building-hospital": {
+      "group": "building",
+      "codePoint": "E1B2"
+    },
+    "building-house": {
+      "group": "building",
+      "codePoint": "E1B3"
+    },
+    "building-house-2": {
+      "group": "building",
+      "codePoint": "E1B4"
+    },
+    "business-activity": {
+      "group": "business",
+      "codePoint": "E1B5"
+    },
+    "business-chart": {
+      "group": "business",
+      "codePoint": "E1B6"
+    },
+    "business-chart-1": {
+      "group": "business",
+      "codePoint": "E1B7"
+    },
+    "business-chart-2": {
+      "group": "business",
+      "codePoint": "E1B8"
+    },
+    "business-chart-21": {
+      "group": "business",
+      "codePoint": "E1B9"
+    },
+    "business-chart-fail": {
+      "group": "business",
+      "codePoint": "E1BA"
+    },
+    "business-chart-success": {
+      "group": "business",
+      "codePoint": "E1BB"
+    },
+    "business-diagram": {
+      "group": "business",
+      "codePoint": "E1BC"
+    },
+    "business-favorite-chart": {
+      "group": "business",
+      "codePoint": "E1BD"
+    },
+    "business-graph": {
+      "group": "business",
+      "codePoint": "E1BE"
+    },
+    "business-hashtag": {
+      "group": "business",
+      "codePoint": "E1BF"
+    },
+    "business-health": {
+      "group": "business",
+      "codePoint": "E1C0"
+    },
+    "business-home-hashtag": {
+      "group": "business",
+      "codePoint": "E1C1"
+    },
+    "business-home-trend-down": {
+      "group": "business",
+      "codePoint": "E1C2"
+    },
+    "business-home-trend-up": {
+      "group": "business",
+      "codePoint": "E1C3"
+    },
+    "business-personalcard": {
+      "group": "business",
+      "codePoint": "E1C4"
+    },
+    "business-presention-chart": {
+      "group": "business",
+      "codePoint": "E1C5"
+    },
+    "business-status-up": {
+      "group": "business",
+      "codePoint": "E1C6"
+    },
+    "business-trend-down": {
+      "group": "business",
+      "codePoint": "E1C7"
+    },
+    "business-trend-up": {
+      "group": "business",
+      "codePoint": "E1C8"
+    },
+    "call-call": {
+      "group": "call",
+      "codePoint": "E1C9"
+    },
+    "call-call-add": {
+      "group": "call",
+      "codePoint": "E1CA"
+    },
+    "call-call-calling": {
+      "group": "call",
+      "codePoint": "E1CB"
+    },
+    "call-call-incoming": {
+      "group": "call",
+      "codePoint": "E1CC"
+    },
+    "call-call-minus": {
+      "group": "call",
+      "codePoint": "E1CD"
+    },
+    "call-call-outgoing": {
+      "group": "call",
+      "codePoint": "E1CE"
+    },
+    "call-call-received": {
+      "group": "call",
+      "codePoint": "E1CF"
+    },
+    "call-call-remove": {
+      "group": "call",
+      "codePoint": "E1D0"
+    },
+    "call-call-slash": {
+      "group": "call",
+      "codePoint": "E1D1"
+    },
+    "paragraph-attach-circle": {
+      "group": "paragraph",
+      "codePoint": "E1D2"
+    },
+    "paragraph-attach-square": {
+      "group": "paragraph",
+      "codePoint": "E1D3"
+    },
+    "paragraph-eraser": {
+      "group": "paragraph",
+      "codePoint": "E1D4"
+    },
+    "paragraph-firstline": {
+      "group": "paragraph",
+      "codePoint": "E1D5"
+    },
+    "paragraph-language-circle": {
+      "group": "paragraph",
+      "codePoint": "E1D6"
+    },
+    "paragraph-language-square": {
+      "group": "paragraph",
+      "codePoint": "E1D7"
+    },
+    "paragraph-link": {
+      "group": "paragraph",
+      "codePoint": "E1D8"
+    },
+    "paragraph-link-1": {
+      "group": "paragraph",
+      "codePoint": "E1D9"
+    },
+    "paragraph-link-2": {
+      "group": "paragraph",
+      "codePoint": "E1DA"
+    },
+    "paragraph-link-21": {
+      "group": "paragraph",
+      "codePoint": "E1DB"
+    },
+    "paragraph-link-circle": {
+      "group": "paragraph",
+      "codePoint": "E1DC"
+    },
+    "paragraph-link-square": {
+      "group": "paragraph",
+      "codePoint": "E1DD"
+    },
+    "paragraph-maximize": {
+      "group": "paragraph",
+      "codePoint": "E1DE"
+    },
+    "paragraph-paperclip": {
+      "group": "paragraph",
+      "codePoint": "E1DF"
+    },
+    "paragraph-paperclip-2": {
+      "group": "paragraph",
+      "codePoint": "E1E0"
+    },
+    "paragraph-pharagraphspacing": {
+      "group": "paragraph",
+      "codePoint": "E1E1"
+    },
+    "paragraph-quote-down": {
+      "group": "paragraph",
+      "codePoint": "E1E2"
+    },
+    "paragraph-quote-down-circle": {
+      "group": "paragraph",
+      "codePoint": "E1E3"
+    },
+    "paragraph-quote-down-square": {
+      "group": "paragraph",
+      "codePoint": "E1E4"
+    },
+    "paragraph-quote-up": {
+      "group": "paragraph",
+      "codePoint": "E1E5"
+    },
+    "paragraph-quote-up-circle": {
+      "group": "paragraph",
+      "codePoint": "E1E6"
+    },
+    "paragraph-quote-up-square": {
+      "group": "paragraph",
+      "codePoint": "E1E7"
+    },
+    "paragraph-smallcaps": {
+      "group": "paragraph",
+      "codePoint": "E1E8"
+    },
+    "paragraph-text": {
+      "group": "paragraph",
+      "codePoint": "E1E9"
+    },
+    "paragraph-text-block": {
+      "group": "paragraph",
+      "codePoint": "E1EA"
+    },
+    "paragraph-text-bold": {
+      "group": "paragraph",
+      "codePoint": "E1EB"
+    },
+    "paragraph-text-italic": {
+      "group": "paragraph",
+      "codePoint": "E1EC"
+    },
+    "paragraph-text-underline": {
+      "group": "paragraph",
+      "codePoint": "E1ED"
+    },
+    "paragraph-textalign-center": {
+      "group": "paragraph",
+      "codePoint": "E1EE"
+    },
+    "paragraph-textalign-justifycenter": {
+      "group": "paragraph",
+      "codePoint": "E1EF"
+    },
+    "paragraph-textalign-justifyleft": {
+      "group": "paragraph",
+      "codePoint": "E1F0"
+    },
+    "paragraph-textalign-justifyright": {
+      "group": "paragraph",
+      "codePoint": "E1F1"
+    },
+    "paragraph-textalign-left": {
+      "group": "paragraph",
+      "codePoint": "E1F2"
+    },
+    "paragraph-textalign-right": {
+      "group": "paragraph",
+      "codePoint": "E1F3"
+    },
+    "paragraph-translate": {
+      "group": "paragraph",
+      "codePoint": "E1F4"
     }
   }
 }

@@ -24,6 +24,598 @@
 -moz-osx-font-smoothing: grayscale;
 }
 
+.ak-icon-astrology-aquarius::before {
+  content: "\e1a3";
+}
+
+.ak-icon-astrology-gemini-2::before {
+  content: "\e1a5";
+}
+
+.ak-icon-astrology-gemini::before {
+  content: "\e1a4";
+}
+
+.ak-icon-astrology-man::before {
+  content: "\e1a6";
+}
+
+.ak-icon-astrology-sagittarius::before {
+  content: "\e1a7";
+}
+
+.ak-icon-astrology-woman::before {
+  content: "\e1a8";
+}
+
+.ak-icon-building-bank::before {
+  content: "\e1a9";
+}
+
+.ak-icon-building-building-3::before {
+  content: "\e1ab";
+}
+
+.ak-icon-building-building-4::before {
+  content: "\e1ac";
+}
+
+.ak-icon-building-building::before {
+  content: "\e1aa";
+}
+
+.ak-icon-building-buildings-2::before {
+  content: "\e1ae";
+}
+
+.ak-icon-building-buildings::before {
+  content: "\e1ad";
+}
+
+.ak-icon-building-buliding::before {
+  content: "\e1af";
+}
+
+.ak-icon-building-courthouse::before {
+  content: "\e1b0";
+}
+
+.ak-icon-building-gemini::before {
+  content: "\e1b1";
+}
+
+.ak-icon-building-hospital::before {
+  content: "\e1b2";
+}
+
+.ak-icon-building-house-2::before {
+  content: "\e1b4";
+}
+
+.ak-icon-building-house::before {
+  content: "\e1b3";
+}
+
+.ak-icon-business-activity::before {
+  content: "\e1b5";
+}
+
+.ak-icon-business-chart-1::before {
+  content: "\e1b7";
+}
+
+.ak-icon-business-chart-2::before {
+  content: "\e1b8";
+}
+
+.ak-icon-business-chart-21::before {
+  content: "\e1b9";
+}
+
+.ak-icon-business-chart-fail::before {
+  content: "\e1ba";
+}
+
+.ak-icon-business-chart-success::before {
+  content: "\e1bb";
+}
+
+.ak-icon-business-chart::before {
+  content: "\e1b6";
+}
+
+.ak-icon-business-diagram::before {
+  content: "\e1bc";
+}
+
+.ak-icon-business-favorite-chart::before {
+  content: "\e1bd";
+}
+
+.ak-icon-business-graph::before {
+  content: "\e1be";
+}
+
+.ak-icon-business-hashtag::before {
+  content: "\e1bf";
+}
+
+.ak-icon-business-health::before {
+  content: "\e1c0";
+}
+
+.ak-icon-business-home-hashtag::before {
+  content: "\e1c1";
+}
+
+.ak-icon-business-home-trend-down::before {
+  content: "\e1c2";
+}
+
+.ak-icon-business-home-trend-up::before {
+  content: "\e1c3";
+}
+
+.ak-icon-business-personalcard::before {
+  content: "\e1c4";
+}
+
+.ak-icon-business-presention-chart::before {
+  content: "\e1c5";
+}
+
+.ak-icon-business-status-up::before {
+  content: "\e1c6";
+}
+
+.ak-icon-business-trend-down::before {
+  content: "\e1c7";
+}
+
+.ak-icon-business-trend-up::before {
+  content: "\e1c8";
+}
+
+.ak-icon-call-call-add::before {
+  content: "\e1ca";
+}
+
+.ak-icon-call-call-calling::before {
+  content: "\e1cb";
+}
+
+.ak-icon-call-call-incoming::before {
+  content: "\e1cc";
+}
+
+.ak-icon-call-call-minus::before {
+  content: "\e1cd";
+}
+
+.ak-icon-call-call-outgoing::before {
+  content: "\e1ce";
+}
+
+.ak-icon-call-call-received::before {
+  content: "\e1cf";
+}
+
+.ak-icon-call-call-remove::before {
+  content: "\e1d0";
+}
+
+.ak-icon-call-call-slash::before {
+  content: "\e1d1";
+}
+
+.ak-icon-call-call::before {
+  content: "\e1c9";
+}
+
+.ak-icon-crypto-aave-aave::before {
+  content: "\e13e";
+}
+
+.ak-icon-crypto-android::before {
+  content: "\e13f";
+}
+
+.ak-icon-crypto-ankr-ankr::before {
+  content: "\e140";
+}
+
+.ak-icon-crypto-apple::before {
+  content: "\e141";
+}
+
+.ak-icon-crypto-augur-rep::before {
+  content: "\e142";
+}
+
+.ak-icon-crypto-autonio-niox::before {
+  content: "\e143";
+}
+
+.ak-icon-crypto-avalanche-avax::before {
+  content: "\e144";
+}
+
+.ak-icon-crypto-be::before {
+  content: "\e145";
+}
+
+.ak-icon-crypto-binance-coin-bnb::before {
+  content: "\e146";
+}
+
+.ak-icon-crypto-binance-usd-busd::before {
+  content: "\e147";
+}
+
+.ak-icon-crypto-bitcoin-btc::before {
+  content: "\e148";
+}
+
+.ak-icon-crypto-blogger::before {
+  content: "\e149";
+}
+
+.ak-icon-crypto-bootstrap::before {
+  content: "\e14a";
+}
+
+.ak-icon-crypto-cardano-ada::before {
+  content: "\e14b";
+}
+
+.ak-icon-crypto-celo-celo::before {
+  content: "\e14c";
+}
+
+.ak-icon-crypto-celsius-cel::before {
+  content: "\e14d";
+}
+
+.ak-icon-crypto-chainlink-link::before {
+  content: "\e14e";
+}
+
+.ak-icon-crypto-civic-cvc::before {
+  content: "\e14f";
+}
+
+.ak-icon-crypto-dai-dai::before {
+  content: "\e150";
+}
+
+.ak-icon-crypto-dash-dash::before {
+  content: "\e151";
+}
+
+.ak-icon-crypto-decred-dcr::before {
+  content: "\e152";
+}
+
+.ak-icon-crypto-dent-dent::before {
+  content: "\e153";
+}
+
+.ak-icon-crypto-dribbble::before {
+  content: "\e154";
+}
+
+.ak-icon-crypto-dropbox::before {
+  content: "\e155";
+}
+
+.ak-icon-crypto-educare-ekt::before {
+  content: "\e156";
+}
+
+.ak-icon-crypto-emercoin-emc::before {
+  content: "\e157";
+}
+
+.ak-icon-crypto-enjin-coin-enj::before {
+  content: "\e158";
+}
+
+.ak-icon-crypto-eos-eos::before {
+  content: "\e159";
+}
+
+.ak-icon-crypto-ethereum-eth::before {
+  content: "\e15b";
+}
+
+.ak-icon-crypto-ethereum-classic-etc::before {
+  content: "\e15a";
+}
+
+.ak-icon-crypto-facebook::before {
+  content: "\e15c";
+}
+
+.ak-icon-crypto-figma-1::before {
+  content: "\e15e";
+}
+
+.ak-icon-crypto-figma::before {
+  content: "\e15d";
+}
+
+.ak-icon-crypto-framer::before {
+  content: "\e15f";
+}
+
+.ak-icon-crypto-ftx-token-ftt::before {
+  content: "\e160";
+}
+
+.ak-icon-crypto-google-drive::before {
+  content: "\e162";
+}
+
+.ak-icon-crypto-google-paly::before {
+  content: "\e163";
+}
+
+.ak-icon-crypto-google::before {
+  content: "\e161";
+}
+
+.ak-icon-crypto-harmony-one::before {
+  content: "\e164";
+}
+
+.ak-icon-crypto-hedera-hashgraph-hbar::before {
+  content: "\e165";
+}
+
+.ak-icon-crypto-hex-hex::before {
+  content: "\e166";
+}
+
+.ak-icon-crypto-html-3::before {
+  content: "\e167";
+}
+
+.ak-icon-crypto-html-5::before {
+  content: "\e168";
+}
+
+.ak-icon-crypto-huobi-token-ht::before {
+  content: "\e169";
+}
+
+.ak-icon-crypto-icon-icx::before {
+  content: "\e16c";
+}
+
+.ak-icon-crypto-icon-1::before {
+  content: "\e16b";
+}
+
+.ak-icon-crypto-icon::before {
+  content: "\e16a";
+}
+
+.ak-icon-crypto-illustrator::before {
+  content: "\e16d";
+}
+
+.ak-icon-crypto-iost-iost::before {
+  content: "\e16e";
+}
+
+.ak-icon-crypto-java-script::before {
+  content: "\e16f";
+}
+
+.ak-icon-crypto-js::before {
+  content: "\e170";
+}
+
+.ak-icon-crypto-kyber-network-knc::before {
+  content: "\e171";
+}
+
+.ak-icon-crypto-litecoin-ltc::before {
+  content: "\e172";
+}
+
+.ak-icon-crypto-maker-mkr::before {
+  content: "\e173";
+}
+
+.ak-icon-crypto-messenger::before {
+  content: "\e174";
+}
+
+.ak-icon-crypto-monero-xmr::before {
+  content: "\e175";
+}
+
+.ak-icon-crypto-nebulas-nas::before {
+  content: "\e176";
+}
+
+.ak-icon-crypto-nem-xem::before {
+  content: "\e177";
+}
+
+.ak-icon-crypto-nexo-nexo::before {
+  content: "\e178";
+}
+
+.ak-icon-crypto-ocean-protocol-ocean::before {
+  content: "\e179";
+}
+
+.ak-icon-crypto-okb-okb::before {
+  content: "\e17a";
+}
+
+.ak-icon-crypto-ontology-ont::before {
+  content: "\e17b";
+}
+
+.ak-icon-crypto-paypal::before {
+  content: "\e17c";
+}
+
+.ak-icon-crypto-photoshop::before {
+  content: "\e17d";
+}
+
+.ak-icon-crypto-polkadot-dot::before {
+  content: "\e17e";
+}
+
+.ak-icon-crypto-polygon-matic::before {
+  content: "\e17f";
+}
+
+.ak-icon-crypto-polyswarm-nct::before {
+  content: "\e180";
+}
+
+.ak-icon-crypto-python::before {
+  content: "\e181";
+}
+
+.ak-icon-crypto-quant-qnt::before {
+  content: "\e182";
+}
+
+.ak-icon-crypto-siacoin-sc::before {
+  content: "\e183";
+}
+
+.ak-icon-crypto-slack::before {
+  content: "\e184";
+}
+
+.ak-icon-crypto-snapchat::before {
+  content: "\e185";
+}
+
+.ak-icon-crypto-solana-sol::before {
+  content: "\e186";
+}
+
+.ak-icon-crypto-spotify::before {
+  content: "\e187";
+}
+
+.ak-icon-crypto-stacks-stx::before {
+  content: "\e188";
+}
+
+.ak-icon-crypto-stellar-xlm::before {
+  content: "\e189";
+}
+
+.ak-icon-crypto-tenx-pay::before {
+  content: "\e18a";
+}
+
+.ak-icon-crypto-tether-usdt::before {
+  content: "\e18b";
+}
+
+.ak-icon-crypto-the-graph-grt::before {
+  content: "\e18c";
+}
+
+.ak-icon-crypto-theta-theta::before {
+  content: "\e18d";
+}
+
+.ak-icon-crypto-thorchain-rune::before {
+  content: "\e18e";
+}
+
+.ak-icon-crypto-trello::before {
+  content: "\e18f";
+}
+
+.ak-icon-crypto-triangle::before {
+  content: "\e190";
+}
+
+.ak-icon-crypto-trontron-trx::before {
+  content: "\e191";
+}
+
+.ak-icon-crypto-twitch::before {
+  content: "\e192";
+}
+
+.ak-icon-crypto-ui8::before {
+  content: "\e193";
+}
+
+.ak-icon-crypto-usd-coin-usdc::before {
+  content: "\e194";
+}
+
+.ak-icon-crypto-velas-vlx::before {
+  content: "\e195";
+}
+
+.ak-icon-crypto-vibe-vibe::before {
+  content: "\e196";
+}
+
+.ak-icon-crypto-vuesax::before {
+  content: "\e197";
+}
+
+.ak-icon-crypto-wanchain-wan-1::before {
+  content: "\e199";
+}
+
+.ak-icon-crypto-wanchain-wan::before {
+  content: "\e198";
+}
+
+.ak-icon-crypto-whatsapp::before {
+  content: "\e19a";
+}
+
+.ak-icon-crypto-windows::before {
+  content: "\e19b";
+}
+
+.ak-icon-crypto-wing-wing::before {
+  content: "\e19c";
+}
+
+.ak-icon-crypto-xd::before {
+  content: "\e19d";
+}
+
+.ak-icon-crypto-xiaomi::before {
+  content: "\e19e";
+}
+
+.ak-icon-crypto-xrp-xrp::before {
+  content: "\e19f";
+}
+
+.ak-icon-crypto-youtube::before {
+  content: "\e1a0";
+}
+
+.ak-icon-crypto-zel-zel::before {
+  content: "\e1a1";
+}
+
+.ak-icon-crypto-zoom::before {
+  content: "\e1a2";
+}
+
 .ak-icon-money-archive::before {
   content: "\e000";
 }
@@ -334,6 +926,146 @@
 
 .ak-icon-money-wallet::before {
   content: "\e043";
+}
+
+.ak-icon-paragraph-attach-circle::before {
+  content: "\e1d2";
+}
+
+.ak-icon-paragraph-attach-square::before {
+  content: "\e1d3";
+}
+
+.ak-icon-paragraph-eraser::before {
+  content: "\e1d4";
+}
+
+.ak-icon-paragraph-firstline::before {
+  content: "\e1d5";
+}
+
+.ak-icon-paragraph-language-circle::before {
+  content: "\e1d6";
+}
+
+.ak-icon-paragraph-language-square::before {
+  content: "\e1d7";
+}
+
+.ak-icon-paragraph-link-1::before {
+  content: "\e1d9";
+}
+
+.ak-icon-paragraph-link-2::before {
+  content: "\e1da";
+}
+
+.ak-icon-paragraph-link-21::before {
+  content: "\e1db";
+}
+
+.ak-icon-paragraph-link-circle::before {
+  content: "\e1dc";
+}
+
+.ak-icon-paragraph-link-square::before {
+  content: "\e1dd";
+}
+
+.ak-icon-paragraph-link::before {
+  content: "\e1d8";
+}
+
+.ak-icon-paragraph-maximize::before {
+  content: "\e1de";
+}
+
+.ak-icon-paragraph-paperclip-2::before {
+  content: "\e1e0";
+}
+
+.ak-icon-paragraph-paperclip::before {
+  content: "\e1df";
+}
+
+.ak-icon-paragraph-pharagraphspacing::before {
+  content: "\e1e1";
+}
+
+.ak-icon-paragraph-quote-down-circle::before {
+  content: "\e1e3";
+}
+
+.ak-icon-paragraph-quote-down-square::before {
+  content: "\e1e4";
+}
+
+.ak-icon-paragraph-quote-down::before {
+  content: "\e1e2";
+}
+
+.ak-icon-paragraph-quote-up-circle::before {
+  content: "\e1e6";
+}
+
+.ak-icon-paragraph-quote-up-square::before {
+  content: "\e1e7";
+}
+
+.ak-icon-paragraph-quote-up::before {
+  content: "\e1e5";
+}
+
+.ak-icon-paragraph-smallcaps::before {
+  content: "\e1e8";
+}
+
+.ak-icon-paragraph-text-block::before {
+  content: "\e1ea";
+}
+
+.ak-icon-paragraph-text-bold::before {
+  content: "\e1eb";
+}
+
+.ak-icon-paragraph-text-italic::before {
+  content: "\e1ec";
+}
+
+.ak-icon-paragraph-text-underline::before {
+  content: "\e1ed";
+}
+
+.ak-icon-paragraph-text::before {
+  content: "\e1e9";
+}
+
+.ak-icon-paragraph-textalign-center::before {
+  content: "\e1ee";
+}
+
+.ak-icon-paragraph-textalign-justifycenter::before {
+  content: "\e1ef";
+}
+
+.ak-icon-paragraph-textalign-justifyleft::before {
+  content: "\e1f0";
+}
+
+.ak-icon-paragraph-textalign-justifyright::before {
+  content: "\e1f1";
+}
+
+.ak-icon-paragraph-textalign-left::before {
+  content: "\e1f2";
+}
+
+.ak-icon-paragraph-textalign-right::before {
+  content: "\e1f3";
+}
+
+.ak-icon-paragraph-translate::before {
+  content: "\e1f4";
 }
 
 .ak-icon-video-audio-square::before {
